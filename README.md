@@ -9,7 +9,7 @@ output:
     with some style
 ---
 
-<h1>Web Programming With JavaScript &amp; Python 3 -- edX (cs50.harvard.edu)</h1>
+<h1>Web Programming With JavaScript & Python 3 -- edX (cs50.harvard.edu)</h1>
 
 > Watch each of the course\'s twelve lectures and submit each of the
 > course\'s five projects:
