@@ -1,47 +1,42 @@
-<h1>WEB PROGRAMMING WITH JAVASCRIPT & PYTHON 3 -- edX (cs50.harvard.edu)</h1>
+---
+title: "Web Programming With JavaScript & Python -- edX (cs50.harvard.edu)"
+author: "bbauska"
+date created: "7/24/2024 Wed 1+pm"
+date last editted: "7/24/2024 Wed 1+pm"
+
+output: 
+  markdown:
+    with some style
+---
+
+<h1>Web Programming With JavaScript &amp; Python 3 -- edX (cs50.harvard.edu)</h1>
 
 > Watch each of the course\'s twelve lectures and submit each of the
 > course\'s five projects:
 
-1.  [Git](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/918082613c254e2da55e31d1894bc4be/)
-    -
+1.  [Git](#Git)
+2.  [HTML, CSS](#htmlCSS)
+3.  [Flask](#Flask)
+4.  [SQL](#SQL)
+5.  [ORMs, APIs](#ORMsAPIs)
+6.  [JavaScript](#JavaScript)
+7.  [Front Ends](#FrontEnd)
+8.  [Django](#Django)
+9.  [Testing, CI/CD](#TestingCICD)
+10. [GitHub, Travis CI](#GitHUbTravisCI)
+11. [Scalability](#Scalability)
+12. [Security](#Security)
 
-2.  [HTML,
-    CSS](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/5611bbf00f2e4ed9a319fb38d1b584ce/)
-
-3.  [Flask](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/c62f675bf7f94f0e91b408cacda56451/)
-
-4.  [SQL](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/557f43a718a147ab8ed221034b974759/)
-
-5.  [ORMs,
-    APIs](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/c5f10dc2fb5e457088720de0393a19a1/)
-
-6.  [JavaScript](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/edbb16acf214457690951188c3010235/)
-
-7.  [Front
-    Ends](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/73e05adf7b6e4009a779cca48b9ef64b/)
-
-8.  [Django](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/6bf9d46f806143c380af1ba8cb190d81/)
-
-9.  [Testing,
-    CI/CD](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/59899efb8d1c4fcdbbc9af6adecd62cb/)
-
-10. [GitHub, Travis
-    CI](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/e90a00d9dea441e59697979171766d59/)
-
-11. [Scalability](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/1b5048f6180341eba211afb29fdc0918/)
-
-12. [Security](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/92aa66e74b1e41ff8046edf603d3a067/)
-
-    1.  Git
+1.  Git
 
 > **Notes -- Lecture 0/1: Git**
 >
 > ![https://duckduckgo.com/i/d11b358b.png](./images/image001.png){width="1.6881080489938758in"
 > height="0.7055555555555556in"}
 >
-> **Git**
->
+
+<h4 id="Git">Git</h4>
+
 > [git-scm.com](https://git-scm.com/)
 >
 > Git is a version control system for tracking changes in computer files
@@ -58,8 +53,9 @@
 >
 > **Initial release:** 07, 2005
 >
-> GitHub:
->
+
+<h4>GitHub:</h4>
+
 > GitHub is a code hosting platform for version control and
 > collaboration. It lets you and others work together on projects from
 > anywhere.
@@ -134,7 +130,7 @@
 > our master (production) branch. When a change is ready, they merge
 > their branch into master.
 
-### To create a new branch
+<h4>To create a new branch</h4>
 
 1.  Go to your new repository hello-world.
 
@@ -225,451 +221,307 @@
 
 Images
 
-\<!DOCTYPE html\>
-
-\<html\>
-
-\<head\>
-
-\<title\>My Web Page!\</title\>
-
-\</head\>
-
-\<body\>
-
-\<img src="cat.jpg" height="500"\> \<!- Leave out width so auto render 🡪
-
-\<img src="cat.jpg" width="50%"\> \<!- Leave out width so automatic 🡪
-
-\</body\>
-
-\</html\>
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Page!</title>
+</head>
+<body>
+  <img src="cat.jpg" height="500"> <!- Leave out width so auto render 🡪
+  <img src="cat.jpg" width="50%"> <!- Leave out width so automatic 🡪
+</body>
+</html>
+```
 
 Tables;
 
-\<!DOCTYPE html\>
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Presidents</title>
+  <style>
+    table {
+      border: 2px solid black;
+      border-collapse: collapse;
+      text-align: center;
+      width: 50%;
+    }
+    th,td {
+      border: 1px solid green;
+      padding: 5px;
+    }
+    th {
+      background-color:lightsalmon;
+     }
+  </style>
+</head>
+<body>
+  <h1>Presidents</h1>
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Years in Office</th>
+    </tr>
+    <tr>
+      <td>George</td>
+      <td>Washington</td>
+      <td>1789-1797</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Adams</td>
+      <td>1797-1801</td>
+    </tr>
+  </table>
+```
 
-\<html\>
+<h4>Form;</h4>
 
-\<head\>
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Page!</title>
+</head>
+<body>
+  <form>
+    <input type="text" placeholder="Full Name" name="name">
+    <button>Submit!</button>
+  </form>
+</body>
+</html>
+```
 
-\<title\>Presidents\</title\>
-
-\<style\>
-
-table {
-
-border: 2px solid black;
-
-border-collapse: collapse;
-
-text-align: center;
-
-width: 50%;
-
-}
-
-th,td {
-
-border: 1px solid green;
-
-padding: 5px;
-
-}
-
-th {
-
-background-color:lightsalmon;
-
-}
-
-\</style\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>Presidents\</h1\>
-
-\<table\>
-
-\<tr\>
-
-\<th\>First Name\</th\>
-
-\<th\>Last Name\</th\>
-
-\<th\>Years in Office\</th\>
-
-\</tr\>
-
-\<tr\>
-
-\<td\>George\</td\>
-
-\<td\>Washington\</td\>
-
-\<td\>1789-1797\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td\>John\</td\>
-
-\<td\>Adams\</td\>
-
-\<td\>1797-1801\</td\>
-
-\</tr\>
-
-\</table\>
-
-Form;
-
-\<!DOCTYPE html\>
-
-\<html\>
-
-\<head\>
-
-\<title\>My Web Page!\</title\>
-
-\</head\>
-
-\<body\>
-
-\<form\>
-
-\<input type="text" placeholder="Full Name" name="name"\>
-
-\<button\>Submit!\</button\>
-
-\</form\>
-
-\</body\>
-
-\</html\>
-
-Document Object Model
+<h4>Document Object Model</h4>
 
 ![](./images/image004.png){width="2.5625in" height="2.71875in"}
 
-**CSS -- Cascade Style Sheet**
+<h4>CSS -- Cascade Style Sheet</h4>
 
-\<!DOCTYPE html\>
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Page!</title>
+</head>
+<body>
+  <h1 style="color:blue;text-align:center;">Welcome to My Web Page!</h1>
+  <p>Hello, world! This is a paragraph of text.</p>
+  <p>This is another paragraph!</p>
+</body>
+</html>
+```
 
-\<html\>
+<h5>Alternatively;</h5>
 
-\<head\>
+```
+<head>
+  <title>My Web Page!</title>
+  <style>
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color:blue;text-align:center;">Welcome to My Web Page!</h1>
+  <p>Hello, world! This is a paragraph of text.</p>
+  <p>This is another paragraph!</p>
+</body>
+</html>
+```
 
-\<title\>My Web Page!\</title\>
+<h5>Next with Stylesheet;</h5>
 
-\</head\>
+```
+<html>
+<head>
+  <title>My Web Page!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Web Page!</h1>
+</body>
+</html>
+```
 
-\<body\>
+<h5>Therefore, create STYLES.CSS;</h5>
 
-\<h1 style="color:blue;text-align:center;"\>Welcome to My Web
-Page!\</h1\>
-
-\<p\>Hello, world! This is a paragraph of text.\</p\>
-
-\<p\>This is another paragraph!\</p\>
-
-\</body\>
-
-\</html\>
-
-***Alternatively;***
-
-> \<head\>
->
-> \<title\>My Web Page!\</title\>
-
-\<style\>
-
+```
 h1 {
-
-color: blue;
-
-text-align: center;
-
+  color: blue;
+  text-align: center;
 }
+```
 
-\</style\>
+<h5>With div;</h5>
 
-\</head\>
+```
+<head>
+  <title>My Web Page!</title>
+  <style>
+    div {
+      background-color: teal;
+      width: 100px;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    Hello, world!
+  </div>
+</body>
+```
 
-\<body\>
+<h5>Now, font;</h5>
 
-\<h1 style="color:blue;text-align:center;"\>Welcome to My Web
-Page!\</h1\>
-
-\<p\>Hello, world! This is a paragraph of text.\</p\>
-
-\<p\>This is another paragraph!\</p\>
-
-\</body\>
-
-\</html\>
-
-***Next with Stylesheet;***
-
-\<html\>
-
-\<head\>
-
-> \<title\>My Web Page!\</title\>
-
-\<link rel="stylesheet" href="style.css"\>
-
-\</head\>
-
-> \<body\>
->
-> \<h1\>Welcome to My Web Page!\</h1\>
-
-\</body\>
-
-\</html\>
-
-***Therefore, create STYLES.CSS;***
-
-h1 {
-
-> color: blue;
-
-text-align: center;
-
-}
-
-***With div;***
-
-\<head\>
-
-\<title\>My Web Page!\</title\>
-
-\<style\>
-
+```
+<style>
 div {
-
-background-color: teal;
-
-width: 100px;
-
-height: 400px;
-
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
 }
+</style>
+```
 
-\</style\>
+<h5>And, border;</h5>
 
-\</head\>
-
-\<body\>
-
-\<div\>
-
-Hello, world!
-
-\</div\>
-
-\</body\>
-
-***Now, font;***
-
-div {
-
-font-family: Arial, sans-serif;
-
-font-size: 28px;
-
-font-weight: bold;
-
-}
-
-\</style\>
-
-And, border;
-
-\<style\>
-
-div {
-
-border: 3px solid-blue;
-
-}
-
-\</style\>
+```
+<style>
+  div {
+    border: 3px solid-blue;
+  }
+</style>
+```
 
 ***Next with div, class (or '.' many) & id (or '#' unique);***
 
-\<style\>
-
+```
+<style>
 #top {
-
 font-size: 36px;
-
 }
-
 #middle {
-
 font-size: 24px;
-
 }
-
 #bottom {
-
 font-size: 12px;
-
 }
-
 .name {
-
 font-weight: bold;
-
 }
+</style>
+</head>
+<body>
+  <div id="top" class="name"> // example of id and class (font weight: bold).
+    This is the <span class="name">top<./span> of my web page.
+  </div>
+  <div id="middle">
+    This is the <span class="name">middle</span> of my web page.
+  </div>
+  <div id="bottom">
+    This is the <span class="name">bottom</span> of my web page.
+  </div>
+</body>
+</html>
+```
 
-\</style\>
-
-\</head\>
-
-\<body\>
-
-\<div id="top" class="name"\> // example of id and class (font weight:
-bold).
-
-This is the \<span class="name"\>top\<./span\> of my web page.
-
-\</div\>
-
-\<div id="middle"\>
-
-This is the \<span class="name"\>middle\</span\> of my web page.
-
-\</div\>
-
-\<div id="bottom"\>
-
-This is the \<span class="name"\>bottom\</span\> of my web page.
-
-\</div\>
-
-\</body\>
-
-\</html\>
-
-GitHub Pages;
+<h4>GitHub Pages;</h4>
 
 Develop web and post there before the internet.
 
 **Notes -- Lecture 1: More on Git**
 
-> More on Git;
->
-> \$ Git Help
->
-> C:\\WINDOWS\\system32\>git help
->
-> usage: git \[\--version\] \[\--help\] \[-C \<path\>\] \[-c
-> \<name\>=\<value\>\]
->
-> \[\--exec-path\[=\<path\>\]\] \[\--html-path\] \[\--man-path\]
-> \[\--info-path\]
->
-> \[-p \| \--paginate \| -P \| \--no-pager\] \[\--no-replace-objects\]
-> \[\--bare\]
->
-> \[\--git-dir=\<path\>\] \[\--work-tree=\<path\>\]
-> \[\--namespace=\<name\>\]
->
-> \<command\> \[\<args\>\]
->
-> **These are common Git commands used in various situations:**
->
-> start a working area (see also: git help tutorial)
->
-> clone Clone a repository into a new directory
->
-> init Create an empty Git repository or reinitialize an existing one
->
-> work on the current change (see also: git help everyday)
->
-> add Add file contents to the index
->
-> mv Move or rename a file, a directory, or a symlink
->
-> reset Reset current HEAD to the specified state
->
-> rm Remove files from the working tree and from the index
->
-> **examine the history and state (see also: git help revisions)**
->
-> bisect Use binary search to find the commit that introduced a bug
->
-> grep Print lines matching a pattern
->
-> log Show commit logs
->
-> show Show various types of objects
->
-> status Show the working tree status
->
-> **grow, mark and tweak your common history**
->
-> branch List, create, or delete branches
->
-> checkout Switch branches or restore working tree files
->
-> commit Record changes to the repository
->
-> diff Show changes between commits, commit and working tree, etc merge
-> Join two **or more development histories together**
+<h4>More on Git;</h4>
 
+<pre>$ Git Help</pre>
+
+```
+C:\\WINDOWS\\system32\>git help
+usage: git \[--version] [--help] [-C <path>] [-c
+<name>=<value>]
+
+[--exec-path[=<path>]] [--html-path] [--man-path]
+[--info-path]
+[-p | --paginate | -P | --no-pager] [--no-replace-objects]
+[--bare]
+
+[--git-dir=<path>] [--work-tree=<path>]
+[--namespace=<name>]
+
+<command> [<args>]
+```
+
+**These are common Git commands used in various situations:**
+
+start a working area (see also: git help tutorial)
+
+clone Clone a repository into a new directory
+
+init Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+
+add Add file contents to the index
+
+mv Move or rename a file, a directory, or a symlink
+
+reset Reset current HEAD to the specified state
+
+rm Remove files from the working tree and from the index
+
+**examine the history and state (see also: git help revisions)**
+
+bisect Use binary search to find the commit that introduced a bug
+
+grep Print lines matching a pattern
+
+log Show commit logs
+
+show Show various types of objects
+
+status Show the working tree status
+
+**grow, mark and tweak your common history**
+
+branch List, create, or delete branches
+
+checkout Switch branches or restore working tree files commit Record changes to the repository
+diff Show changes between commits, commit and working tree, etc merge 
+Join two **or more development histories together**
+
+```
 #  rebase Reapply commits on top of another base tip
-
 #  tag Create, list, delete or verify a tag object signed with GPG
-
 # 
-
 # **collaborate (see also: git help workflows)**
-
 #  fetch Download objects and refs from another repository
-
 #  pull Fetch from and integrate with another repository or a local branch
-
 #  push Update remote refs along with associated objects
-
 # 
-
-# **\'git help -a\' and \'git help -g\' list available subcommands and some**
-
-# concept guides. See \'git help \<command\>\' or \'git help \<concept\>\'
-
+# **'git help -a' and 'git help -g' list available subcommands and some**
+# concept guides. See 'git help <command>' or 'git help <concept>'
 # to read about a specific subcommand or concept.
+# Lecture1 $ git add index.html // Plain vanilla web site with Hello world!
+$ git commit -- m "Changed the body message"
+$ git branch // shows master
+$ git branch feature
+$ git branch // shows feature and master
+$ git checkout feature // switches to feature branch
+$ git commit --am "Added a line to HTML vanilla" // add and commit at the same time
+$ git log // shows master and feature branches and changes
+$ git merge feature // merges feature branch with master (2 html's the same now)
+```
 
-# Lecture1 \$ git add index.html // Plain vanilla web site with Hello world!
+<h5>git Remotes</h5>
 
-> \$ git commit -- m "Changed the body message"
->
-> \$ git branch // shows master
->
-> \$ git branch feature
->
-> \$ git branch // shows feature and master
->
-> \$ git checkout feature // switches to feature branch
->
-> \$ git commit --am "Added a line to HTML vanilla" // add and commit at
-> the same time
->
-> \$ git log // shows master and feature branches and changes
->
-> \$ git merge feature // merges feature branch with master (2 html's
-> the same now)
->
-> git Remotes
->
-> Name of a version of the repository that resides somewhere else.
+Name of a version of the repository that resides somewhere else.
 >
 > Each remote has its' own
 > branches.![](./images/image005.png){width="3.9117629046369204in"
@@ -680,26 +532,26 @@ Develop web and post there before the internet.
 > Entirely different repository -- copy of original -- won't affect
 > original
 >
-> \$ Pull request -- merge to original version of repository -- for
+> $ Pull request -- merge to original version of repository -- for
 > feedback -- review prior to merging.
 >
 > **HTML5 elements**
 >
 > New:
 >
-> \<audio\>
+> <audio>
 >
-> \<video\>
+> <video>
 >
-> \<datalist\>
+> <datalist>
 >
 > See form.html
 >
-> **[CSS]{.underline}**
+> **[CSS]**
 >
 > Style
 >
-> See: C:\\HTML\\Harvard - edX - Python and JavaScript\\src1.zip for
+> See: C:HTMLHarvard - edX - Python and JavaScriptsrc1.zip for
 > source code examples.
 >
 > Pseudo-Class;
@@ -714,20 +566,20 @@ Develop web and post there before the internet.
 >
 > Pseudo-Elements;
 >
-> \\21d -- hex for right arrow.
+> 21d -- hex for right arrow.
 >
-> The following will put an arrow with "Click here " before any \<a
-> href="#"\>
+> The following will put an arrow with "Click here " before any <a
+> href="#">
 >
 > a::before {
 >
-> Content: "\\21d Click here: ";
+> Content: "21d Click here: ";
 >
 > Font-weight: bold;
 >
 > }
 >
-> \<li\>\<a href=\"#\"\>one link\</a\>\</li\>
+> <li><a href="#">one link</a></li>
 >
 > ![](./images/image006.png){width="4.697916666666667in"
 > height="2.1041666666666665in"}
@@ -798,7 +650,7 @@ Develop web and post there before the internet.
 > ![](./images/image008.png){width="3.8371555118110234in"
 > height="2.9944870953630796in"}
 >
-> **[PIP Install -- too many steps;]{.underline}**
+> **[PIP Install -- too many steps;]**
 >
 > ![](./images/image009.png){width="7.125in"
 > height="3.7423611111111112in"}
@@ -808,7 +660,7 @@ Develop web and post there before the internet.
 >
 > **Notes -- Lecture 2: HTML & CSS**
 
-## **[More on Git]{.underline}**
+## **[More on Git]**
 
 -   ˜Branching" is a feature of Git that allows a project to move in
     multiple different directions simultaneously. There is
@@ -868,7 +720,7 @@ Develop web and post there before the internet.
 
 -   Note that forks and pull requests are both GitHub specific features.
 
-## **[More on HTML]{.underline}**
+## **[More on HTML]**
 
 -   More useful HTML tags:
 
@@ -886,7 +738,7 @@ Develop web and post there before the internet.
     confidence that they will be rendered appropriately for a
     significant portion of users.
 
-## **[More on CSS]{.underline}**
+## **[More on CSS]**
 
 -   CSS selectors are used to select different parts of a website to
     style in particular ways.
@@ -973,50 +825,31 @@ Develop web and post there before the internet.
 
 -   One way we can do this is by using a ˜media query":
 
--   \<style\>
-
--   \@media print {
-
--   .screen-only {
-
--   display: none;
-
--   }
-
--   }
-
--   \</style\>
-
--   \<body\>
-
--   \<p class=\"screen-only\"\>This will not appear when printed\</p\>
-
--   \</body\>
-
-    -   \@media is a media query, which means the following CSS will be
+```
+<style>
+@media print {
+  .screen-only {
+    display: none;
+  }
+}
+</style>
+<body\>
+<p class="screen-only">This will not appear when printed</p>
+</body>
+   \@media is a media query, which means the following CSS will be
         applied only in certain situations, namely, when the webpage is
         being printed. .screen-only is a class selector which identifies
         what content we want to be print only
-
-    -   \@media (min-width: 500px) {
-
-    -   body {
-
-    -   background-color: red;
-
-    -   }
-
-    -   }
-
-    -   \@media (max-width: 499px) {
-
-    -   body {
-
-    -   background-color: yellow;
-
-    -   }
-
-    -   }
+   \@media (min-width: 500px) {
+   body {
+   background-color: red;
+   }
+   }
+   \@media (max-width: 499px) {
+   body {
+   background-color: yellow;
+   }
+   }
 
     -   When the width of the screen is at least 500px, the background
         color of body will be red, while if it is less than 499px, the
@@ -1202,9 +1035,9 @@ height="1.5795319335083116in"}
 
 > **Notes -- Lecture 2: Python & Flask**
 
-# **[Python and Flask]{.underline}**
+# **[Python and Flask]**
 
-## **[Python]{.underline}**
+## **[Python]**
 
 ![](./images/image014.png){width="3.9656649168853892in"
 height="1.1533672353455817in"}
@@ -1557,17 +1390,20 @@ height="1.1533672353455817in"}
 
 -   In index.html:
 
-> \<h1\>{{ headline }}\</h1\>
+```
+> <h1>{{ headline }}</h1>
+```
 
 -   Jinja2 also allows for conditional statements:
 
+```
 > {% if new_year %}
 >
-> \<h1\>Yes! Happy New Year!\</h1\>
+> <h1>Yes! Happy New Year!</h1>
 >
 > {% else %}
 >
-> \<h1\>No.\</h1\>
+> <h1>No.</h1>
 >
 > {% endif %}
 
@@ -1575,9 +1411,9 @@ height="1.1533672353455817in"}
 
 > {% for name in names %}
 >
-> \<li\>{{ name }}\</li\>
+> <li>{{ name }}</li>
 >
-> {\$ endfor %}
+> {$ endfor %}
 
 -   names should be something that can be looped over, like a Python
     list, for example.
@@ -1585,7 +1421,7 @@ height="1.1533672353455817in"}
 -   If there are multiple routes on the Flask server, then one route can
     link to another as so:
 
-> \<a href=\"{{ url_for(\'more\') }}\"\>See more\...\</a\>
+> <a href="{{ url_for('more') }}">See more...</a>
 
 -   more is the name of a function associated with a route.
 
@@ -1607,14 +1443,14 @@ height="1.1533672353455817in"}
 
 -   An HTML form might look like this:
 
--   \<form action=\"\" method=\"post\"\>
+-   <form action="" method="post">
 
--   \<input type=\"text\" name=\"name\" placeholder=\"Enter Your
-    Name\"\>
+-   <input type="text" name="name" placeholder="Enter Your
+    Name">
 
--   \<button\>Submit\</button\>
+-   <button>Submit</button>
 
--   \<form\>
+-   <form>
 
     -   The action attribute lists the route that should be "notified"
         when the form is submitted. In this case, it's the URL for a
@@ -1632,19 +1468,19 @@ height="1.1533672353455817in"}
 
 > from flask import Flask, render_template, request
 >
-> \# some lines omitted here
+> # some lines omitted here
 >
-> \@app.route(\"/hello\", methods=\[\"POST\"\])
+> @app.route("/hello", methods=["POST"])
 >
 > def hello():
 >
-> name = request.form.get(\"name\") \# take the request the user made,
+> name = request.form.get("name") # take the request the user made,
 > access the form,
 >
-> \# and store the field called \`name\` in a Python variable also
-> called \`name\`
+> # and store the field called `name` in a Python variable also
+> called `name`
 >
-> return render_template(\"hello.html\", name=name)
+> return render_template("hello.html", name=name)
 
 -   The route /hello is the same hello listed in the Jinja2 code. This
     route can also accept the POST method, which is how the form's data
@@ -2398,7 +2234,7 @@ height="1.1533672353455817in"}
     1.  [ORMs,
         APIs](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/c5f10dc2fb5e457088720de0393a19a1/)
 
-> **[Notes - Lecture 4: ORMs, APIs]{.underline}**
+> **[Notes - Lecture 4: ORMs, APIs]**
 
 ## Object-Oriented Programming
 
