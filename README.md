@@ -11,8 +11,8 @@ output:
 
 <h1>Web Programming With JavaScript & Python 3 -- edX (cs50.harvard.edu)</h1>
 
-> Watch each of the course\'s twelve lectures and submit each of the
-> course\'s five projects:
+> Watch each of the course&apos;s twelve lectures and submit each of the
+> course&apos;s five projects:
 
 1.  [Git](#Git)
 2.  [HTML, CSS](#htmlCSS)
@@ -181,7 +181,7 @@ output:
 > As soon as you make a commit, you can open a pull request and start a
 > discussion, even before the code is finished.
 >
-> By using GitHub's [\@mention
+> By using GitHub's [&commat;mention
 > system](https://help.github.com/articles/about-writing-and-formatting-on-github/#text-formatting-toolbar) in
 > your pull request message, you can ask for feedback from specific
 > people or teams, whether they're down the hall or 10 time zones away.
@@ -443,8 +443,8 @@ Develop web and post there before the internet.
 <pre>$ Git Help</pre>
 
 ```
-C:\\WINDOWS\\system32\>git help
-usage: git \[--version] [--help] [-C <path>] [-c
+C:\\WINDOWS\\system32&gt;git help
+usage: git &lbrack;--version] [--help] [-C <path>] [-c
 <name>=<value>]
 
 [--exec-path[=<path>]] [--html-path] [--man-path]
@@ -603,9 +603,9 @@ Name of a version of the repository that resides somewhere else.
 > allows for the generation of stylesheets in a programmatic way.
 > Ultimately, Sass just makes writing CSS easier.
 >
-> One feature of Sass is variables, which are defined as so: \$color:
-> red;. Anywhere \$color is passed as a value for a CSS property,
-> e.g. color: \$color, red will be used.
+> One feature of Sass is variables, which are defined as so: &dollar;color:
+> red;. Anywhere &dollar;color is passed as a value for a CSS property,
+> e.g. color: &dollar;color, red will be used.
 >
 > Another feature is nesting, which is a more concise way to style
 > elements which are related to other elements in a certain way.
@@ -615,32 +615,32 @@ Name of a version of the repository that resides somewhere else.
 # **Path**
 
 > The PATH is an important concept when working on the command line.
-> It\'s a list of directories that tell your operating system where to
+> It&apos;s a list of directories that tell your operating system where to
 > look for programs, so that you can just write script instead
 > of /home/me/bin/script or C:\\Users\\Me\\bin\\script. But different
 > operating systems have different ways to add a new directory to it:
 
-1.  The first step depends which version of Windows you\'re using:
+1.  The first step depends which version of Windows you&apos;re using:
 
-    -   If you\'re using Windows 8 or 10, press the Windows key, then
-        search for and select \"System (Control Panel)\".
+    -   If you&apos;re using Windows 8 or 10, press the Windows key, then
+        search for and select &quot;System (Control Panel)&quot;.
 
-    -   If you\'re using Windows 7, right click the \"Computer\" icon on
-        the desktop and click \"Properties\".
+    -   If you&apos;re using Windows 7, right click the &quot;Computer&quot; icon on
+        the desktop and click &quot;Properties&quot;.
 
-2.  Click \"Advanced system settings\".
+2.  Click &quot;Advanced system settings&quot;.
 
-3.  Click \"Environment Variables\".
+3.  Click &quot;Environment Variables&quot;.
 
-4.  Under \"System Variables\", find the PATH variable, select it, and
-    click \"Edit\". If there is no PATH variable, click \"New\".
+4.  Under &quot;System Variables&quot;, find the PATH variable, select it, and
+    click &quot;Edit&quot;. If there is no PATH variable, click &quot;New&quot;.
 
 5.  Add your directory to the beginning of the variable value followed
     by ; (a semicolon). For example, if the value
     was C:\\Windows\\System32, change it
     to C:\\Users\\Me\\bin;C:\\Windows\\System32.
 
-6.  Click \"OK\".
+6.  Click &quot;OK&quot;.
 
 7.  Restart your terminal.
 
@@ -680,11 +680,11 @@ Name of a version of the repository that resides somewhere else.
 
     -   git branch : list all the branches currently in a repository
 
-    -   git branch \<name\> : create a new branch called name
+    -   git branch &lt;name&gt; : create a new branch called name
 
-    -   git checkout \<name\> : switch current working branch to name
+    -   git checkout &lt;name&gt; : switch current working branch to name
 
-    -   git merge \<name\> : merge branch name into current working
+    -   git merge &lt;name&gt; : merge branch name into current working
         branch (normally master)
 
 -   Any version of a repository that is not stored locally on a device
@@ -724,12 +724,12 @@ Name of a version of the repository that resides somewhere else.
 
 -   More useful HTML tags:
 
-    -   \<a href=\"path/to/hello.html\"\>Click here!\</a\> : link
+    -   &lt;a href=&quot;path/to/hello.html&quot;&gt;Click here!&lt;/a&gt; : link
         to hello.html, some URL, or some other content marked by id by
         passing #id to href
 
-    -   \<input type=\"radio\"\> Option 1 : radio-button option for a
-        form, where only 1 out of all the options may be selected \`\`\`
+    -   &lt;input type=&quot;radio&quot;&gt; Option 1 : radio-button option for a
+        form, where only 1 out of all the options may be selected &apos;&apos;&apos;
         html
 
 -   There are lots of new useful tags with HTML5, but not all browsers,
@@ -764,7 +764,7 @@ Name of a version of the repository that resides somewhere else.
 
 -   Select all li that are immediate children of ol
 
--   ol \> li {
+-   ol &gt; li {
 
 -   color: red;
 
@@ -772,7 +772,7 @@ Name of a version of the repository that resides somewhere else.
 
 -   Select all input fields with the attribute type=text
 
--   input\[type=text\] {
+-   input&lbrack;type=text&rbrack; {
 
 -   background-color: red;
 
@@ -794,7 +794,7 @@ Name of a version of the repository that resides somewhere else.
 
 -   a::before {
 
--   content: \"\\21d2 Click here: \";
+-   content: &quot;\\21d2 Click here: &quot;;
 
 -   font-weight: bold;
 
@@ -833,19 +833,19 @@ Name of a version of the repository that resides somewhere else.
   }
 }
 </style>
-<body\>
+<body&gt;
 <p class="screen-only">This will not appear when printed</p>
 </body>
-   \@media is a media query, which means the following CSS will be
+   &commat;media is a media query, which means the following CSS will be
         applied only in certain situations, namely, when the webpage is
         being printed. .screen-only is a class selector which identifies
         what content we want to be print only
-   \@media (min-width: 500px) {
+   &commat;media (min-width: 500px) {
    body {
    background-color: red;
    }
    }
-   \@media (max-width: 499px) {
+   &commat;media (max-width: 499px) {
    body {
    background-color: yellow;
    }
@@ -856,8 +856,8 @@ Name of a version of the repository that resides somewhere else.
         background color of body will be yellow.
 
     -   In order to interact with the screen size, the following must be
-        included in head: \<meta name=\"viewport\"
-        content=\"width=device-width, initial-scale=1.0\"\>
+        included in head: &lt;meta name=&quot;viewport&quot;
+        content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
 
         -   viewport is the visible area on which the screen is being
             displayed. content refers to the entire webpage the width of
@@ -907,10 +907,10 @@ Name of a version of the repository that resides somewhere else.
     up.
 
 -   The only thing needed to use Bootstrap is by adding a single line
-    which links Bootstrap's CSS stylesheet: \<link rel=\"stylesheet\"
-    href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\"
-    integrity=\"sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB\"
-    crossorigin=\"anonymous\"\>.
+    which links Bootstrap's CSS stylesheet: &lt;link rel=&quot;stylesheet&quot;
+    href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css&quot;
+    integrity=&quot;sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB&quot;
+    crossorigin=&quot;anonymous&quot;&gt;.
 
 -   Bootstrap's CSS will make everything look a little cleaner and more
     modern, but its real power comes with its layout system. Bootstrap
@@ -919,11 +919,11 @@ Name of a version of the repository that resides somewhere else.
     different number of columns to fill.
 
 -   Bootstrap's columns and rows are referenced in HTML
-    with class=\"row\" and class=\"col-3\" attributes, where the number
+    with class=&quot;row&quot; and class=&quot;col-3&quot; attributes, where the number
     after col- is the number of columns the element should use.
 
     -   Elements can take up a different number of columns based on the
-        size of the screen with attributes like class=\"col-lg-3
+        size of the screen with attributes like class=&quot;col-lg-3
         col-sm-6. On a small screen, 6 columns will be used, but in a
         large screen, 3 columns will be used. If another row has to be
         added, Bootstrap will do so automatically. This is a much easier
@@ -949,7 +949,7 @@ Name of a version of the repository that resides somewhere else.
     file style.scss into sass.css, which can actually be linked to and
     interpreted by an HTML file.
 
-    -   If recompiling gets annoying, sass \--watch
+    -   If recompiling gets annoying, sass &minus;-watch
         style.scss:style.css to automatically
         recompile style.scss as style.css whenever style.scss is
         modified. Additionally, many website deployment systems, like
@@ -957,9 +957,9 @@ Name of a version of the repository that resides somewhere else.
         an .scssfile is pushed to GitHub, GitHub Pages will compile it
         automatically.
 
--   One feature of Sass is variables, which are defined as so: \$color:
-    red;. Anywhere \$color is passed as a value for a CSS property,
-    e.g. color: \$color, red will be used.
+-   One feature of Sass is variables, which are defined as so: &dollar;color:
+    red;. Anywhere &dollar;color is passed as a value for a CSS property,
+    e.g. color: &dollar;color, red will be used.
 
 -   Another feature is nesting, which is a more concise way to style
     elements which are related to other elements in a certain way.
@@ -1004,7 +1004,7 @@ Name of a version of the repository that resides somewhere else.
 
 -   .specificMessage {
 
--   \@extend %message;
+-   &commat;extend %message;
 
 -   background-color: green;
 
@@ -1050,12 +1050,12 @@ height="1.1533672353455817in"}
 
     -   Print a string to the screen:
 
-    -   print(\"Hello, world!\")
+    -   print(&quot;Hello, world!&quot;)
 
     -   Print a format string (variable names enclosed with {} will be
         replaced by variable values)
 
-    -   print(f\"Hello, {name}!\")
+    -   print(f&quot;Hello, {name}!&quot;)
 
     -   Set variable name to the user input returned by input()
 
@@ -1063,17 +1063,17 @@ height="1.1533672353455817in"}
 
     -   Conditional statement:
 
-    -   if x \> 0:
+    -   if x &gt; 0:
 
-    -   print(\"x is positive\")
+    -   print(&quot;x is positive&quot;)
 
-    -   elif x \< 0:
+    -   elif x &lt; 0:
 
-    -   print(\"x is negative\")
+    -   print(&quot;x is negative&quot;)
 
     -   else:
 
-    -   print(\"x is zero\")
+    -   print(&quot;x is zero&quot;)
 
         -   elif and else blocks are optional.
 
@@ -1101,9 +1101,9 @@ height="1.1533672353455817in"}
 
 -   Strings:
 
--   name = \"Alice\"
+-   name = &quot;Alice&quot;
 
--   print(name\[0\])
+-   print(name&lbrack;0&rbrack;)
 
     -   Strings are justs sequence of characters, and can be indexed as
         such.
@@ -1112,16 +1112,16 @@ height="1.1533672353455817in"}
 
 -   coordinates = (10.0, 20.0)
 
--   print(coordinates\[1\])
+-   print(coordinates&lbrack;1&rbrack;)
 
     -   Tuples are immutable collections of values under a single name,
         which can be indexed positionally.
 
 -   Lists:
 
--   names = \[\"Alice\", \"Bob\", \"Charlie\"\]
+-   names = &lbrack;&quot;Alice&quot;, &quot;Bob&quot;, &quot;Charlie&quot;&rbrack;
 
--   print(names\[2\])
+-   print(names&lbrack;2&rbrack;)
 
     -   Lists are mutable collections of values under a single name,
         which can be indexed positionally.
@@ -1150,11 +1150,11 @@ height="1.1533672353455817in"}
 
 -   Dictionaries:
 
--   ages = {\"Alice\": 22, \"Bob\": 27}
+-   ages = {&quot;Alice&quot;: 22, &quot;Bob&quot;: 27}
 
--   print(ages\[\"Alice\"\])
+-   print(ages&lbrack;&quot;Alice&quot;&rbrack;)
 
--   ages\[\"Alice\"\] += 1
+-   ages&lbrack;&quot;Alice&quot;&rbrack; += 1
 
     -   Dictionaries (or dicts) are like lists, except that they are
         unordered and their values are indexed by keys.
@@ -1189,16 +1189,16 @@ height="1.1533672353455817in"}
 
 -   def square(x):
 
--   return x \* x
+-   return x &ast; x
 
     -   This is a function called square, which takes a single
-        argument x, and returns the value x \* x.
+        argument x, and returns the value x &ast; x.
 
     -   Like loops, the body of a function must be indented.
 
     -   for i in range(10):
 
-    -   print(\"{} squared is {}\".format(i, square(i)))
+    -   print(&quot;{} squared is {}&quot;.format(i, square(i)))
 
         -   This loop, which prints out the results of square with a
             range of arguments, using an older method for format
@@ -1228,7 +1228,7 @@ height="1.1533672353455817in"}
     directly should be encapsulated in a function, called, for
     example, main. After, the following should be appended:
 
--   if \_\_name\_\_ == \"\_\_main\_\_\":
+-   if &lowbar;&lowbar;name&lowbar;&lowbar; == &quot;&lowbar;&lowbar;main&lowbar;&lowbar;&quot;:
 
 -   main()
 
@@ -1244,20 +1244,20 @@ height="1.1533672353455817in"}
 
 -   class Point:
 
--   def \_\_init\_\_(self, x, y):
+-   def &lowbar;&lowbar;init&lowbar;&lowbar;(self, x, y):
 
 -   self.x = x
 
 -   self.y = y
 
-    -   The \_\_init\_\_ function (method) is a special function that
+    -   The &lowbar;&lowbar;init&lowbar;&lowbar; function (method) is a special function that
         defines the information needed when a new Point is
         created. self is always required, which refers to
         the Point being created, while x and y are its coordinates.
 
     -   self.x and self.y actually do the work of
         creating x and y attributes for the Point and assigning them the
-        values passed to \_\_init\_\_.
+        values passed to &lowbar;&lowbar;init&lowbar;&lowbar;.
 
 -   By convention, class names tend to start with a capital letter.
 
@@ -1265,7 +1265,7 @@ height="1.1533672353455817in"}
 
 -   p = Point(3, 5)
 
-    -   When this line is run, the \_\_init\_\_ function of
+    -   When this line is run, the &lowbar;&lowbar;init&lowbar;&lowbar; function of
         the Point class is automatically run.
 
 -   To access the x attribute of p, use dot notation:
@@ -1296,22 +1296,22 @@ height="1.1533672353455817in"}
 -   Flask code is generally stored inside application.py, and might look
     like so:
 
--   from flask import Flask \# Import the class \`Flask\` from the
-    \`flask\` module, written by someone else.
+-   from flask import Flask &pound; Import the class &apos;Flask&apos; from the
+    &apos;flask&apos; module, written by someone else.
 
 -   
 
--   app = Flask(\_\_name\_\_) \# Instantiate a new web application
-    called \`app\`, with \`\_\_name\_\_\` representing the current file
+-   app = Flask(&lowbar;&lowbar;name&lowbar;&lowbar;) &pound; Instantiate a new web application
+    called &apos;app&apos;, with &apos;&lowbar;&lowbar;name&lowbar;&lowbar;&apos; representing the current file
 
 -   
 
--   \@app.route(\"/\") \# A decorator; when the user goes to the route
-    \`/\`, exceute the function immediately below
+-   &commat;app.route(&quot;/&quot;) &pound; A decorator; when the user goes to the route
+    &apos;/&apos;, exceute the function immediately below
 
 -   def index():
 
--   return \"Hello, world!\"
+-   return &quot;Hello, world!&quot;
 
     -   
 
@@ -1342,11 +1342,11 @@ height="1.1533672353455817in"}
 
 ### Fancier Flask and Jinja2
 
-> \@app.route(\"/\<string:name\>\")
+> &commat;app.route(&quot;/&lt;string:name&gt;&quot;)
 >
 > def hello(name):
 >
-> return f\"Hello, {name}!\"
+> return f&quot;Hello, {name}!&quot;
 
 -   When any string is entered as a route, that will be stored as name,
     which is can then be used inside the decorated function.
@@ -1359,20 +1359,20 @@ height="1.1533672353455817in"}
 
 -   HTML can also be used inside the return value:
 
-> return f\"\<h1\>Hello, {name}!\</h1\>\".
+> return f&quot;&lt;h1&gt;Hello, {name}!&lt;/h1&gt;&quot;.
 
 -   Inline HTML isn't that useful, though. Separate HTML files can be
     used like so:
 
 > from flask import Flask
 >
-> app = Flask(\_\_name\_\_)
+> app = Flask(&lowbar;&lowbar;name&lowbar;&lowbar;)
 >
-> \@app.route(\"/\")
+> &commat;app.route(&quot;/&quot;)
 >
 > def index():
 >
-> return render_template(\"index.html\")
+> return render_template(&quot;index.html&quot;)
 
 -   index.html and any other template files should be stored in a
     directory named templates.
@@ -1384,9 +1384,9 @@ height="1.1533672353455817in"}
 
 -   In application.py:
 
-> headline = \"Hello, world!\"
+> headline = &quot;Hello, world!&quot;
 >
-> return render_template(\"index.html\", headline=headline)
+> return render_template(&quot;index.html&quot;, headline=headline)
 
 -   In index.html:
 
@@ -1489,7 +1489,7 @@ height="1.1533672353455817in"}
 
     -   If there are multiple request methods that should be allowed,
         which method is being used can be checked with request.method,
-        which will be equal to, for example, \"GET\" or \"POST\".
+        which will be equal to, for example, &quot;GET&quot; or &quot;POST&quot;.
 
 #### Sessions
 
@@ -1499,20 +1499,20 @@ height="1.1533672353455817in"}
 
 -   To use sessions, they must be imported and set up:
 
-> from flask import Flask, render_template, request, session \# gives
-> access to a variable called \`session\`
+> from flask import Flask, render_template, request, session &pound; gives
+> access to a variable called &apos;session&apos;
 >
-> \# which can be used to keep values that are specific to a particular
+> &pound; which can be used to keep values that are specific to a particular
 > user
 >
-> from flask_session import Session \# an additional extension to
+> from flask_session import Session &pound; an additional extension to
 > sessions which allows them
 >
-> \# to be stored server-side
+> &pound; to be stored server-side
 >
-> app.config\[\"SESSION_PERMANENT\"\] = False
+> app.config&lbrack;&quot;SESSION_PERMANENT&quot;&rbrack; = False
 >
-> app.config\[\"SESSION_TYPE\"\] = \"filesystem\"
+> app.config&lbrack;&quot;SESSION_TYPE&quot;&rbrack; = &quot;filesystem&quot;
 >
 > Session(app)
 
@@ -1520,27 +1520,27 @@ height="1.1533672353455817in"}
     note can be stored in a place specific to the user using their
     session:
 
-> \@app.route(\"/\", methods=\[\"GET\", \"POST\"\])
+> &commat;app.route(&quot;/&quot;, methods=&lbrack;&quot;GET&quot;, &quot;POST&quot;&rbrack;)
 >
 > def index():
 >
-> if session.get(\"notes\") is None:
+> if session.get(&quot;notes&quot;) is None:
 >
-> session\[\"notes\"\] = \[\]
+> session&lbrack;&quot;notes&quot;&rbrack; = &lbrack;&rbrack;
 >
-> if request.method == \"POST\":
+> if request.method == &quot;POST&quot;:
 >
-> note = request.form.get(\"note\")
+> note = request.form.get(&quot;note&quot;)
 >
-> session\[\"notes\"\].append(note)
+> session&lbrack;&quot;notes&quot;&rbrack;.append(note)
 >
-> return render_template(\"index.html\", notes=session\[\"notes\"\])
+> return render_template(&quot;index.html&quot;, notes=session&lbrack;&quot;notes&quot;&rbrack;)
 
 -   notes is the list where the notes will be stored. If the user
     doesn't have a notes list already (checked with if
-    session.get(\"notes\") is None), then they are given an empty one.
+    session.get(&quot;notes&quot;) is None), then they are given an empty one.
 
--   If a request is submitted via \"POST\" (that is, through the form),
+-   If a request is submitted via &quot;POST&quot; (that is, through the form),
     then the note is processed from the form in the same way as before.
 
 -   The processed note, now in a Python variable called note, is
@@ -1549,7 +1549,7 @@ height="1.1533672353455817in"}
     therefore a unique notes list.
 
 -   Finally, the notelist is rendered by
-    passing session\[\"notes\"\] to render_template.
+    passing session&lbrack;&quot;notes&quot;&rbrack; to render_template.
 
 > ![https://duckduckgo.com/i/64a17fe4.png](./images/image019.png){width="1.7437685914260717in"
 > height="0.6833333333333333in"}
@@ -1631,8 +1631,8 @@ height="1.1533672353455817in"}
 
 -   In order to get a database running, a Postgres server must be set
     up. To start a server locally on a computer, use the command psql
-    \<database\>. To connect to an online server, use psql
-    \<databaseURL\>.
+    &lt;database&gt;. To connect to an online server, use psql
+    &lt;databaseURL&gt;.
 
 -   After starting up Postgres server, SQL commands can be entered
     directly into the terminal. Some other useful commands include:
@@ -1661,7 +1661,7 @@ height="1.1533672353455817in"}
 
 -   (origin, destination, duration)
 
--   VALUES (\'New York\', \'London\', 415);
+-   VALUES (&apos;New York&apos;, &apos;London&apos;, 415);
 
     -   Note that there is no id field. Because id is of type SERIAL, it
         will increment and be set automatically.
@@ -1673,36 +1673,36 @@ height="1.1533672353455817in"}
 
 -   Reading data from a table:
 
--   SELECT \* FROM flights;
+-   SELECT &ast; FROM flights;
 
 -   SELECT origin, destination FROM flights;
 
--   SELECT \* FROM flights WHERE id = 3;
+-   SELECT &ast; FROM flights WHERE id = 3;
 
--   SELECT \* FROM flights WHERE origin = \'New York\';
+-   SELECT &ast; FROM flights WHERE origin = &apos;New York&apos;;
 
--   SELECT \* FROM flights WHERE duration \> 500;
+-   SELECT &ast; FROM flights WHERE duration &gt; 500;
 
--   SELECT \* FROM flights WHERE destination = \'Paris\' AND duration \>
+-   SELECT &ast; FROM flights WHERE destination = &apos;Paris&apos; AND duration &gt;
     500;
 
--   SELECT \* FROM flights WHERE destination = \'Paris\' OR duration \>
+-   SELECT &ast; FROM flights WHERE destination = &apos;Paris&apos; OR duration &gt;
     500;
 
--   SELECT AVG(duration) FROM flights WHERE origin = \'New York\';
+-   SELECT AVG(duration) FROM flights WHERE origin = &apos;New York&apos;;
 
--   SELECT \* FROM flights WHERE origin LIKE \'%a%\';
+-   SELECT &ast; FROM flights WHERE origin LIKE &apos;%a%&apos;;
 
--   SELECT \* FROM flights LIMIT 2;
+-   SELECT &ast; FROM flights LIMIT 2;
 
--   SELECT \* FROM flights ORDER BY duration ASC;
+-   SELECT &ast; FROM flights ORDER BY duration ASC;
 
--   SELECT \* FROM flights ORDER BY duration ASC LIMIT 3;
+-   SELECT &ast; FROM flights ORDER BY duration ASC LIMIT 3;
 
--   SELECT origin, COUNT(\*) FROM flights GROUP BY origin;
+-   SELECT origin, COUNT(&ast;) FROM flights GROUP BY origin;
 
--   SELECT origin, COUNT(\*) FROM flights GROUP BY origin HAVING
-    COUNT(\*) \> 1;
+-   SELECT origin, COUNT(&ast;) FROM flights GROUP BY origin HAVING
+    COUNT(&ast;) &gt; 1;
 
     -   The query after SELECT indicates what columns are being
         selected.
@@ -1710,7 +1710,7 @@ height="1.1533672353455817in"}
     -   The query after WHERE indicates constraints on what rows are
         being selected.
 
-    -   \* is a wildcard that indicates all.
+    -   &ast; is a wildcard that indicates all.
 
     -   If a SQL function is passed as a column selector, a column with
         the return value of that function will be returned. Useful
@@ -1718,7 +1718,7 @@ height="1.1533672353455817in"}
 
         -   AVG(column) : returns the average value
 
-        -   COUNT(\*) : returns the number of rows returned by the
+        -   COUNT(&ast;) : returns the number of rows returned by the
             database
 
         -   MIN(column) : returns the minimum value
@@ -1747,9 +1747,9 @@ height="1.1533672353455817in"}
 
 -   SET duration = 430
 
--   WHERE origin = \'New York\'
+-   WHERE origin = &apos;New York&apos;
 
--   AND destination = \'London\';
+-   AND destination = &apos;London&apos;;
 
     -   SET overwrites a column in all the rows that match
         the WHERE query.
@@ -1758,7 +1758,7 @@ height="1.1533672353455817in"}
 
 -   DELETE FROM flights
 
--   WHERE destination = \'Tokyo\'
+-   WHERE destination = &apos;Tokyo&apos;
 
 ###  ![](./images/image020.png){width="5.28125in" height="3.1145833333333335in"}
 
@@ -1795,7 +1795,7 @@ height="1.1533672353455817in"}
     passengers.flight_id = flights.id;
 
 -   SELECT origin, destination, name FROM flights JOIN passengers ON
-    passengers.flight_id = flights.id WHERE name = \'Alice\';
+    passengers.flight_id = flights.id WHERE name = &apos;Alice&apos;;
 
 -   SELECT origin, destination, name FROM flights LEFT JOIN passengers
     ON passengers.flight_id = flights.id;
@@ -1827,10 +1827,10 @@ height="1.1533672353455817in"}
 
 -   Nested queries are yet another way to make more complex selections:
 
--   SELECT \* FROM flights WHERE id IN
+-   SELECT &ast; FROM flights WHERE id IN
 
 -   (SELECT flight_id FROM passengers GROUP BY flight_id HAVING
-    COUNT(\*) \> 1);
+    COUNT(&ast;) &gt; 1);
 
     -   First, in the inner query, a table containing flight_id for
         flights with more than 1 passenger will be returned.
@@ -1849,34 +1849,34 @@ height="1.1533672353455817in"}
     user enters in those fields might be put into a SQL command to
     select their account from a table of accounts like so:
 
--   SELECT \* FROM users
+-   SELECT &ast; FROM users
 
--   WHERE (username = \'username\')
+-   WHERE (username = &apos;username&apos;)
 
--   AND (password = \'password\')
+-   AND (password = &apos;password&apos;)
 
 -   If someone guesses that there is SQL code like that above running
     behind the scenes, they could potentially gain access to someone
-    else's account by entering the follwing as their password: 1\' OR
-    \'1\' = \'1. While this may look strange out of context, when it's
+    else's account by entering the follwing as their password: 1&apos; OR
+    &apos;1&apos; = &apos;1. While this may look strange out of context, when it's
     processed into the SELECT query, this is the result:
 
--   SELECT \* FROM users
+-   SELECT &ast; FROM users
 
--   WHERE (username = \'hacker\')
+-   WHERE (username = &apos;hacker&apos;)
 
--   AND (password = \'1\' OR \'1\' = \'1\');
+-   AND (password = &apos;1&apos; OR &apos;1&apos; = &apos;1&apos;);
 
     -   By putting single-quotes in smart places, the user cleverly
-        edited the SQL query. \'1\' is always equal to \'1\', so it
+        edited the SQL query. &apos;1&apos; is always equal to &apos;1&apos;, so it
         doesn't matter what the user's password is. The account with
         username hacker will still be returned.
 
 -   In order to prevent these so-called "SQL injection attacks", it is
     important to ˜sanitize" any user input that is going into a SQL
-    command. This means properly ˜escaping" characters like \', which
+    command. This means properly ˜escaping" characters like &apos;, which
     can drastically change the meaning of the command, so that it is
-    interpreted as simply the \' character. Otherwise, there is the risk
+    interpreted as simply the &apos; character. Otherwise, there is the risk
     of malicious users editing or even deleting entire databases in this
     way.
 
@@ -1901,8 +1901,8 @@ height="1.1533672353455817in"}
     that two customers at two ATMs make withdrawals with just the right
     timing so that the customer's SELECT query runs before
     customer's UPDATE query. Even though customer A might already have
-    taken the last \$100 in the account, since the database hasn't been
-    updated, when customer B asks for \$100, the database will allow the
+    taken the last &dollar;100 in the account, since the database hasn't been
+    updated, when customer B asks for &dollar;100, the database will allow the
     withdrawal.
 
 -   The solution to race conditions is to implement SQL
@@ -1931,28 +1931,28 @@ height="1.1533672353455817in"}
 
 -   
 
--   engine = create_engine(os.getenv(\"DATABASE_URL\")) \# database
+-   engine = create_engine(os.getenv(&quot;DATABASE_URL&quot;)) &pound; database
     engine object from SQLAlchemy that manages connections to the
     database
 
--   \# DATABASE_URL is an environment variable that indicates where the
+-   &pound; DATABASE_URL is an environment variable that indicates where the
     database lives
 
--   db = scoped_session(sessionmaker(bind=engine)) \# create a \'scoped
-    session\' that ensures different users\' interactions with the
+-   db = scoped_session(sessionmaker(bind=engine)) &pound; create a &apos;scoped
+    session&apos; that ensures different users&apos; interactions with the
 
--   \# database are kept separate
+-   &pound; database are kept separate
 
 -   
 
--   flights = db.execute(\"SELECT origin, destination, duration FROM
-    flights\").fetchall() \# execute this SQL command and return all of
+-   flights = db.execute(&quot;SELECT origin, destination, duration FROM
+    flights&quot;).fetchall() &pound; execute this SQL command and return all of
     the results
 
 -   for flight in flights
 
--   print(f\"{flight.origin} to {flight.destination}, {flight.duration}
-    minutes.\") \# for every flight, print out the flight info
+-   print(f&quot;{flight.origin} to {flight.destination}, {flight.duration}
+    minutes.&quot;) &pound; for every flight, print out the flight info
 
     -   flights is a list of the rows the came back from the SQL query.
         The individual columns in each row can be accessed with dot
@@ -1966,28 +1966,28 @@ height="1.1533672353455817in"}
 
 -   
 
--   \# same import and setup statements as above
+-   &pound; same import and setup statements as above
 
 -   
 
--   f = open(\"flights.csv\")
+-   f = open(&quot;flights.csv&quot;)
 
 -   reader = csv.reader(f)
 
--   for origin, destination, duration in reader: \# loop gives each
+-   for origin, destination, duration in reader: &pound; loop gives each
     column a name
 
--   db.execute(\"INSERT INTO flights (origin, destination, duration)
-    VALUES (:origin, :destination, :duration)\",
+-   db.execute(&quot;INSERT INTO flights (origin, destination, duration)
+    VALUES (:origin, :destination, :duration)&quot;,
 
--   {\"origin\": origin, \"destination\": destination, \"duration\":
-    duration}) \# substitute values from CSV line into SQL command, as
+-   {&quot;origin&quot;: origin, &quot;destination&quot;: destination, &quot;duration&quot;:
+    duration}) &pound; substitute values from CSV line into SQL command, as
     per this dict
 
--   print(f\"Added flight from {origin} to {destination} lasting
-    {duration} minutes.\")
+-   print(f&quot;Added flight from {origin} to {destination} lasting
+    {duration} minutes.&quot;)
 
--   db.commit() \# transactions are assumed, so close the transaction
+-   db.commit() &pound; transactions are assumed, so close the transaction
     finished
 
     -   The colon notation used in db.execute() call is Postgres'
@@ -2003,51 +2003,51 @@ height="1.1533672353455817in"}
     to application.py (along with the necessary import and set up
     statements) could look like this:
 
--   \@app.route(\"/\")
+-   &commat;app.route(&quot;/&quot;)
 
 -   def index():
 
--   flights = db.execute(\"SELECT \* FROM flights\").fetchall()
+-   flights = db.execute(&quot;SELECT &ast; FROM flights&quot;).fetchall()
 
--   return render_template(\"index.html\", flights=flights)
+-   return render_template(&quot;index.html&quot;, flights=flights)
 
 -   
 
--   \@app.route(\"/book\", methods=\[\"POST\"\])
+-   &commat;app.route(&quot;/book&quot;, methods=&lbrack;&quot;POST&quot;&rbrack;)
 
 -   def book():
 
--   \# Get form information.
+-   &pound; Get form information.
 
--   name = request.form.get(\"name\")
+-   name = request.form.get(&quot;name&quot;)
 
 -   try:
 
--   flight_id = int(request.form.get(\"flight_id\"))
+-   flight_id = int(request.form.get(&quot;flight_id&quot;))
 
 -   except ValueError:
 
--   return render_template(\"error.html\", message=\"Invalid flight
-    number.\")
+-   return render_template(&quot;error.html&quot;, message=&quot;Invalid flight
+    number.&quot;)
 
 -   
 
--   \# Make sure the flight exists.
+-   &pound; Make sure the flight exists.
 
--   if db.execute(\"SELECT \* FROM flights WHERE id = :id\", {\"id\":
+-   if db.execute(&quot;SELECT &ast; FROM flights WHERE id = :id&quot;, {&quot;id&quot;:
     flight_id}).rowcount == 0:
 
--   return render_template(\"error.html\", message=\"No such flight with
-    that id.\")
+-   return render_template(&quot;error.html&quot;, message=&quot;No such flight with
+    that id.&quot;)
 
--   db.execute(\"INSERT INTO passengers (name, flight_id) VALUES (:name,
-    :flight_id)\",
+-   db.execute(&quot;INSERT INTO passengers (name, flight_id) VALUES (:name,
+    :flight_id)&quot;,
 
--   {\"name\": name, \"flight_id\": flight_id})
+-   {&quot;name&quot;: name, &quot;flight_id&quot;: flight_id})
 
 -   db.commit()
 
--   return render_template(\"success.html\")
+-   return render_template(&quot;success.html&quot;)
 
     -   The try block of code is always run. If there is an error, and
         in particular, a ValueError, the code in the except block is
@@ -2065,45 +2065,45 @@ height="1.1533672353455817in"}
 
 -   
 
--   \<form action=\"{{ url_for(\'book\') }}\" method=\"post\"\>
+-   &lt;form action=&quot;{{ url_for(&apos;book&apos;) }}&quot; method=&quot;post&quot;&gt;
 
 -   
 
--   \<div class=\"form-group\"\>
+-   &lt;div class=&quot;form-group&quot;&gt;
 
--   \<select class=\"form-control\" name=\"flight_id\"\>
+-   &lt;select class=&quot;form-control&quot; name=&quot;flight_id&quot;&gt;
 
 -   {% for flight in flights %}
 
--   \<option value=\"{{ flight.id }}\"\>{{ flight.origin }} to {{
-    flight.destination }}\</option\>
+-   &lt;option value=&quot;{{ flight.id }}&quot;&gt;{{ flight.origin }} to {{
+    flight.destination }}&lt;/option&gt;
 
 -   {% endfor %}
 
--   \</select\>
+-   &lt;/select&gt;
 
--   \</div\>
-
--   
-
--   \<div class=\"form-group\"\>
-
--   \<input class=\"form-control\" name=\"name\" placeholder=\"Passenger
-    Name\"\>
-
--   \</div\>
+-   &lt;/div&gt;
 
 -   
 
--   \<div class=\"form-group\"\>
+-   &lt;div class=&quot;form-group&quot;&gt;
 
--   \<button class=\"btn btn-primary\"\>Book Flight\</button\>
+-   &lt;input class=&quot;form-control&quot; name=&quot;name&quot; placeholder=&quot;Passenger
+    Name&quot;&gt;
 
--   \</div\>
+-   &lt;/div&gt;
 
 -   
 
--   \</form\>
+-   &lt;div class=&quot;form-group&quot;&gt;
+
+-   &lt;button class=&quot;btn btn-primary&quot;&gt;Book Flight&lt;/button&gt;
+
+-   &lt;/div&gt;
+
+-   
+
+-   &lt;/form&gt;
 
 -   -   Note that some elements, such as the form-control class, are
         Bootstrap components.
@@ -2119,46 +2119,46 @@ height="1.1533672353455817in"}
     about that flight. Here's some Python code that would take care of
     the routing for these new pages:
 
--   \@app.route(\"/flights\")
+-   &commat;app.route(&quot;/flights&quot;)
 
 -   def flights():
 
--   flights = db.execute(\"SELECT \* FROM flights\").fetchall()
+-   flights = db.execute(&quot;SELECT &ast; FROM flights&quot;).fetchall()
 
--   return render_template(\"flights.html\", flights=flights)
+-   return render_template(&quot;flights.html&quot;, flights=flights)
 
 -   
 
--   \@app.route(\"/flights/\<int:flight_id\>\")
+-   &commat;app.route(&quot;/flights/&lt;int:flight_id&gt;&quot;)
 
 -   def flight(flight_id):
 
--   \# Make sure flight exists.
+-   &pound; Make sure flight exists.
 
--   flight = db.execute(\"SELECT \* FROM flights WHERE id = :id\",
-    {\"id\": flight_id}).fetchone()
+-   flight = db.execute(&quot;SELECT &ast; FROM flights WHERE id = :id&quot;,
+    {&quot;id&quot;: flight_id}).fetchone()
 
 -   if flight is None:
 
--   return render_template(\"error.html\", message=\"No such flight.\")
+-   return render_template(&quot;error.html&quot;, message=&quot;No such flight.&quot;)
 
 -   
 
--   \# Get all passengers.
+-   &pound; Get all passengers.
 
--   passengers = db.execute(\"SELECT name FROM passengers WHERE
-    flight_id = :flight_id\",
+-   passengers = db.execute(&quot;SELECT name FROM passengers WHERE
+    flight_id = :flight_id&quot;,
 
--   {\"flight_id\": flight_id}).fetchall()
+-   {&quot;flight_id&quot;: flight_id}).fetchall()
 
--   return render_template(\"flight.html\", flight=flight,
+-   return render_template(&quot;flight.html&quot;, flight=flight,
     passengers=passengers)
 
     -   /flights is a going to be a generic route to simply display a
         list of all flights.
 
-    -   Additionally, /flights/\<int:flight_id\> provides for any
-        individual flight's info page. \<int:flight_id\> is a variable
+    -   Additionally, /flights/&lt;int:flight_id&gt; provides for any
+        individual flight's info page. &lt;int:flight_id&gt; is a variable
         that is going to passed to Flask by the HTML in flights.html.
         This variable is then passed to the flight function, which
         passes the id into a SQL query to get all the info about the
@@ -2168,65 +2168,65 @@ height="1.1533672353455817in"}
 
 -   
 
--   \<ul\>
+-   &lt;ul&gt;
 
 -   {% for flight in flights %}
 
--   \<li\>
+-   &lt;li&gt;
 
--   \<a href=\"{{ url_for(\'flight\', flight_id=flight.id) }}\"\>
+-   &lt;a href=&quot;{{ url_for(&apos;flight&apos;, flight_id=flight.id) }}&quot;&gt;
 
 -   {{ flight.origin }} to {{ flight.destination }}
 
--   \</a\>
+-   &lt;/a&gt;
 
--   \</li\>
+-   &lt;/li&gt;
 
 -   {% endfor %}
 
--   \</ul\>
+-   &lt;/ul&gt;
 
 -   -   It's in the link here that flight.id, which is an column from
         the row flight, which comes from looping through flights, which
         in turn was passed in from the Python code for /flights. It's
         given the variable name flight_id, which is what the python
-        route for /flights/\<int:flight_id\> expects.
+        route for /flights/&lt;int:flight_id&gt; expects.
 
 -   flight.html:
 
 -   
 
--   \<h1\>Flight Details\</h1\>
+-   &lt;h1&gt;Flight Details&lt;/h1&gt;
 
 -   
 
--   \<ul\>
+-   &lt;ul&gt;
 
--   \<li\>Origin: {{ flight.origin }}\</li\>
+-   &lt;li&gt;Origin: {{ flight.origin }}&lt;/li&gt;
 
--   \<li\>Destination: {{ flight.destination }}\</li\>
+-   &lt;li&gt;Destination: {{ flight.destination }}&lt;/li&gt;
 
--   \<li\>Duration: {{ flight.duration}} minutes\</li\>
+-   &lt;li&gt;Duration: {{ flight.duration}} minutes&lt;/li&gt;
 
--   \</ul\>
+-   &lt;/ul&gt;
 
 -   
 
--   \<h2\>Passengers\</h2\>
+-   &lt;h2&gt;Passengers&lt;/h2&gt;
 
--   \<ul\>
+-   &lt;ul&gt;
 
 -   {% for passenger in passengers %}
 
--   \<li\>{{ passenger.name }}\</li\>
+-   &lt;li&gt;{{ passenger.name }}&lt;/li&gt;
 
 -   {% else %}
 
--   \<li\>No passengers.\</li\>
+-   &lt;li&gt;No passengers.&lt;/li&gt;
 
 -   {% endfor %}
 
--   \</ul\>
+-   &lt;/ul&gt;
 
 -   -   The only new piece here is using {% else %} with a for-loop to
         account for the case where passengers is empty.
@@ -2253,7 +2253,7 @@ height="1.1533672353455817in"}
 
 -   
 
--   def \_\_init\_\_(self, origin, destination, duration):
+-   def &lowbar;&lowbar;init&lowbar;&lowbar;(self, origin, destination, duration):
 
 -   self.origin = origin
 
@@ -2261,8 +2261,8 @@ height="1.1533672353455817in"}
 
 -   self.duration = duration
 
-    -   \_\_init\_\_ is a "method", which is a function performed on
-        individual objects. \_\_init\_\_ in particular is a special,
+    -   &lowbar;&lowbar;init&lowbar;&lowbar; is a "method", which is a function performed on
+        individual objects. &lowbar;&lowbar;init&lowbar;&lowbar; in particular is a special,
         built-in method that describes what should happen when a flight
         object is created.
 
@@ -2274,19 +2274,19 @@ height="1.1533672353455817in"}
 
 -   Here's how the Flight class might be used:
 
--   \# Create flight.
+-   &pound; Create flight.
 
--   f = Flight(origin=\"New York\", destination=\"Paris\", duration=540)
+-   f = Flight(origin=&quot;New York&quot;, destination=&quot;Paris&quot;, duration=540)
 
 -   
 
--   \# Change the value of a propety.
+-   &pound; Change the value of a propety.
 
 -   f.duration += 10
 
 -   
 
--   \# Print details about flight.
+-   &pound; Print details about flight.
 
 -   print(f.origin)
 
@@ -2295,7 +2295,7 @@ height="1.1533672353455817in"}
 -   print(f.duration)
 
     -   Note that only flight information is passed in to Flight();
-        the self argument to the \_\_init\_\_ method is automatically
+        the self argument to the &lowbar;&lowbar;init&lowbar;&lowbar; method is automatically
         specified.
 
     -   f is a variable of type Flight, just like a variable might be of
@@ -2307,23 +2307,23 @@ height="1.1533672353455817in"}
 
 -   
 
--   \# assume same \_\_init\_\_ method
+-   &pound; assume same &lowbar;&lowbar;init&lowbar;&lowbar; method
 
 -   
 
 -   def print_info(self):
 
--   print(f\"Flight origin: {self.origin}\")
+-   print(f&quot;Flight origin: {self.origin}&quot;)
 
--   print(f\"Flight destination: {self.destination}\")
+-   print(f&quot;Flight destination: {self.destination}&quot;)
 
--   print(f\"Flight duration: {self.duration}\")
+-   print(f&quot;Flight duration: {self.duration}&quot;)
 
 -   
 
 -   def main():
 
--   f1 = Flight(origin=\"New York\", destination=\"Paris\",
+-   f1 = Flight(origin=&quot;New York&quot;, destination=&quot;Paris&quot;,
     duration=540)
 
 -   f1.print_info()
@@ -2351,7 +2351,7 @@ height="1.1533672353455817in"}
 
 -   
 
--   def \_\_init\_\_(self, name):
+-   def &lowbar;&lowbar;init&lowbar;&lowbar;(self, name):
 
 -   self.name = name
 
@@ -2365,11 +2365,11 @@ height="1.1533672353455817in"}
 
 -   
 
--   def \_\_init\_\_(self, origin, destination, duration):
+-   def &lowbar;&lowbar;init&lowbar;&lowbar;(self, origin, destination, duration):
 
 -   
 
--   \# Keep track of id number.
+-   &pound; Keep track of id number.
 
 -   self.id = Flight.counter
 
@@ -2377,13 +2377,13 @@ height="1.1533672353455817in"}
 
 -   
 
--   \# Keep track of passengers.
+-   &pound; Keep track of passengers.
 
--   self.passengers = \[\]
+-   self.passengers = &lbrack;&rbrack;
 
 -   
 
--   \# Details about flight.
+-   &pound; Details about flight.
 
 -   self.origin = origin
 
@@ -2395,21 +2395,21 @@ height="1.1533672353455817in"}
 
 -   def print_info(self):
 
--   print(f\"Flight origin: {self.origin}\")
+-   print(f&quot;Flight origin: {self.origin}&quot;)
 
--   print(f\"Flight destination: {self.destination}\")
+-   print(f&quot;Flight destination: {self.destination}&quot;)
 
--   print(f\"Flight duration: {self.duration}\")
+-   print(f&quot;Flight duration: {self.duration}&quot;)
 
 -   
 
 -   print()
 
--   print(\"Passengers:\")
+-   print(&quot;Passengers:&quot;)
 
 -   for passenger in self.passengers:
 
--   print(f\"{passenger.name}\")
+-   print(f&quot;{passenger.name}&quot;)
 
 -   
 
@@ -2420,7 +2420,7 @@ height="1.1533672353455817in"}
 -   p.flight_id = self.id
 
     -   Note that counter is defined outside of
-        the \_\_init\_\_ function and is not specific to individual
+        the &lowbar;&lowbar;init&lowbar;&lowbar; function and is not specific to individual
         flights (it's not defined as self.counter. This means that all
         flight objects can see this same counter variable, which allows
         for the implementation the id property shown here. Similar to
@@ -2432,26 +2432,26 @@ height="1.1533672353455817in"}
         of Passenger objects.
 
     -   In add_passenger, p.flight_id is created, because flight_id is
-        not defined in the Passenger class's \_\_init\_\_.
+        not defined in the Passenger class's &lowbar;&lowbar;init&lowbar;&lowbar;.
 
 -   Here's how the more advanced Flight class could be used:
 
--   \# Create flight.
+-   &pound; Create flight.
 
--   f1 = Flight(origin=\"New York\", destination=\"Paris\",
+-   f1 = Flight(origin=&quot;New York&quot;, destination=&quot;Paris&quot;,
     duration=540)
 
 -   
 
--   \# Create passengers.
+-   &pound; Create passengers.
 
--   alice = Passenger(name=\"Alice\")
+-   alice = Passenger(name=&quot;Alice&quot;)
 
--   bob = Passenger(name=\"Bob\")
+-   bob = Passenger(name=&quot;Bob&quot;)
 
 -   
 
--   \# Add passengers.
+-   &pound; Add passengers.
 
 -   f1.add_passenger(alice)
 
@@ -2481,7 +2481,7 @@ height="1.1533672353455817in"}
 
 -   class Flight(db.Model):
 
--   \_\_tablename\_\_ = \"flights\"
+-   &lowbar;&lowbar;tablename&lowbar;&lowbar; = &quot;flights&quot;
 
 -   id = db.Column(db.Integer, primary_key=True)
 
@@ -2497,13 +2497,13 @@ height="1.1533672353455817in"}
 
 -   class Passenger(db.Model):
 
--   \_\_tablename\_\_ = \"passengers\"
+-   &lowbar;&lowbar;tablename&lowbar;&lowbar; = &quot;passengers&quot;
 
 -   id = db.Column(db.Integer, primary_key=True)
 
 -   name = db.Column(db.String, nullable=False)
 
--   flight_id = db.Column(db.Integer, db.ForeignKey(\"flights.id\"),
+-   flight_id = db.Column(db.Integer, db.ForeignKey(&quot;flights.id&quot;),
     nullable=False)
 
     -   For any table inside of the database, there is one class defined
@@ -2515,7 +2515,7 @@ height="1.1533672353455817in"}
         the class to have some built-in relationship with SQLAlchemy to
         interact with the database.
 
-    -   \_\_tablename\_\_ naturally corresponds with the table name
+    -   &lowbar;&lowbar;tablename&lowbar;&lowbar; naturally corresponds with the table name
         inside the database.
 
     -   Every property is defined as a db.Column, which will become
@@ -2523,7 +2523,7 @@ height="1.1533672353455817in"}
         similar to those use for table creation in SQL.
 
     -   Note that flights.id is marked as a foreign key using
-        the \_\_tablename\_\_ flights, not the class name Flight.
+        the &lowbar;&lowbar;tablename&lowbar;&lowbar; flights, not the class name Flight.
 
 -   Now that there's a defined structure for how the tables should look,
     they can be created inside a Flask application.
@@ -2536,26 +2536,26 @@ height="1.1533672353455817in"}
 
 -   
 
--   \# Import table definitions.
+-   &pound; Import table definitions.
 
--   from models import \*
-
--   
-
--   app = Flask(\_\_name\_\_)
+-   from models import &ast;
 
 -   
 
--   \# Tell Flask what SQLAlchemy databas to use.
-
--   app.config\[\"SQLALCHEMY_DATABASE_URI\"\] =
-    os.getenv(\"DATABASE_URL\")
-
--   app.config\[\"SQLALCHEMY_TRACK_MODIFICATIONS\"\] = False
+-   app = Flask(&lowbar;&lowbar;name&lowbar;&lowbar;)
 
 -   
 
--   \# Link the Flask app with the database (no Flask app is actually
+-   &pound; Tell Flask what SQLAlchemy databas to use.
+
+-   app.config&lbrack;&quot;SQLALCHEMY_DATABASE_URI&quot;&rbrack; =
+    os.getenv(&quot;DATABASE_URL&quot;)
+
+-   app.config&lbrack;&quot;SQLALCHEMY_TRACK_MODIFICATIONS&quot;&rbrack; = False
+
+-   
+
+-   &pound; Link the Flask app with the database (no Flask app is actually
     being run yet).
 
 -   db.init_app(app)
@@ -2564,15 +2564,15 @@ height="1.1533672353455817in"}
 
 -   def main():
 
--   \# Create tables based on each table definition in \`models\`
+-   &pound; Create tables based on each table definition in &apos;models&apos;
 
 -   db.create_all()
 
 -   
 
--   if \_\_name\_\_ == \"\_\_main\_\_\":
+-   if &lowbar;&lowbar;name&lowbar;&lowbar; == &quot;&lowbar;&lowbar;main&lowbar;&lowbar;&quot;:
 
--   \# Allows for command line interaction with Flask application
+-   &pound; Allows for command line interaction with Flask application
 
 -   with app.app_context():
 
@@ -2589,11 +2589,11 @@ height="1.1533672353455817in"}
 
 -   (origin, destination, duration)
 
--   VALUES (\'New York\', \'Paris\', 540)
+-   VALUES (&apos;New York&apos;, &apos;Paris&apos;, 540)
 
 -   ...¦and Python's INSERT.
 
--   flight = Flight(origin=\"New York\", destination=\"Paris\",
+-   flight = Flight(origin=&quot;New York&quot;, destination=&quot;Paris&quot;,
     duration=540)
 
 -   db.session.add(flight)
@@ -2603,55 +2603,55 @@ height="1.1533672353455817in"}
 
 -   SQL's SELECT¦
 
--   SELECT \* FROM flights;
+-   SELECT &ast; FROM flights;
 
--   SELECT \* FROM flights
+-   SELECT &ast; FROM flights
 
--   WHERE origin = \'Paris\';
+-   WHERE origin = &apos;Paris&apos;;
 
--   SELECT \* FROM flights
+-   SELECT &ast; FROM flights
 
--   WHERE origin = \'Paris\' LIMIT 1;
+-   WHERE origin = &apos;Paris&apos; LIMIT 1;
 
--   SELECT COUNT(\*) FROM flights
+-   SELECT COUNT(&ast;) FROM flights
 
--   WHERE origin = \'Paris\';
+-   WHERE origin = &apos;Paris&apos;;
 
--   SELECT \* FROM flights WHERE id = 28;
+-   SELECT &ast; FROM flights WHERE id = 28;
 
--   SELECT \* FROM flights
+-   SELECT &ast; FROM flights
 
 -   ORDER BY origin;
 
--   SELECT \* FROM flights
+-   SELECT &ast; FROM flights
 
 -   ORDER by origin DESC;
 
--   SELECT \* FROM flights
+-   SELECT &ast; FROM flights
 
--   WHERE origin != \'Paris\';
+-   WHERE origin != &apos;Paris&apos;;
 
--   SELECT \* FROM flights
+-   SELECT &ast; FROM flights
 
--   WHERE origin LIKE \'%a%\';
+-   WHERE origin LIKE &apos;%a%&apos;;
 
--   SELECT \* FROM flights
+-   SELECT &ast; FROM flights
 
--   WHERE origin IN (\'Tokyo\', \'Paris\');
+-   WHERE origin IN (&apos;Tokyo&apos;, &apos;Paris&apos;);
 
--   SELECT \* FROm flights
+-   SELECT &ast; FROm flights
 
--   WHERE origin = \"Paris\"
+-   WHERE origin = &quot;Paris&quot;
 
--   AND duration \> 500;
+-   AND duration &gt; 500;
 
--   SELECT \* FROm flights
+-   SELECT &ast; FROm flights
 
--   WHERE origin = \"Paris\"
+-   WHERE origin = &quot;Paris&quot;
 
--   AND duration \> 500;
+-   AND duration &gt; 500;
 
--   SELECT \* FROM flights JOIN passengers
+-   SELECT &ast; FROM flights JOIN passengers
 
 -   ON flights.id = passengers.flight_id;
 
@@ -2659,11 +2659,11 @@ height="1.1533672353455817in"}
 
 -   Flight.query.all()
 
--   Flight.query.fliter_by(origin=\"Paris\").all()
+-   Flight.query.fliter_by(origin=&quot;Paris&quot;).all()
 
--   Flight.query.filter_by(origin=\"Paris\").first()
+-   Flight.query.filter_by(origin=&quot;Paris&quot;).first()
 
--   Flight.query.filter_by(origin=\"Paris\").count()
+-   Flight.query.filter_by(origin=&quot;Paris&quot;).count()
 
 -   Flight.query.get(28)
 
@@ -2671,18 +2671,18 @@ height="1.1533672353455817in"}
 
 -   Flight.query.order_by(Flights.origin.desc()).all()
 
--   Flight.query.filter(Flight.origin != \"Paris\").all()
+-   Flight.query.filter(Flight.origin != &quot;Paris&quot;).all()
 
--   Flight.query.filter(Fligiht.origin.like(\"%a%\")).all()
+-   Flight.query.filter(Fligiht.origin.like(&quot;%a%&quot;)).all()
 
--   Flight.query.filter(Flight.origin.in\_(\[\"Tokyo\",
-    \"Paris\"\])).all()
+-   Flight.query.filter(Flight.origin.in&lowbar;(&lbrack;&quot;Tokyo&quot;,
+    &quot;Paris&quot;&rbrack;)).all()
 
--   Flight.query.filter(and\_(Flight.origin == \"Paris\",
-    Flight.duration \> 500)).all()
+-   Flight.query.filter(and&lowbar;(Flight.origin == &quot;Paris&quot;,
+    Flight.duration &gt; 500)).all()
 
--   Flight.query.filter(or\_(Flight.origin == \"Paris\", Flight.duration
-    \> 500)).all()
+-   Flight.query.filter(or&lowbar;(Flight.origin == &quot;Paris&quot;, Flight.duration
+    &gt; 500)).all()
 
 -   db.session.query(Flight, Passenger).filter(Flight.id ==
     Passenger.flight_id).all()
@@ -2699,7 +2699,7 @@ height="1.1533672353455817in"}
 
 -   flight.duration = 280
 
--   SQL's DELETE\...¦
+-   SQL's DELETE&hellip;¦
 
 -   DELETE FROM flights WHERE id = 28;
 
@@ -2727,13 +2727,13 @@ height="1.1533672353455817in"}
 
 -   
 
--   \# Same setup code as before.
+-   &pound; Same setup code as before.
 
 -   
 
 -   def main():
 
--   f = open(\"flights.csv\")
+-   f = open(&quot;flights.csv&quot;)
 
 -   reader = csv.reader(f)
 
@@ -2744,8 +2744,8 @@ height="1.1533672353455817in"}
 
 -   db.session.add(flight)
 
--   print(f\"Added flight from {origin} to {destination} lasting
-    {duration} minutes.\")
+-   print(f&quot;Added flight from {origin} to {destination} lasting
+    {duration} minutes.&quot;)
 
 -   db.session.commit()
 
@@ -2758,16 +2758,16 @@ height="1.1533672353455817in"}
 
 -   from flask import Flask, render_template, request
 
--   from models import \*
+-   from models import &ast;
 
 -   
 
--   app = Flask(\_\_name\_\_)
+-   app = Flask(&lowbar;&lowbar;name&lowbar;&lowbar;)
 
--   app.config\[\"SQLALCHEMY_DATABASE_URI\"\] =
-    os.getenv(\"DATABASE_URL\")
+-   app.config&lbrack;&quot;SQLALCHEMY_DATABASE_URI&quot;&rbrack; =
+    os.getenv(&quot;DATABASE_URL&quot;)
 
--   app.config\[\"SQLALCHEMY_TRACK_MODIFICATIONS\"\] = False
+-   app.config&lbrack;&quot;SQLALCHEMY_TRACK_MODIFICATIONS&quot;&rbrack; = False
 
 -   db.init_app(app)
 
@@ -2775,53 +2775,53 @@ height="1.1533672353455817in"}
 
 -   
 
--   \@app.route(\"/\")
+-   &commat;app.route(&quot;/&quot;)
 
 -   def index():
 
 -   flights = Flight.query.all()
 
--   return render_template(\"index.html\", flights=flights)
+-   return render_template(&quot;index.html&quot;, flights=flights)
 
 -   
 
 -   
 
--   \@app.route(\"/book\", methods=\[\"POST\"\])
+-   &commat;app.route(&quot;/book&quot;, methods=&lbrack;&quot;POST&quot;&rbrack;)
 
 -   def book():
 
--   \"\"\"Book a flight.\"\"\"
+-   &quot;&quot;&quot;Book a flight.&quot;&quot;&quot;
 
 -   
 
--   \# Get form information.
+-   &pound; Get form information.
 
--   name = request.form.get(\"name\")
+-   name = request.form.get(&quot;name&quot;)
 
 -   try:
 
--   flight_id = int(request.form.get(\"flight_id\"))
+-   flight_id = int(request.form.get(&quot;flight_id&quot;))
 
 -   except ValueError:
 
--   return render_template(\"error.html\", message=\"Invalid flight
-    number.\")
+-   return render_template(&quot;error.html&quot;, message=&quot;Invalid flight
+    number.&quot;)
 
 -   
 
--   \# Make sure the flight exists.
+-   &pound; Make sure the flight exists.
 
 -   flight = Flight.query.get(flight_id)
 
 -   if flight is None:
 
--   return render_template(\"error.html\", message=\"No such flight with
-    that id.\")
+-   return render_template(&quot;error.html&quot;, message=&quot;No such flight with
+    that id.&quot;)
 
 -   
 
--   \# Add passenger.
+-   &pound; Add passenger.
 
 -   passenger = Passenger(name=name, flight_id=flight_id)
 
@@ -2829,49 +2829,49 @@ height="1.1533672353455817in"}
 
 -   db.session.commit()
 
--   return render_template(\"success.html\")
+-   return render_template(&quot;success.html&quot;)
 
 -   
 
 -   
 
--   \@app.route(\"/flights\")
+-   &commat;app.route(&quot;/flights&quot;)
 
 -   def flights():
 
--   \"\"\"List all flights.\"\"\"
+-   &quot;&quot;&quot;List all flights.&quot;&quot;&quot;
 
 -   flights = Flight.query.all()
 
--   return render_template(\"flights.html\", flights=flights)
+-   return render_template(&quot;flights.html&quot;, flights=flights)
 
 -   
 
 -   
 
--   \@app.route(\"/flights/\<int:flight_id\>\")
+-   &commat;app.route(&quot;/flights/&lt;int:flight_id&gt;&quot;)
 
 -   def flight(flight_id):
 
--   \"\"\"List details about a single flight.\"\"\"
+-   &quot;&quot;&quot;List details about a single flight.&quot;&quot;&quot;
 
 -   
 
--   \# Make sure flight exists.
+-   &pound; Make sure flight exists.
 
 -   flight = Flight.query.get(flight_id)
 
 -   if flight is None:
 
--   return render_template(\"error.html\", message=\"No such flight.\")
+-   return render_template(&quot;error.html&quot;, message=&quot;No such flight.&quot;)
 
 -   
 
--   \# Get all passengers.
+-   &pound; Get all passengers.
 
 -   passengers = Passenger.query.filter_by(flight_id=flight_id).all()
 
--   return render_template(\"flight.html\", flight=flight,
+-   return render_template(&quot;flight.html&quot;, flight=flight,
     passengers=passengers)
 
 -   Because classes are flexible, whatever additional functionality the
@@ -2903,7 +2903,7 @@ height="1.1533672353455817in"}
     other. A relationship is set up with a single line, which in this
     case would be added to the definition of the Flight class.
 
--   passengers = db.relationship(\"Passenger\", backref=\"flight\",
+-   passengers = db.relationship(&quot;Passenger&quot;, backref=&quot;flight&quot;,
     lazy=True)
 
     -   passengers is not a column, but rather just a relationship.
@@ -2924,21 +2924,21 @@ height="1.1533672353455817in"}
 
 -   Once again, SQL's SELECT...¦
 
--   SELECT \* FROM passengers
+-   SELECT &ast; FROM passengers
 
 -   WHERE flight_id = 1
 
--   SELECT \* FROM flights JOIN passengers
+-   SELECT &ast; FROM flights JOIN passengers
 
 -   ON flights.id = passengers.flight_id
 
--   WHERE passengers.name = \'Alice\';
+-   WHERE passengers.name = &apos;Alice&apos;;
 
 -   ...¦and Python's relationship-powered SELECT.
 
 -   Flight.query.get(1).passengers
 
--   Passenger.query.filter_by(name=\"Alice\").first().flight
+-   Passenger.query.filter_by(name=&quot;Alice&quot;).first().flight
 
 ## APIs
 
@@ -2961,25 +2961,25 @@ height="1.1533672353455817in"}
 
 -   {
 
--   \"origin\" : {
+-   &quot;origin&quot; : {
 
--   \"city\": \"Tokyo\",
+-   &quot;city&quot;: &quot;Tokyo&quot;,
 
--   \"code\": \"HND\"
-
--   },
-
--   \"destination\": {
-
--   \"city\": \"Shanghai\",
-
--   \"code\": \"PVG\"
+-   &quot;code&quot;: &quot;HND&quot;
 
 -   },
 
--   \"duration\" : 185,
+-   &quot;destination&quot;: {
 
--   \"passengers\" : \[\"Alice\", \"Bob\"\]
+-   &quot;city&quot;: &quot;Shanghai&quot;,
+
+-   &quot;code&quot;: &quot;PVG&quot;
+
+-   },
+
+-   &quot;duration&quot; : 185,
+
+-   &quot;passengers&quot; : &lbrack;&quot;Alice&quot;, &quot;Bob&quot;&rbrack;
 
 -   }
 
@@ -3034,26 +3034,34 @@ height="1.1533672353455817in"}
 
 -   def main():
 
--   res = requests.get(\"https://www.google.com/\")
+-   res = requests.get(&quot;https://www.google.com/&quot;)
 
 -   print(res.text)
 
--   \- \`res\` (response) is the HTTP response that comes from
-    submitting, in this case, a \`GET\` request to a URL. All the
+-   &minus; &apos;res&apos; (response) is the HTTP response that comes from
+    submitting, in this case, a &apos;GET&apos; request to a URL. All the
     following are also valid:
 
--   \- \`requests.post(url)\`
+-   &minus; &apos;requests.post(url)&apos;
 
--   \- \`requests.put(url)\`
+-   &minus; &apos;requests.put(url)&apos;
 
--   \- \`requests.patch(url)\`
+-   &minus; &apos;requests.patch(url)&apos;
 
--   \- \`requests.delete(url)\`
+-   &minus; &apos;requests.delete(url)&apos;
 
--   \- \`res.text\` is the HTML content of the page that is returned
+-   &minus; &apos;res.text&apos; is the HTML content of the page that is returned
     from the request.
-
-### ![](./images/image021.png){width="7.552083333333333in" height="0.7763888888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 21.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image021.png"
+  class="lazyload"
+  style="width:100%;"
+  title=""
+  alt="." />
+</p>
+<!-- ### ![](./images/image021.png){width="7.552083333333333in" height="0.7763888888888889in"} -->
 
 ### 
 
@@ -3073,17 +3081,17 @@ height="1.1533672353455817in"}
 
 -   {
 
--   \"success\": true,
+-   &quot;success&quot;: true,
 
--   \"timestamp\": 1519296206,
+-   &quot;timestamp&quot;: 1519296206,
 
--   \"base\": \"EUR\",
+-   &quot;base&quot;: &quot;EUR&quot;,
 
--   \"date\": \"2018-07-11\",
+-   &quot;date&quot;: &quot;2018-07-11&quot;,
 
--   \"rates\": {
+-   &quot;rates&quot;: {
 
--   \"USD\": 1.177482
+-   &quot;USD&quot;: 1.177482
 
 -   }
 
@@ -3092,60 +3100,60 @@ height="1.1533672353455817in"}
 -   This API can be accessed in Python using the Requests library.
 
 -   res =
-    requests.get(\"http://data.fixer.io/api/latest?access_key=apikey&base=EUR&symbols=USD\")
+    requests.get(&quot;http://data.fixer.io/api/latest?access_key=apikey&base=EUR&symbols=USD&quot;)
 
 -   if res.status_code != 200:
 
--   raise Exception(\"ERROR: API request unsuccessful.\")
+-   raise Exception(&quot;ERROR: API request unsuccessful.&quot;)
 
 -   data = res.json()
 
 -   print(data)
 
--   \- Checking the status code of the HTTP response ensures that the
+-   &minus; Checking the status code of the HTTP response ensures that the
     API returned what is expected by the application (a JSON formatted
     like the one above). As an aside, here are some common HTTP status
     codes. Generally, a leading 2 indicates a successful response, while
     a leading 4 indicates a failed request.
 
--   \- \`200 OK\`
+-   &minus; &apos;200 OK&apos;
 
--   \- \`201 Created\`
+-   &minus; &apos;201 Created&apos;
 
--   \- \`400 Bad Request\`
+-   &minus; &apos;400 Bad Request&apos;
 
--   \- \`403 Forbidden\`
+-   &minus; &apos;403 Forbidden&apos;
 
--   \- \`404 Not Found\`
+-   &minus; &apos;404 Not Found&apos;
 
--   \- \`405 Method Not Allowed\`
+-   &minus; &apos;405 Method Not Allowed&apos;
 
--   \- \`422 Unprocessable Entity\`
+-   &minus; &apos;422 Unprocessable Entity&apos;
 
--   \- \`res.json()\` simply extracts the JSON response and puts into
-    the Python variable \`data\`.
+-   &minus; &apos;res.json()&apos; simply extracts the JSON response and puts into
+    the Python variable &apos;data&apos;.
 
 -   The previous returned the entire, raw JSON returned by the API.
     Since the format of the JSON is consistent and known, the most
     relevant information can be extracted and displayed.
 
--   rate = data\[\"rates\"\]\[\"USD\"\]
+-   rate = data&lbrack;&quot;rates&quot;&rbrack;&lbrack;&quot;USD&quot;&rbrack;
 
--   print(f\"1 EUR is equal to {rate} USD\")
+-   print(f&quot;1 EUR is equal to {rate} USD&quot;)
 
 -   For a little more flexibility on what currencies are being
     converted, user input can be taken like so:
 
--   base = input(\"First Currency: \")
+-   base = input(&quot;First Currency: &quot;)
 
--   other = input(\"Second Currency: \")
+-   other = input(&quot;Second Currency: &quot;)
 
--   res = requests.get(\"http://data.fixer.io/api/latest\",
+-   res = requests.get(&quot;http://data.fixer.io/api/latest&quot;,
 
--   params={\"access_key\": apikey, \"base\": base, \"symbols\": other})
+-   params={&quot;access_key&quot;: apikey, &quot;base&quot;: base, &quot;symbols&quot;: other})
 
     -   What parameters should be passed into params (in this
-        case, \"access_key\", \"base\" and \"symbols\") are defined in
+        case, &quot;access_key&quot;, &quot;base&quot; and &quot;symbols&quot;) are defined in
         the API documentation.
 
 ### Creating an API
@@ -3158,33 +3166,33 @@ height="1.1533672353455817in"}
 
 -   
 
--   \# \... other imports, set up code, and routes \...
+-   &pound; &hellip; other imports, set up code, and routes &hellip;
 
 -   
 
--   \@app.route(\"/api/flights/\<int:flight_id\>\")
+-   &commat;app.route(&quot;/api/flights/&lt;int:flight_id&gt;&quot;)
 
 -   def flight_api(flight_id):
 
--   \"\"\"Return details about a single flight.\"\"\"
+-   &quot;&quot;&quot;Return details about a single flight.&quot;&quot;&quot;
 
 -   
 
--   \# Make sure flight exists.
+-   &pound; Make sure flight exists.
 
 -   flight = Flight.query.get(flight_id)
 
 -   if flight is None:
 
--   return jsonify({\"error\": \"Invalid flight_id\"}), 422
+-   return jsonify({&quot;error&quot;: &quot;Invalid flight_id&quot;}), 422
 
 -   
 
--   \# Get all passengers.
+-   &pound; Get all passengers.
 
 -   passengers = flight.passengers
 
--   names = \[\]
+-   names = &lbrack;&rbrack;
 
 -   for passenger in passengers:
 
@@ -3192,13 +3200,13 @@ height="1.1533672353455817in"}
 
 -   return jsonify({
 
--   \"origin\": flight.origin,
+-   &quot;origin&quot;: flight.origin,
 
--   \"destination\": flight.destination,
+-   &quot;destination&quot;: flight.destination,
 
--   \"duration\": flight.duration,
+-   &quot;duration&quot;: flight.duration,
 
--   \"passengers\": names
+-   &quot;passengers&quot;: names
 
 -   })
 
@@ -3253,45 +3261,45 @@ height="1.1533672353455817in"}
     class, one of the more popular, recent versions, ES6, will be used.
 
 -   When embedded directly inside the HTML code for a webpage, it is
-    enclosed in \<script\>\</script\> tags.
+    enclosed in &lt;script&gt;&lt;/script&gt; tags.
 
--   \<script\>
+-   &lt;script&gt;
 
--   alert(\'Hello, world!\');
+-   alert(&apos;Hello, world!&apos;);
 
--   \</script\>
+-   &lt;/script&gt;
 
 -   The previous code example, if placed in the head element, for
     example, would run as soon as the page is loaded. JavaScript can
     also be run in response to events.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
 -   function hello() {
 
--   alert(\'Hello!\');
+-   alert(&apos;Hello!&apos;);
 
 -   }
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \<title\>My Website\</title\>
+-   &lt;title&gt;My Website&lt;/title&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1\>Welcome!\</h1\>
+-   &lt;h1&gt;Welcome!&lt;/h1&gt;
 
--   \<button onclick=\"hello()\"\>Click Here!\</button\>
+-   &lt;button onclick=&quot;hello()&quot;&gt;Click Here!&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   Now, the JavaScript code is contained inside a function. Note
         that the function is delimited by curly braces.
@@ -3321,43 +3329,43 @@ height="1.1533672353455817in"}
 -   Beyond just displaying alerts, JavaScript has the power to actually
     change the contents of a webpage.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
 -   // Function to change heading to say goodbye
 
 -   function hello() {
 
--   document.querySelector(\'h1\').innerHTML = \'Goodbye!\';
+-   document.querySelector(&apos;h1&apos;).innerHTML = &apos;Goodbye!&apos;;
 
 -   }
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1\>Welcome!\</h1\>
+-   &lt;h1&gt;Welcome!&lt;/h1&gt;
 
--   \<button onclick=\"hello()\"\>Click Here!\</button\>
+-   &lt;button onclick=&quot;hello()&quot;&gt;Click Here!&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   document refers to the web page currently being displayed.
 
-    -   querySelector(\'tag\') is a function that searches through the
+    -   querySelector(&apos;tag&apos;) is a function that searches through the
         webpage for a particular CSS selector and returns that element.
         If there are multiple results, only the first result is
         returned.
 
         -   This function can also be called
-            as document.querySelector(\'#id\') and document.querySelector(\'.class\').
+            as document.querySelector(&apos;#id&apos;) and document.querySelector(&apos;.class&apos;).
             More sophisticated selectors, selecting only descendants of
             certain elements for example, can also be used.
 
@@ -3370,11 +3378,11 @@ height="1.1533672353455817in"}
 -   This slightly more advanced example showcases the use of variables
     in JavaScript.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
 -   let counter = 0;
 
@@ -3384,23 +3392,23 @@ height="1.1533672353455817in"}
 
 -   counter++;
 
--   document.querySelector(\'#counter\').innerHTML = counter;
+-   document.querySelector(&apos;#counter&apos;).innerHTML = counter;
 
 -   }
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1 id=\"counter\"\>0\</h1\>
+-   &lt;h1 id=&quot;counter&quot;&gt;0&lt;/h1&gt;
 
--   \<button onclick=\"count()\"\>Click Here!\</button\>
+-   &lt;button onclick=&quot;count()&quot;&gt;Click Here!&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   let is a keyword used to define variables.
 
@@ -3408,7 +3416,7 @@ height="1.1533672353455817in"}
 
 -   Conditional statements in JavaScript look like this:
 
--   \<script\>
+-   &lt;script&gt;
 
 -   let counter = 0;
 
@@ -3418,19 +3426,19 @@ height="1.1533672353455817in"}
 
 -   counter++;
 
--   document.querySelector(\'#counter\').innerHTML = counter;
+-   document.querySelector(&apos;#counter&apos;).innerHTML = counter;
 
 -   
 
 -   if (counter % 10 === 0) {
 
--   alert(\`Counter is at \${counter}!\`);
+-   alert(&apos;Counter is at &dollar;{counter}!&apos;);
 
 -   }
 
 -   }
 
--   \</script\>
+-   &lt;/script&gt;
 
     -   % is the modulus operator, which returns the remainder of the
         first number divided by the second.
@@ -3439,21 +3447,21 @@ height="1.1533672353455817in"}
         identical for it to return true.
 
     -   The argument to alert is a template literal, which is like a
-        Python format string. \${counter} is replaced with whatever the
+        Python format string. &dollar;{counter} is replaced with whatever the
         value of the variable counter is. Backticks are used to delimit
         a template literal.
 
 -   JavaScript can also be factored out of the HTML code entirely.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   document.addEventListener(\'DOMContentLoaded\', function() {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 
--   document.querySelector(\'button\').onclick = count;
+-   document.querySelector(&apos;button&apos;).onclick = count;
 
 -   });
 
@@ -3467,31 +3475,31 @@ height="1.1533672353455817in"}
 
 -   counter++;
 
--   document.querySelector(\'#counter\').innerHTML = counter;
+-   document.querySelector(&apos;#counter&apos;).innerHTML = counter;
 
 -   
 
 -   if (counter % 10 === 0) {
 
--   alert(\`Counter is at \${counter}!\`);
+-   alert(&apos;Counter is at &dollar;{counter}!&apos;);
 
 -   }
 
 -   }
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1 id=\"counter\"\>0\</h1\>
+-   &lt;h1 id=&quot;counter&quot;&gt;0&lt;/h1&gt;
 
--   \<button\>Click Here!\</button\>
+-   &lt;button&gt;Click Here!&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   Note that there is no onclick attribute in the HMTL tags for
         the button element. Nonetheless, the function addEventListener,
@@ -3513,23 +3521,23 @@ height="1.1533672353455817in"}
     inside the script element from the last example would go into
     the .js file, and the .html would look like this:
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script src=\"counter3.js\"\>\</script\>
+-   &lt;script src=&quot;counter3.js&quot;&gt;&lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1 id=\"counter\"\>0\</h1\>
+-   &lt;h1 id=&quot;counter&quot;&gt;0&lt;/h1&gt;
 
--   \<button\>Click Here!\</button\>
+-   &lt;button&gt;Click Here!&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   This is exactly the same paradigm that was seen in factoring out
         CSS.
@@ -3551,13 +3559,13 @@ height="1.1533672353455817in"}
 -   Here is an example showcasing these different ways to define
     variables:
 
--   \<script\>
+-   &lt;script&gt;
 
 -   // This variable exists even outside the loop
 
 -   if (true) {
 
--   var message = \'Hello!\';
+-   var message = &apos;Hello!&apos;;
 
 -   }
 
@@ -3565,18 +3573,18 @@ height="1.1533672353455817in"}
 
 -   alert(message);
 
--   \</script\>
+-   &lt;/script&gt;
 
     -   Because var was used to define message, there will be no errors
         running this code.
 
-    -   \<script\>
+    -   &lt;script&gt;
 
     -   // This variable does not exist outside the loop
 
     -   if (true) {
 
-    -   let message = \'Hello!\';
+    -   let message = &apos;Hello!&apos;;
 
     -   }
 
@@ -3584,7 +3592,7 @@ height="1.1533672353455817in"}
 
     -   alert(message);
 
-    -   \</script\>
+    -   &lt;/script&gt;
 
     -   Because let was used to define message, it cannot be passed
         to alert, which is outside the scope of message. If this were in
@@ -3592,19 +3600,19 @@ height="1.1533672353455817in"}
         If the console were opened in the browser, there would be
         an Uncaught ReferenceError.
 
-    -   \<script\>
+    -   &lt;script&gt;
 
     -   // The value of const variables cannot change
 
-    -   const message = \'Hello!\';
+    -   const message = &apos;Hello!&apos;;
 
-    -   message = \'Goodbye!\';
+    -   message = &apos;Goodbye!&apos;;
 
     -   
 
     -   alert(message);
 
-    -   \</script\>
+    -   &lt;/script&gt;
 
     -   Similar to the last example, no alert will pop up. In the
         console, there would be an Uncaught TypeError, since there was
@@ -3617,42 +3625,42 @@ height="1.1533672353455817in"}
 -   Here's another example which uses JavaScript to read info from a
     form.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   document.addEventListener(\'DOMContentLoaded\', function() {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 
--   document.querySelector(\'#form\').onsubmit = function() {
+-   document.querySelector(&apos;#form&apos;).onsubmit = function() {
 
--   const name = document.querySelector(\'#name\').value;
+-   const name = document.querySelector(&apos;#name&apos;).value;
 
--   alert(\`Hello \${name}!\`);
+-   alert(&apos;Hello &dollar;{name}!&apos;);
 
 -   };
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<form id=\"form\"\>
+-   &lt;form id=&quot;form&quot;&gt;
 
--   \<input id=\"name\" autocomplete=\"off\" autofocus
-    placeholder=\"Name\" type=\"text\"\>
+-   &lt;input id=&quot;name&quot; autocomplete=&quot;off&quot; autofocus
+    placeholder=&quot;Name&quot; type=&quot;text&quot;&gt;
 
--   \<input type=\"submit\"\>
+-   &lt;input type=&quot;submit&quot;&gt;
 
--   \</form\>
+-   &lt;/form&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   The callback function here selects the element with the
         id form and sets its onsubmit (another event) property to
@@ -3668,21 +3676,21 @@ height="1.1533672353455817in"}
 
 -   JavaScript can also modify the CSS properties of elements.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   document.addEventListener(\'DOMContentLoaded\', function() {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 
 -   
 
 -   // Change font color to red
 
--   document.querySelector(\'#red\').onclick = function() {
+-   document.querySelector(&apos;#red&apos;).onclick = function() {
 
--   document.querySelector(\'#hello\').style.color = \'red\';
+-   document.querySelector(&apos;#hello&apos;).style.color = &apos;red&apos;;
 
 -   };
 
@@ -3690,9 +3698,9 @@ height="1.1533672353455817in"}
 
 -   // Change font color to blue
 
--   document.querySelector(\'#blue\').onclick = function() {
+-   document.querySelector(&apos;#blue&apos;).onclick = function() {
 
--   document.querySelector(\'#hello\').style.color = \'blue\';
+-   document.querySelector(&apos;#hello&apos;).style.color = &apos;blue&apos;;
 
 -   };
 
@@ -3700,31 +3708,31 @@ height="1.1533672353455817in"}
 
 -   // Change font color to green
 
--   document.querySelector(\'#green\').onclick = function() {
+-   document.querySelector(&apos;#green&apos;).onclick = function() {
 
--   document.querySelector(\'#hello\').style.color = \'green\';
+-   document.querySelector(&apos;#hello&apos;).style.color = &apos;green&apos;;
 
 -   };
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1 id=\"hello\"\>Hello!\</h1\>
+-   &lt;h1 id=&quot;hello&quot;&gt;Hello!&lt;/h1&gt;
 
--   \<button id=\"red\"\>Red\</button\>
+-   &lt;button id=&quot;red&quot;&gt;Red&lt;/button&gt;
 
--   \<button id=\"blue\"\>Blue\</button\>
+-   &lt;button id=&quot;blue&quot;&gt;Blue&lt;/button&gt;
 
--   \<button id=\"green\"\>Green\</button\>
+-   &lt;button id=&quot;green&quot;&gt;Green&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   There are three buttons, each of which (after the initial
         callback from loading the webpage) have their onclick properties
@@ -3734,24 +3742,24 @@ height="1.1533672353455817in"}
 
 -   The repetitiveness of the last example can be reduced.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   document.addEventListener(\'DOMContentLoaded\', function() {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
 
 -   
 
 -   // Have each button change the color of the heading
 
--   document.querySelectorAll(\'.color-change\').forEach(function(button)
+-   document.querySelectorAll(&apos;.color-change&apos;).forEach(function(button)
     {
 
 -   button.onclick = function() {
 
--   document.querySelector(\'#hello\').style.color =
+-   document.querySelector(&apos;#hello&apos;).style.color =
     button.dataset.color;
 
 -   };
@@ -3762,26 +3770,26 @@ height="1.1533672353455817in"}
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1 id=\"hello\"\>Hello!\</h1\>
+-   &lt;h1 id=&quot;hello&quot;&gt;Hello!&lt;/h1&gt;
 
--   \<button class=\"color-change\" data-color=\"red\"\>Red\</button\>
+-   &lt;button class=&quot;color-change&quot; data-color=&quot;red&quot;&gt;Red&lt;/button&gt;
 
--   \<button class=\"color-change\" data-color=\"blue\"\>Blue\</button\>
+-   &lt;button class=&quot;color-change&quot; data-color=&quot;blue&quot;&gt;Blue&lt;/button&gt;
 
--   \<button class=\"color-change\"
-    data-color=\"green\"\>Green\</button\>
+-   &lt;button class=&quot;color-change&quot;
+    data-color=&quot;green&quot;&gt;Green&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
-    -   document.querySelectorAll(\'.color-change\') returns an array of
+    -   document.querySelectorAll(&apos;.color-change&apos;) returns an array of
         all elements of the class color-change.
 
     -   forEach is a built-in JavaScript function that can be called on
@@ -3808,15 +3816,15 @@ height="1.1533672353455817in"}
     arrow notation that allows for the definition of so-called arrow
     functions.
 
--   () =\> {
+-   () =&gt; {
 
--   alert(\'Hello, world!\');
+-   alert(&apos;Hello, world!&apos;);
 
 -   }
 
 -   
 
--   x =\> {
+-   x =&gt; {
 
 -   alert(x);
 
@@ -3824,7 +3832,7 @@ height="1.1533672353455817in"}
 
 -   
 
--   x =\> x \* 2;
+-   x =&gt; x &ast; 2;
 
     -   An arrow function is defined without using the word function,
         but rather just with a pair of parentheses enclosing any
@@ -3841,17 +3849,17 @@ height="1.1533672353455817in"}
 -   The previous example could be rewritten more succintly with arrow
     functions.
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
 -   
 
 -   // Have each button change the color of the heading
 
--   document.querySelectorAll(\'.color-change\').forEach(button =\> {
+-   document.querySelectorAll(&apos;.color-change&apos;).forEach(button =&gt; {
 
--   button.onclick = () =\> {
+-   button.onclick = () =&gt; {
 
--   document.querySelector(\'#hello\').style.color =
+-   document.querySelector(&apos;#hello&apos;).style.color =
     button.dataset.color;
 
 -   };
@@ -3865,21 +3873,21 @@ height="1.1533672353455817in"}
 -   One last variation of this color example could use a drop-down menu
     to select colors instead of buttons.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
 -   
 
 -   // Change the color of the heading when dropdown changes
 
--   document.querySelector(\'#color-change\').onchange = function() {
+-   document.querySelector(&apos;#color-change&apos;).onchange = function() {
 
--   document.querySelector(\'#hello\').style.color = this.value;
+-   document.querySelector(&apos;#hello&apos;).style.color = this.value;
 
 -   };
 
@@ -3887,35 +3895,35 @@ height="1.1533672353455817in"}
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1 id=\"hello\"\>Hello!\</h1\>
+-   &lt;h1 id=&quot;hello&quot;&gt;Hello!&lt;/h1&gt;
 
--   \<select id=\"color-change\"\>
+-   &lt;select id=&quot;color-change&quot;&gt;
 
--   \<option value=\"black\"\>Black\</option\>
+-   &lt;option value=&quot;black&quot;&gt;Black&lt;/option&gt;
 
--   \<option value=\"red\"\>Red\</option\>
+-   &lt;option value=&quot;red&quot;&gt;Red&lt;/option&gt;
 
--   \<option value=\"blue\"\>Blue\</option\>
+-   &lt;option value=&quot;blue&quot;&gt;Blue&lt;/option&gt;
 
--   \<option value=\"green\"\>Green\</option\>
+-   &lt;option value=&quot;green&quot;&gt;Green&lt;/option&gt;
 
--   \</select\>
+-   &lt;/select&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   onchange is the event fired when the selection in a drop-down
         menu is changed.
 
     -   this refers to whatever value the function is operating on,
-        which in this case is document.querySelector(\'#color-change\'),
+        which in this case is document.querySelector(&apos;#color-change&apos;),
         which is the drop-down menu itself. The selected item is
         extracted using the value attribute of the drop-down menu, which
         corresponds to one of the color options.
@@ -3932,37 +3940,37 @@ height="1.1533672353455817in"}
 -   In the next example, the goal will to be create a to-do list
     application. Here's the starting point:
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
 -   
 
--   document.querySelector(\'#new-task\').onsubmit = () =\> {
+-   document.querySelector(&apos;#new-task&apos;).onsubmit = () =&gt; {
 
 -   
 
 -   // Create new item for list
 
--   const li = document.createElement(\'li\');
+-   const li = document.createElement(&apos;li&apos;);
 
--   li.innerHTML = document.querySelector(\'#task\').value;
+-   li.innerHTML = document.querySelector(&apos;#task&apos;).value;
 
 -   
 
 -   // Add new item to task list
 
--   document.querySelector(\'#tasks\').append(li);
+-   document.querySelector(&apos;#tasks&apos;).append(li);
 
 -   
 
 -   // Clear input field
 
--   document.querySelector(\'#task\').value = \'\';
+-   document.querySelector(&apos;#task&apos;).value = &apos;&apos;;
 
 -   
 
@@ -3976,39 +3984,39 @@ height="1.1533672353455817in"}
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \<title\>Tasks\</title\>
+-   &lt;title&gt;Tasks&lt;/title&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1\>Tasks\</h1\>
+-   &lt;h1&gt;Tasks&lt;/h1&gt;
 
--   \<ul id=\"tasks\"\>
+-   &lt;ul id=&quot;tasks&quot;&gt;
 
--   \</ul\>
+-   &lt;/ul&gt;
 
--   \<form id=\"new-task\"\>
+-   &lt;form id=&quot;new-task&quot;&gt;
 
--   \<input id=\"task\" autocomplete=\"off\" autofocus placeholder=\"New
-    Task\" type=\"text\"\>
+-   &lt;input id=&quot;task&quot; autocomplete=&quot;off&quot; autofocus placeholder=&quot;New
+    Task&quot; type=&quot;text&quot;&gt;
 
--   \<input type=\"submit\"\>
+-   &lt;input type=&quot;submit&quot;&gt;
 
--   \</form\>
+-   &lt;/form&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   The tasks unordered list starts empty, but will be populated
         with user input.
 
     -   In the JavaScript code, when the form is submitted, a
         new li element is assigned to the const variable li using the
-        function document.createElement(\'li\'). Then, the innerHTML of
+        function document.createElement(&apos;li&apos;). Then, the innerHTML of
         that li is set to be whatever the value of the task input field
         is.
 
@@ -4024,25 +4032,25 @@ height="1.1533672353455817in"}
 
 -   // By default, submit button is disabled
 
--   document.querySelector(\'#submit\').disabled = true;
+-   document.querySelector(&apos;#submit&apos;).disabled = true;
 
 -   
 
 -   // Enable button only if there is text in the input field
 
--   document.querySelector(\'#task\').onkeyup = () =\> {
+-   document.querySelector(&apos;#task&apos;).onkeyup = () =&gt; {
 
--   document.querySelector(\'#submit\').disabled = false;
+-   document.querySelector(&apos;#submit&apos;).disabled = false;
 
 -   
 
--   // \...same code as before\...
+-   // &hellip;same code as before&hellip;
 
 -   
 
 -   // Disable button again after submit
 
--   document.querySelector(\'#submit\').disabled = true;
+-   document.querySelector(&apos;#submit&apos;).disabled = true;
 
 -   
 
@@ -4063,28 +4071,28 @@ height="1.1533672353455817in"}
 
 -   // Enable button only if there is text in the input field
 
--   document.querySelector(\'#task\').onkeyup = () =\> {
+-   document.querySelector(&apos;#task&apos;).onkeyup = () =&gt; {
 
--   if (document.querySelector(\'#task\').value.length \> 0)
+-   if (document.querySelector(&apos;#task&apos;).value.length &gt; 0)
 
--   document.querySelector(\'#submit\').disabled = false;
+-   document.querySelector(&apos;#submit&apos;).disabled = false;
 
 -   else
 
--   document.querySelector(\'#submit\').disabled = true;
+-   document.querySelector(&apos;#submit&apos;).disabled = true;
 
 -   };
 
 -   Another feature of JavaScript is the ability to wait for a certain
     amount of time.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
 -   setInterval(count, 1000);
 
@@ -4100,21 +4108,21 @@ height="1.1533672353455817in"}
 
 -   counter++;
 
--   document.querySelector(\'#counter\').innerHTML = counter;
+-   document.querySelector(&apos;#counter&apos;).innerHTML = counter;
 
 -   }
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1 id=\"counter\"\>0\</h1\>
+-   &lt;h1 id=&quot;counter&quot;&gt;0&lt;/h1&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   The setInterval function takes another function and then the
         interval (in milliseconds), after which the passed function will
@@ -4127,36 +4135,36 @@ height="1.1533672353455817in"}
     The maintain some persistence, JavaScript can use local storage to
     keep track of some state information.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
 -   // Set starting value of counter to 0
 
--   if (!localStorage.getItem(\'counter\'))
+-   if (!localStorage.getItem(&apos;counter&apos;))
 
--   localStorage.setItem(\'counter\', 0);
+-   localStorage.setItem(&apos;counter&apos;, 0);
 
 -   
 
 -   // Load current value of counter
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
--   document.querySelector(\'#counter\').innerHTML =
-    localStorage.getItem(\'counter\');
+-   document.querySelector(&apos;#counter&apos;).innerHTML =
+    localStorage.getItem(&apos;counter&apos;);
 
 -   
 
 -   // Count every time button is clicked
 
--   document.querySelector(\'button\').onclick = () =\> {
+-   document.querySelector(&apos;button&apos;).onclick = () =&gt; {
 
 -   // Increment current counter
 
--   let counter = localStorage.getItem(\'counter\');
+-   let counter = localStorage.getItem(&apos;counter&apos;);
 
 -   counter++;
 
@@ -4164,27 +4172,27 @@ height="1.1533672353455817in"}
 
 -   // Update counter
 
--   document.querySelector(\'#counter\').innerHTML = counter;
+-   document.querySelector(&apos;#counter&apos;).innerHTML = counter;
 
--   localStorage.setItem(\'counter\', counter);
+-   localStorage.setItem(&apos;counter&apos;, counter);
 
 -   }
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1 id=\"counter\"\>\</h1\>
+-   &lt;h1 id=&quot;counter&quot;&gt;&lt;/h1&gt;
 
--   \<button\>Click Here!\</button\>
+-   &lt;button&gt;Click Here!&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   localStorage is the variable that JavaScript can store
         information at. getItem and setItem can be called
@@ -4216,76 +4224,76 @@ height="1.1533672353455817in"}
     different here from last week, but note that what's being returned
     is not a new webpage, but rather just a JSON object.
 
--   \@app.route(\"/convert\", methods=\[\"POST\"\])
+-   &commat;app.route(&quot;/convert&quot;, methods=&lbrack;&quot;POST&quot;&rbrack;)
 
 -   def convert():
 
 -   
 
--   \# Query for currency exchange rate
+-   &pound; Query for currency exchange rate
 
--   currency = request.form.get(\"currency\")
+-   currency = request.form.get(&quot;currency&quot;)
 
--   res = requests.get(\"https://api.fixer.io/latest\", params={
+-   res = requests.get(&quot;https://api.fixer.io/latest&quot;, params={
 
--   \"base\": \"USD\", \"symbols\": currency})
+-   &quot;base&quot;: &quot;USD&quot;, &quot;symbols&quot;: currency})
 
 -   
 
--   \# Make sure request succeeded
+-   &pound; Make sure request succeeded
 
 -   if res.status_code != 200:
 
--   return jsonify({\"success\": False})
+-   return jsonify({&quot;success&quot;: False})
 
 -   
 
--   \# Make sure currency is in response
+-   &pound; Make sure currency is in response
 
 -   data = res.json()
 
--   if currency not in data\[\"rates\"\]:
+-   if currency not in data&lbrack;&quot;rates&quot;&rbrack;:
 
--   return jsonify({\"success\": False})
+-   return jsonify({&quot;success&quot;: False})
 
 -   
 
--   return jsonify({\"success\": True, \"rate\":
-    data\[\"rates\"\]\[currency\]})
+-   return jsonify({&quot;success&quot;: True, &quot;rate&quot;:
+    data&lbrack;&quot;rates&quot;&rbrack;&lbrack;currency&rbrack;})
 
 -   The HTML is simply a basic form. The JavaScript code is in a
     different file, but linked in the head.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script src=\"\"\>\</script\>
+-   &lt;script src=&quot;&quot;&gt;&lt;/script&gt;
 
--   \<title\>Currency Converter\</title\>
+-   &lt;title&gt;Currency Converter&lt;/title&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<form id=\"form\"\>
+-   &lt;form id=&quot;form&quot;&gt;
 
--   \<input id=\"currency\" autocomplete=\"off\" autofocus
-    placeholder=\"Currency\" type=\"text\"\>
+-   &lt;input id=&quot;currency&quot; autocomplete=&quot;off&quot; autofocus
+    placeholder=&quot;Currency&quot; type=&quot;text&quot;&gt;
 
--   \<input type=\"submit\" value=\"Get Exchange Rate\"\>
+-   &lt;input type=&quot;submit&quot; value=&quot;Get Exchange Rate&quot;&gt;
 
--   \</form\>
+-   &lt;/form&gt;
 
--   \<br\>
+-   &lt;br&gt;
 
--   \<div id=\"result\"\>\</div\>
+-   &lt;div id=&quot;result&quot;&gt;&lt;/div&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
-    -   url_for(\'static\', filename=\'index.js\') is Flask's way of
+    -   url_for(&apos;static&apos;, filename=&apos;index.js&apos;) is Flask's way of
         incorporating .js files. static is a separate folder.
 
     -   The result div will contain the conversion, but is currently
@@ -4293,11 +4301,11 @@ height="1.1533672353455817in"}
 
 -   The interesting code is inside of index.js.
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
 -   
 
--   document.querySelector(\'#form\').onsubmit = () =\> {
+-   document.querySelector(&apos;#form&apos;).onsubmit = () =&gt; {
 
 -   
 
@@ -4305,15 +4313,15 @@ height="1.1533672353455817in"}
 
 -   const request = new XMLHttpRequest();
 
--   const currency = document.querySelector(\'#currency\').value;
+-   const currency = document.querySelector(&apos;#currency&apos;).value;
 
--   request.open(\'POST\', \'/convert\');
+-   request.open(&apos;POST&apos;, &apos;/convert&apos;);
 
 -   
 
 -   // Callback function for when request completes
 
--   request.onload = () =\> {
+-   request.onload = () =&gt; {
 
 -   
 
@@ -4327,16 +4335,16 @@ height="1.1533672353455817in"}
 
 -   if (data.success) {
 
--   const contents = \`1 USD is equal to \${data.rate} \${currency}.\`
+-   const contents = &apos;1 USD is equal to &dollar;{data.rate} &dollar;{currency}.&apos;
 
--   document.querySelector(\'#result\').innerHTML = contents;
+-   document.querySelector(&apos;#result&apos;).innerHTML = contents;
 
 -   }
 
 -   else {
 
--   document.querySelector(\'#result\').innerHTML = \'There was an
-    error.\';
+-   document.querySelector(&apos;#result&apos;).innerHTML = &apos;There was an
+    error.&apos;;
 
 -   }
 
@@ -4348,7 +4356,7 @@ height="1.1533672353455817in"}
 
 -   const data = new FormData();
 
--   data.append(\'currency\', currency);
+-   data.append(&apos;currency&apos;, currency);
 
 -   
 
@@ -4407,29 +4415,29 @@ height="1.1533672353455817in"}
 
 -   
 
--   app = Flask(\_\_name\_\_)
+-   app = Flask(&lowbar;&lowbar;name&lowbar;&lowbar;)
 
--   app.config\[\"SECRET_KEY\"\] = os.getenv(\"SECRET_KEY\")
+-   app.config&lbrack;&quot;SECRET_KEY&quot;&rbrack; = os.getenv(&quot;SECRET_KEY&quot;)
 
 -   socketio = SocketIO(app)
 
 -   
 
--   \@app.route(\"/\")
+-   &commat;app.route(&quot;/&quot;)
 
 -   def index():
 
--   return render_template(\"index.html\")
+-   return render_template(&quot;index.html&quot;)
 
 -   
 
--   @socketio\.on\("submit vote\")
+-   @socketio&period;on&lpar;"submit vote&quot;)
 
 -   def vote(data):
 
--   selection = data\[\"selection\"\]
+-   selection = data&lbrack;&quot;selection&quot;&rbrack;
 
--   emit(\"announce vote\", {\"selection\": selection}, broadcast=True)
+-   emit(&quot;announce vote&quot;, {&quot;selection&quot;: selection}, broadcast=True)
 
     -   flask_socketio is a library that allows for websockets inside a
         Flask application. This library allows for the web server and
@@ -4444,65 +4452,65 @@ height="1.1533672353455817in"}
 
 -   index.html:
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script type=\"text/javascript\"
-    src=\"//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js\"\>\</script\>
+-   &lt;script type=&quot;text/javascript&quot;
+    src=&quot;//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js&quot;&gt;&lt;/script&gt;
 
--   \<script src=\"\"\>\</script\>
+-   &lt;script src=&quot;&quot;&gt;&lt;/script&gt;
 
--   \<title\>Vote\</title\>
+-   &lt;title&gt;Vote&lt;/title&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<ul id=\"votes\"\>
+-   &lt;ul id=&quot;votes&quot;&gt;
 
--   \</ul\>
+-   &lt;/ul&gt;
 
--   \<hr\>
+-   &lt;hr&gt;
 
--   \<button data-vote=\"yes\"\>Yes\</button\>
+-   &lt;button data-vote=&quot;yes&quot;&gt;Yes&lt;/button&gt;
 
--   \<button data-vote=\"no\"\>No\</button\>
+-   &lt;button data-vote=&quot;no&quot;&gt;No&lt;/button&gt;
 
--   \<button data-vote=\"maybe\"\>Maybe\</button\>
+-   &lt;button data-vote=&quot;maybe&quot;&gt;Maybe&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
 -   index.js:
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
 -   
 
 -   // Connect to websocket
 
--   var socket = io.connect(location.protocol + \'//\' +
-    document.domain + \':\' + location.port);
+-   var socket = io.connect(location.protocol + &apos;//&apos; +
+    document.domain + &apos;:&apos; + location.port);
 
 -   
 
 -   // When connected, configure buttons
 
--   socket.on(\'connect\', () =\> {
+-   socket.on(&apos;connect&apos;, () =&gt; {
 
 -   
 
--   // Each button should emit a \"submit vote\" event
+-   // Each button should emit a &quot;submit vote&quot; event
 
--   document.querySelectorAll(\'button\').forEach(button =\> {
+-   document.querySelectorAll(&apos;button&apos;).forEach(button =&gt; {
 
--   button.onclick = () =\> {
+-   button.onclick = () =&gt; {
 
 -   const selection = button.dataset.vote;
 
--   socket.emit(\'submit vote\', {\'selection\': selection});
+-   socket.emit(&apos;submit vote&apos;, {&apos;selection&apos;: selection});
 
 -   };
 
@@ -4514,13 +4522,13 @@ height="1.1533672353455817in"}
 
 -   // When a new vote is announced, add to the unordered list
 
--   socket.on(\'announce vote\', data =\> {
+-   socket.on(&apos;announce vote&apos;, data =&gt; {
 
--   const li = document.createElement(\'li\');
+-   const li = document.createElement(&apos;li&apos;);
 
--   li.innerHTML = \`Vote recorded: \${data.selection}\`;
+-   li.innerHTML = &apos;Vote recorded: &dollar;{data.selection}&apos;;
 
--   document.querySelector(\'#votes\').append(li);
+-   document.querySelector(&apos;#votes&apos;).append(li);
 
 -   });
 
@@ -4542,27 +4550,27 @@ height="1.1533672353455817in"}
 
 -   Changes to application.py:
 
--   votes = {\"yes\": 0, \"no\": 0, \"maybe\": 0}
+-   votes = {&quot;yes&quot;: 0, &quot;no&quot;: 0, &quot;maybe&quot;: 0}
 
 -   
 
--   \@app.route(\"/\")
+-   &commat;app.route(&quot;/&quot;)
 
 -   def index():
 
--   return render_template(\"index.html\", votes=votes)
+-   return render_template(&quot;index.html&quot;, votes=votes)
 
 -   
 
--   @socketio\.on\("submit vote\")
+-   @socketio&period;on&lpar;"submit vote&quot;)
 
 -   def vote(data):
 
--   selection = data\[\"selection\"\]
+-   selection = data&lbrack;&quot;selection&quot;&rbrack;
 
--   votes\[selection\] += 1
+-   votes&lbrack;selection&rbrack; += 1
 
--   emit(\"vote totals\", votes, broadcast=True)
+-   emit(&quot;vote totals&quot;, votes, broadcast=True)
 
     -   Now, any vote submissions are first used to update
         the votes dictionary to keep a record of vote totals. Then, that
@@ -4570,36 +4578,36 @@ height="1.1533672353455817in"}
 
 -   Changes to index.html:
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<div\>Yes Votes: \<span id=\"yes\"\>\</span\>\</div\>
+-   &lt;div&gt;Yes Votes: &lt;span id=&quot;yes&quot;&gt;&lt;/span&gt;&lt;/div&gt;
 
--   \<div\>No Votes: \<span id=\"no\"\>\</span\>\</div\>
+-   &lt;div&gt;No Votes: &lt;span id=&quot;no&quot;&gt;&lt;/span&gt;&lt;/div&gt;
 
--   \<div\>Maybe Votes: \<span id=\"maybe\"\>\<span\>\</div\>
+-   &lt;div&gt;Maybe Votes: &lt;span id=&quot;maybe&quot;&gt;&lt;span&gt;&lt;/div&gt;
 
--   \<hr\>
+-   &lt;hr&gt;
 
--   \<button data-vote=\"yes\"\>Yes\</button\>
+-   &lt;button data-vote=&quot;yes&quot;&gt;Yes&lt;/button&gt;
 
--   \<button data-vote=\"no\"\>No\</button\>
+-   &lt;button data-vote=&quot;no&quot;&gt;No&lt;/button&gt;
 
--   \<button data-vote=\"maybe\"\>Maybe\</button\>
+-   &lt;button data-vote=&quot;maybe&quot;&gt;Maybe&lt;/button&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
     -   The span elements allocate a space for vote tallies to be filled
         in later.
 
 -   Changes to index.js:
 
--   socket.on(\'vote totals\', data =\> {
+-   socket.on(&apos;vote totals&apos;, data =&gt; {
 
--   document.querySelector(\'#yes\').innerHTML = data.yes;
+-   document.querySelector(&apos;#yes&apos;).innerHTML = data.yes;
 
--   document.querySelector(\'#no\').innerHTML = data.no;
+-   document.querySelector(&apos;#no&apos;).innerHTML = data.no;
 
-> document.querySelector(\'#maybe\').innerHTML = data.maybe;
+> document.querySelector(&apos;#maybe&apos;).innerHTML = data.maybe;
 
 1.  [Front
     Ends](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/73e05adf7b6e4009a779cca48b9ef64b/)
@@ -4617,51 +4625,51 @@ height="1.1533672353455817in"}
 
 > For a starting point, this application uses multiple pages.
 
--   \@app.route(\"/\")
+-   &commat;app.route(&quot;/&quot;)
 
 -   def first():
 
--   return render_template(\"first.html\")
+-   return render_template(&quot;first.html&quot;)
 
 -   
 
--   \@app.route(\"/second\")
+-   &commat;app.route(&quot;/second&quot;)
 
 -   def second():
 
--   return render_template(\"second.html\")
+-   return render_template(&quot;second.html&quot;)
 
 -   
 
--   \@app.route(\"/third\")
+-   &commat;app.route(&quot;/third&quot;)
 
 -   def third():
 
--   return render_template(\"third.html\")
+-   return render_template(&quot;third.html&quot;)
 
 > Here's the layout template for these pages.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<title\>My Webpage\</title\>
+-   &lt;title&gt;My Webpage&lt;/title&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<ul id=\"nav\"\>
+-   &lt;ul id=&quot;nav&quot;&gt;
 
--   \<li\>\<a href=\"\"\>First Page\</a\>\</li\>
+-   &lt;li&gt;&lt;a href=&quot;&quot;&gt;First Page&lt;/a&gt;&lt;/li&gt;
 
--   \<li\>\<a href=\"\"\>Second Page\</a\>\</li\>
+-   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Second Page&lt;/a&gt;&lt;/li&gt;
 
--   \<li\>\<a href=\"\"\>Third Page\</a\>\</li\>
+-   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Third Page&lt;/a&gt;&lt;/li&gt;
 
--   \</ul\>
+-   &lt;/ul&gt;
 
--   \<hr\>
+-   &lt;hr&gt;
 
 -   
 
@@ -4671,48 +4679,48 @@ height="1.1533672353455817in"}
 
 -   
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
 The navigation bar is simply an unordered list of links.
 
 > Given that these pages all have the simple function of displaying
 > text, application.py can be reworked to run on a single route.
 
--   \@app.route(\"/\")
+-   &commat;app.route(&quot;/&quot;)
 
 -   def index():
 
--   return render_template(\"index.html\")
+-   return render_template(&quot;index.html&quot;)
 
 -   
 
--   texts = \[\"text 1\", \"text 2\", \"text 3\"\]
+-   texts = &lbrack;&quot;text 1&quot;, &quot;text 2&quot;, &quot;text 3&quot;&rbrack;
 
 -   
 
--   \@app.route(\"/first\")
+-   &commat;app.route(&quot;/first&quot;)
 
 -   def first():
 
--   return texts\[0\]
+-   return texts&lbrack;0&rbrack;
 
 -   
 
--   \@app.route(\"/second\")
+-   &commat;app.route(&quot;/second&quot;)
 
 -   def second():
 
--   return texts\[1\]
+-   return texts&lbrack;1&rbrack;
 
 -   
 
--   \@app.route(\"/third\")
+-   &commat;app.route(&quot;/third&quot;)
 
 -   def third():
 
--   return texts\[2\]
+-   return texts&lbrack;2&rbrack;
 
 > Note that the other 'routes' don't return a new webpage, but rather
 > just the text that
@@ -4722,27 +4730,27 @@ should be displayed.
 In order to process this structure, JavaScript must be added
 to index.html.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
 -   
 
 -   // Start by loading first page.
 
--   load_page(\'first\');
+-   load_page(&apos;first&apos;);
 
 -   
 
 -   // Set links up to load new pages.
 
--   document.querySelectorAll(\'.nav-link\').forEach(link =\> {
+-   document.querySelectorAll(&apos;.nav-link&apos;).forEach(link =&gt; {
 
--   link.onclick = () =\> {
+-   link.onclick = () =&gt; {
 
 -   load_page(link.dataset.page);
 
@@ -4762,13 +4770,13 @@ to index.html.
 
 -   const request = new XMLHttpRequest();
 
--   request.open(\'GET\', \`/\${name}\`);
+-   request.open(&apos;GET&apos;, &apos;/&dollar;{name}&apos;);
 
--   request.onload = () =\> {
+-   request.onload = () =&gt; {
 
 -   const response = request.responseText;
 
--   document.querySelector(\'#body\').innerHTML = response;
+-   document.querySelector(&apos;#body&apos;).innerHTML = response;
 
 -   };
 
@@ -4776,34 +4784,34 @@ to index.html.
 
 -   }
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<ul id=\"nav\"\>
+-   &lt;ul id=&quot;nav&quot;&gt;
 
--   \<li\>\<a href=\"\" class=\"nav-link\" data-page=\"first\"\>First
-    Page\</a\>\</li\>
+-   &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;nav-link&quot; data-page=&quot;first&quot;&gt;First
+    Page&lt;/a&gt;&lt;/li&gt;
 
--   \<li\>\<a href=\"\" class=\"nav-link\" data-page=\"second\"\>Second
-    Page\</a\>\</li\>
+-   &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;nav-link&quot; data-page=&quot;second&quot;&gt;Second
+    Page&lt;/a&gt;&lt;/li&gt;
 
--   \<li\>\<a href=\"\" class=\"nav-link\" data-page=\"third\"\>Third
-    Page\</a\>\</li\>
+-   &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;nav-link&quot; data-page=&quot;third&quot;&gt;Third
+    Page&lt;/a&gt;&lt;/li&gt;
 
--   \</ul\>
+-   &lt;/ul&gt;
 
--   \<hr\>
+-   &lt;hr&gt;
 
--   \<div id=\"body\"\>
+-   &lt;div id=&quot;body&quot;&gt;
 
--   \</div\>
+-   &lt;/div&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   load_page makes an AJAX request to the server to get the text
         that should be displayed and puts in the body div.
@@ -4827,13 +4835,13 @@ to index.html.
 
 -   const request = new XMLHttpRequest();
 
--   request.open(\'GET\', \`/\${name}\`);
+-   request.open(&apos;GET&apos;, &apos;/&dollar;{name}&apos;);
 
--   request.onload = () =\> {
+-   request.onload = () =&gt; {
 
 -   const response = request.responseText;
 
--   document.querySelector(\'#body\').innerHTML = response;
+-   document.querySelector(&apos;#body&apos;).innerHTML = response;
 
 -   
 
@@ -4871,13 +4879,13 @@ to index.html.
 
 -   const request = new XMLHttpRequest();
 
--   request.open(\'GET\', \`/\${name}\`);
+-   request.open(&apos;GET&apos;, &apos;/&dollar;{name}&apos;);
 
--   request.onload = () =\> {
+-   request.onload = () =&gt; {
 
 -   const response = request.responseText;
 
--   document.querySelector(\'#body\').innerHTML = response;
+-   document.querySelector(&apos;#body&apos;).innerHTML = response;
 
 -   
 
@@ -4885,7 +4893,7 @@ to index.html.
 
 -   document.title = name;
 
--   history.pushState({\'title\': name, \'text\': response}, name,
+-   history.pushState({&apos;title&apos;: name, &apos;text&apos;: response}, name,
     name);
 
 -   };
@@ -4898,13 +4906,13 @@ to index.html.
 
 -   // Update text on popping state.
 
--   window.onpopstate = e =\> {
+-   window.onpopstate = e =&gt; {
 
 -   const data = e.state;
 
 -   document.title = data.title;
 
--   document.querySelector(\'#body\').innerHTML = data.text;
+-   document.querySelector(&apos;#body&apos;).innerHTML = data.text;
 
 -   };
 
@@ -4938,9 +4946,9 @@ to index.html.
 -   One potential use of these properties is to be able to detect if the
     user has scrolled to the bottom of the page.
 
--   window.onscroll = () =\> {
+-   window.onscroll = () =&gt; {
 
--   console.log(\'\-\-\--\');
+-   console.log(&apos;&minus;&minus;&minus;-&apos;);
 
 -   console.log(window.innerHeight);
 
@@ -4948,14 +4956,14 @@ to index.html.
 
 -   console.log(document.body.offsetHeight);
 
--   if (window.innerHeight + window.scrollY \>=
+-   if (window.innerHeight + window.scrollY &gt;=
     document.body.offsetHeight) {
 
--   document.querySelector(\'body\').style.background = \'green\';
+-   document.querySelector(&apos;body&apos;).style.background = &apos;green&apos;;
 
 -   } else {
 
--   document.querySelector(\'body\').style.background = \'white\';
+-   document.querySelector(&apos;body&apos;).style.background = &apos;white&apos;;
 
 -   }
 
@@ -4982,59 +4990,59 @@ to index.html.
 
 -   
 
--   app = Flask(\_\_name\_\_)
+-   app = Flask(&lowbar;&lowbar;name&lowbar;&lowbar;)
 
 -   
 
--   \@app.route(\"/\")
+-   &commat;app.route(&quot;/&quot;)
 
 -   def index():
 
--   return render_template(\"index.html\")
+-   return render_template(&quot;index.html&quot;)
 
 -   
 
--   \@app.route(\"/posts\", methods=\[\"POST\"\])
+-   &commat;app.route(&quot;/posts&quot;, methods=&lbrack;&quot;POST&quot;&rbrack;)
 
 -   def posts():
 
 -   
 
--   \# Get start and end point for posts to generate.
+-   &pound; Get start and end point for posts to generate.
 
--   start = int(request.form.get(\"start\") or 0)
+-   start = int(request.form.get(&quot;start&quot;) or 0)
 
--   end = int(request.form.get(\"end\") or (start + 9))
+-   end = int(request.form.get(&quot;end&quot;) or (start + 9))
 
 -   
 
--   \# Generate list of posts.
+-   &pound; Generate list of posts.
 
--   data = \[\]
+-   data = &lbrack;&rbrack;
 
 -   for i in range(start, end + 1):
 
--   data.append(f\"Post #{i}\")
+-   data.append(f&quot;Post #{i}&quot;)
 
 -   
 
--   \# Artificially delay speed of response.
+-   &pound; Artificially delay speed of response.
 
 -   time.sleep(1)
 
 -   
 
--   \# Return list of posts.
+-   &pound; Return list of posts.
 
 -   return jsonify(data)
 
 -   index.html (a little more complex now)
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
 -   // Start with first post.
 
@@ -5050,15 +5058,15 @@ to index.html.
 
 -   // When DOM loads, render the first 20 posts.
 
--   document.addEventListener(\'DOMContentLoaded\', load);
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, load);
 
 -   
 
 -   // If scrolled to bottom, load the next 20 posts.
 
--   window.onscroll = () =\> {
+-   window.onscroll = () =&gt; {
 
--   if (window.innerHeight + window.scrollY \>=
+-   if (window.innerHeight + window.scrollY &gt;=
     document.body.offsetHeight) {
 
 -   load();
@@ -5089,9 +5097,9 @@ to index.html.
 
 -   const request = new XMLHttpRequest();
 
--   request.open(\'POST\', \'/posts\');
+-   request.open(&apos;POST&apos;, &apos;/posts&apos;);
 
--   request.onload = () =\> {
+-   request.onload = () =&gt; {
 
 -   const data = JSON.parse(request.responseText);
 
@@ -5105,9 +5113,9 @@ to index.html.
 
 -   const data = new FormData();
 
--   data.append(\'start\', start);
+-   data.append(&apos;start&apos;, start);
 
--   data.append(\'end\', end);
+-   data.append(&apos;end&apos;, end);
 
 -   
 
@@ -5127,9 +5135,9 @@ to index.html.
 
 -   // Create new post.
 
--   const post = document.createElement(\'div\');
+-   const post = document.createElement(&apos;div&apos;);
 
--   post.className = \'post\';
+-   post.className = &apos;post&apos;;
 
 -   post.innerHTML = contents;
 
@@ -5137,23 +5145,23 @@ to index.html.
 
 -   // Add post to DOM.
 
--   document.querySelector(\'#posts\').append(post);
+-   document.querySelector(&apos;#posts&apos;).append(post);
 
 -   };
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<div id=\"posts\"\>
+-   &lt;div id=&quot;posts&quot;&gt;
 
--   \</div\>
+-   &lt;/div&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
 -   For a little more functionality, the add_post function could be
     modified to add a button to hide uninteresting posts.
@@ -5164,9 +5172,9 @@ to index.html.
 
 -   // Create new post.
 
--   const post = document.createElement(\'div\');
+-   const post = document.createElement(&apos;div&apos;);
 
--   post.className = \'post\';
+-   post.className = &apos;post&apos;;
 
 -   post.innerHTML = contents;
 
@@ -5174,11 +5182,11 @@ to index.html.
 
 -   // Add button to hide post.
 
--   const hide = document.createElement(\'button\');
+-   const hide = document.createElement(&apos;button&apos;);
 
--   hide.className = \'hide\';
+-   hide.className = &apos;hide&apos;;
 
--   hide.innerHTML = \'Hide\';
+-   hide.innerHTML = &apos;Hide&apos;;
 
 -   post.append(hide);
 
@@ -5196,7 +5204,7 @@ to index.html.
 
 -   // Add post to DOM.
 
--   document.querySelector(\'#posts\').append(post);
+-   document.querySelector(&apos;#posts&apos;).append(post);
 
 -   };
 
@@ -5229,58 +5237,58 @@ to index.html.
 -   The next series of examples will be a dice-throwing application.
     Here's the starting point.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script
-    src=\"https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js\"\>\</script\>
+-   &lt;script
+    src=&quot;https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js&quot;&gt;&lt;/script&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
 -   // Template for roll results
 
--   const template = Handlebars.compile(\"\<li\>You rolled a \</li\>\");
+-   const template = Handlebars.compile(&quot;&lt;li&gt;You rolled a &lt;/li&gt;&quot;);
 
 -   
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
--   document.querySelector(\'#roll\').onclick = () =\> {
+-   document.querySelector(&apos;#roll&apos;).onclick = () =&gt; {
 
 -   
 
 -   // Generate a random roll.
 
--   const roll = Math.floor((Math.random() \* 6) + 1);
+-   const roll = Math.floor((Math.random() &ast; 6) + 1);
 
 -   
 
 -   // Add roll result to DOM.
 
--   const content = template({\'value\': roll});
+-   const content = template({&apos;value&apos;: roll});
 
--   document.querySelector(\'#rolls\').innerHTML += content;
+-   document.querySelector(&apos;#rolls&apos;).innerHTML += content;
 
 -   };
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<button id=\"roll\"\>Roll\</button\>
+-   &lt;button id=&quot;roll&quot;&gt;Roll&lt;/button&gt;
 
--   \<ul id=\"rolls\"\>
+-   &lt;ul id=&quot;rolls&quot;&gt;
 
--   \</ul\>
+-   &lt;/ul&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   template is being used repeatedly for every roll. It is like a
         client-side analog to the Flask/Jinja2 templates.
@@ -5297,65 +5305,65 @@ to index.html.
     printing out the number. To do so, all that needs to change is the
     template, which now includes an img element.
 
--   const template = Handlebars.compile(\"\<li\>You rolled: \<img
-    src=\\\"img/.png\\\"\>\</li\>\");
+-   const template = Handlebars.compile(&quot;&lt;li&gt;You rolled: &lt;img
+    src=\\&quot;img/.png\\&quot;&gt;&lt;/li&gt;&quot;);
 
-    -   Note how the \" characters are escaped, since they are inside a
+    -   Note how the &quot; characters are escaped, since they are inside a
         string.
 
 -   Still, including all of the JavaScript template inside a string
     starts to get messy when including images, etc. Ideally, there would
     be pure HTML that is then compiled by Handlebars.
 
--   \<script id=\"result\" type=\"text/x-handlebars-template\"\>
+-   &lt;script id=&quot;result&quot; type=&quot;text/x-handlebars-template&quot;&gt;
 
--   \<li\>
+-   &lt;li&gt;
 
 -   You rolled:
 
 -   
 
--   \<img alt=\"{{ value }}\" title=\"{{ value }}\" src=\"img/{{ value
-    }}.png\"\>\</img\>
+-   &lt;img alt=&quot;{{ value }}&quot; title=&quot;{{ value }}&quot; src=&quot;img/{{ value
+    }}.png&quot;&gt;&lt;/img&gt;
 
 -   
 
--   \</li\>
+-   &lt;/li&gt;
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
 -   // Template for roll results
 
 -   const template =
-    Handlebars.compile(document.querySelector(\'#result\').innerHTML);
+    Handlebars.compile(document.querySelector(&apos;#result&apos;).innerHTML);
 
 -   
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
--   document.querySelector(\'#roll\').onclick = () =\> {
+-   document.querySelector(&apos;#roll&apos;).onclick = () =&gt; {
 
 -   
 
 -   // Generate a random roll.
 
--   const roll = Math.floor((Math.random() \* 6) + 1);
+-   const roll = Math.floor((Math.random() &ast; 6) + 1);
 
 -   
 
 -   // Add roll result to DOM.
 
--   const content = template({\'value\': roll});
+-   const content = template({&apos;value&apos;: roll});
 
--   document.querySelector(\'#rolls\').innerHTML += content;
+-   document.querySelector(&apos;#rolls&apos;).innerHTML += content;
 
 -   };
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
     -   Note that there are two script elements. The one with the
         id result with represent the result of a roll. It has a
@@ -5373,16 +5381,16 @@ to index.html.
 -   Handlebars, like Jinja, supports loops. In this example, loops could
     be used to roll multiple dice at once.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script
-    src=\"https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js\"\>\</script\>
+-   &lt;script
+    src=&quot;https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js&quot;&gt;&lt;/script&gt;
 
--   \<script id=\"result\" type=\"text/template\"\>
+-   &lt;script id=&quot;result&quot; type=&quot;text/template&quot;&gt;
 
--   \<li\>
+-   &lt;li&gt;
 
 -   You rolled:
 
@@ -5390,8 +5398,8 @@ to index.html.
 
 -   {{#each values}}
 
--   \<img alt=\"{{ this }}\" title=\"{{ this }}\" src=\"img/{{ this
-    }}.png\"\>
+-   &lt;img alt=&quot;{{ this }}&quot; title=&quot;{{ this }}&quot; src=&quot;img/{{ this
+    }}.png&quot;&gt;
 
 -   {{/each}}
 
@@ -5399,39 +5407,39 @@ to index.html.
 
 -   
 
--   \</li\>
+-   &lt;/li&gt;
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
 -   
 
 -   // Template for roll results
 
 -   const template =
-    Handlebars.compile(document.querySelector(\'#result\').innerHTML);
+    Handlebars.compile(document.querySelector(&apos;#result&apos;).innerHTML);
 
 -   
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
--   document.querySelector(\'#roll\').onclick = () =\> {
+-   document.querySelector(&apos;#roll&apos;).onclick = () =&gt; {
 
 -   
 
 -   // Generate random rolls.
 
 -   const counter =
-    parseInt(document.querySelector(\'#counter\').value);
+    parseInt(document.querySelector(&apos;#counter&apos;).value);
 
--   const rolls = \[\];
+-   const rolls = &lbrack;&rbrack;;
 
 -   let total = 0;
 
--   for (let i = 0; i \< counter; i++) {
+-   for (let i = 0; i &lt; counter; i++) {
 
--   const value = Math.floor(Math.random() \* 6) + 1;
+-   const value = Math.floor(Math.random() &ast; 6) + 1;
 
 -   rolls.push(value);
 
@@ -5443,32 +5451,32 @@ to index.html.
 
 -   // Add roll results to DOM.
 
--   const content = template({\'values\': rolls, \'total\': total});
+-   const content = template({&apos;values&apos;: rolls, &apos;total&apos;: total});
 
--   document.querySelector(\'#rolls\').innerHTML += content;
+-   document.querySelector(&apos;#rolls&apos;).innerHTML += content;
 
 -   };
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<input id=\"counter\" type=\"number\" placeholder=\"Number of
-    Rolls\" min=\"1\" value=\"1\"\>
+-   &lt;input id=&quot;counter&quot; type=&quot;number&quot; placeholder=&quot;Number of
+    Rolls&quot; min=&quot;1&quot; value=&quot;1&quot;&gt;
 
--   \<button id=\"roll\"\>Roll\</button\>
+-   &lt;button id=&quot;roll&quot;&gt;Roll&lt;/button&gt;
 
--   \<ul id=\"rolls\"\>
+-   &lt;ul id=&quot;rolls&quot;&gt;
 
--   \</ul\>
+-   &lt;/ul&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
     -   #each is a Handlebars 'block helper'. There many of these
         helpers with different functions, be it loops, in this examples,
@@ -5499,7 +5507,7 @@ to index.html.
 
 -   
 
--   \@keyframes grow {
+-   &commat;keyframes grow {
 
 -   from {
 
@@ -5529,7 +5537,7 @@ to index.html.
 
 -   }
 
--   -   \@keyframes grow defines a CSS animation called grow, which
+-   -   &commat;keyframes grow defines a CSS animation called grow, which
         goes from one style to another style.
 
     -   The animation-name property is used to link the grow animation
@@ -5546,7 +5554,7 @@ to index.html.
 
 -   
 
--   \@keyframes move {
+-   &commat;keyframes move {
 
 -   from {
 
@@ -5589,7 +5597,7 @@ to index.html.
 
 -   
 
--   \@keyframes move {
+-   &commat;keyframes move {
 
 -   0% {
 
@@ -5621,9 +5629,9 @@ to index.html.
 
 -   
 
--   \<style\>
+-   &lt;style&gt;
 
--   \@keyframes move {
+-   &commat;keyframes move {
 
 -   0% {
 
@@ -5663,31 +5671,31 @@ to index.html.
 
 -   
 
--   \</style\>
+-   &lt;/style&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
--   const h1 = document.querySelector(\'h1\');
+-   const h1 = document.querySelector(&apos;h1&apos;);
 
--   h1.style.animationPlayState = \'paused\';
+-   h1.style.animationPlayState = &apos;paused&apos;;
 
--   document.querySelector(\'button\').onclick = () =\> {
+-   document.querySelector(&apos;button&apos;).onclick = () =&gt; {
 
--   if (h1.style.animationPlayState === \'paused\')
+-   if (h1.style.animationPlayState === &apos;paused&apos;)
 
--   h1.style.animationPlayState = \'running\';
+-   h1.style.animationPlayState = &apos;running&apos;;
 
 -   else
 
--   h1.style.animationPlayState = \'paused\';
+-   h1.style.animationPlayState = &apos;paused&apos;;
 
 -   };
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
     -   animation-iteration-count specifies how many times the animation
         should be run.
@@ -5701,11 +5709,11 @@ to index.html.
     previous example with a list of posts. When hiding a post, it would
     helpful to have the post fade away.
 
--   \<style\>
+-   &lt;style&gt;
 
 -   
 
--   \@keyframes hide {
+-   &commat;keyframes hide {
 
 -   from {
 
@@ -5741,25 +5749,25 @@ to index.html.
 
 -   }
 
--   \</style\>
+-   &lt;/style&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
--   // \...rest of JavaScript code\...
+-   // &hellip;rest of JavaScript code&hellip;
 
 -   
 
 -   // If hide button is clicked, delete the post.
 
--   document.addEventListener(\'click\', event =\> {
+-   document.addEventListener(&apos;click&apos;, event =&gt; {
 
 -   const element = event.target;
 
--   if (element.className === \'hide\') {
+-   if (element.className === &apos;hide&apos;) {
 
--   element.parentElement.style.animationPlayState = \'running\';
+-   element.parentElement.style.animationPlayState = &apos;running&apos;;
 
--   element.parentElement.addEventListener(\'animationend\', () =\> {
+-   element.parentElement.addEventListener(&apos;animationend&apos;, () =&gt; {
 
 -   element.parentElement.remove();
 
@@ -5769,7 +5777,7 @@ to index.html.
 
 -   });
 
--   \</script\>
+-   &lt;/script&gt;
 
 -   -   There is slightly different logic here to figure out when the
         button is clicked. Now, anytime a mouse click occurs,
@@ -5787,7 +5795,7 @@ to index.html.
 
 -   
 
--   \@keyframes hide {
+-   &commat;keyframes hide {
 
 -   0% {
 
@@ -5845,15 +5853,15 @@ to index.html.
     lines, angles, and shapes. SVGs can be used to draw things that
     simple HTML elements, like divs, don't allow for.
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<svg style=\"width:100%; height:800px\"\>
+-   &lt;svg style=&quot;width:100%; height:800px&quot;&gt;
 
--   \<circle cx=\"200\" cy=\"200\" r=\"50\" style=\"fill:blue\"/\>
+-   &lt;circle cx=&quot;200&quot; cy=&quot;200&quot; r=&quot;50&quot; style=&quot;fill:blue&quot;/&gt;
 
--   \</svg\>
+-   &lt;/svg&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
     -   The SVG element is given a fixed height and a width that
         automatically adjusts based on the content to maintain that
@@ -5867,43 +5875,43 @@ to index.html.
     programatically using JavaScript. To do so, a JavaScript data
     visualization library, D3, will be used.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<script src=\"https://d3js.org/d3.v4.min.js\"\>\</script\>
+-   &lt;script src=&quot;https://d3js.org/d3.v4.min.js&quot;&gt;&lt;/script&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<svg id=\"svg\" style=\"width:100%; height:800px\"/\>
+-   &lt;svg id=&quot;svg&quot; style=&quot;width:100%; height:800px&quot;/&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \<script\>
-
--   
-
--   const svg = d3.select(\'#svg\');
+-   &lt;script&gt;
 
 -   
 
--   svg.append(\'circle\')
-
--   .attr(\'cx\', 200)
-
--   .attr(\'cy\', 200)
-
--   .attr(\'r\', 90)
-
--   .style(\'fill\', \'green\');
+-   const svg = d3.select(&apos;#svg&apos;);
 
 -   
 
--   \</script\>
+-   svg.append(&apos;circle&apos;)
 
--   \</html\>
+-   .attr(&apos;cx&apos;, 200)
+
+-   .attr(&apos;cy&apos;, 200)
+
+-   .attr(&apos;r&apos;, 90)
+
+-   .style(&apos;fill&apos;, &apos;green&apos;);
+
+-   
+
+-   &lt;/script&gt;
+
+-   &lt;/html&gt;
 
     -   d3.select gets access to an HTML element.
 
@@ -5912,19 +5920,19 @@ to index.html.
 
 -   As with CSS, animations can be added to SVGs.
 
--   const svg = d3.select(\'#svg\');
+-   const svg = d3.select(&apos;#svg&apos;);
 
 -   
 
--   const c = svg.append(\'circle\')
+-   const c = svg.append(&apos;circle&apos;)
 
--   .attr(\'cx\', 200)
+-   .attr(&apos;cx&apos;, 200)
 
--   .attr(\'cy\', 200)
+-   .attr(&apos;cy&apos;, 200)
 
--   .attr(\'r\', 50)
+-   .attr(&apos;r&apos;, 50)
 
--   .style(\'fill\', \'blue\');
+-   .style(&apos;fill&apos;, &apos;blue&apos;);
 
 -   
 
@@ -5932,11 +5940,11 @@ to index.html.
 
 -   .duration(1000)
 
--   .attr(\'cx\', 500)
+-   .attr(&apos;cx&apos;, 500)
 
--   .attr(\'cy\', 500)
+-   .attr(&apos;cy&apos;, 500)
 
--   .style(\'fill\', \'red\');
+-   .style(&apos;fill&apos;, &apos;red&apos;);
 
     -   The duration (in milliseconds) for the transition (animation) is
         given, along with the final values for each attribute that
@@ -5950,17 +5958,17 @@ to index.html.
 
 -   .delay(1000)
 
--   .attr(\'cx\', 500);
+-   .attr(&apos;cx&apos;, 500);
 
 -   
 
--   c.on(\'click\', function() {
+-   c.on(&apos;click&apos;, function() {
 
 -   d3.select(this).transition()
 
 -   .duration(3000)
 
--   .style(\'fill\', \'red\');
+-   .style(&apos;fill&apos;, &apos;red&apos;);
 
 -   });
 
@@ -5975,17 +5983,17 @@ to index.html.
 -   The final example of a user interface, demonstrating the potential
     of SVGs, will be a simple sketchpad-like application.
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<svg id=\"svg\" style=\"width:100%; height:800px\"/\>
+-   &lt;svg id=&quot;svg&quot; style=&quot;width:100%; height:800px&quot;/&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \<script\>
+-   &lt;script&gt;
 
 -   
 
--   const svg = d3.select(\'#svg\');
+-   const svg = d3.select(&apos;#svg&apos;);
 
 -   
 
@@ -5995,25 +6003,25 @@ to index.html.
 
 -   
 
--   svg.append(\'circle\')
+-   svg.append(&apos;circle&apos;)
 
--   .attr(\'cx\', coords\[0\])
+-   .attr(&apos;cx&apos;, coords&lbrack;0&rbrack;)
 
--   .attr(\'cy\', coords\[1\])
+-   .attr(&apos;cy&apos;, coords&lbrack;1&rbrack;)
 
--   .attr(\'r\', 5)
+-   .attr(&apos;r&apos;, 5)
 
--   .style(\'fill\', \'black\');
+-   .style(&apos;fill&apos;, &apos;black&apos;);
 
 -   };
 
 -   
 
--   svg.on(\'mousemove\', draw_point);
+-   svg.on(&apos;mousemove&apos;, draw_point);
 
 -   
 
--   \</script\>
+-   &lt;/script&gt;
 
     -   Whenever the mouse moves on the canvas, draw_point will be
         called.
@@ -6024,7 +6032,7 @@ to index.html.
 -   An obvious improvement would be to only draw when the mouse is
     clicked.
 
--   const svg = d3.select(\'#svg\');
+-   const svg = d3.select(&apos;#svg&apos;);
 
 -   let drawing = false;
 
@@ -6042,21 +6050,21 @@ to index.html.
 
 -   
 
--   svg.append(\'circle\')
+-   svg.append(&apos;circle&apos;)
 
--   .attr(\'cx\', coords\[0\])
+-   .attr(&apos;cx&apos;, coords&lbrack;0&rbrack;)
 
--   .attr(\'cy\', coords\[1\])
+-   .attr(&apos;cy&apos;, coords&lbrack;1&rbrack;)
 
--   .attr(\'r\', 5)
+-   .attr(&apos;r&apos;, 5)
 
--   .style(\'fill\', \'black\');
+-   .style(&apos;fill&apos;, &apos;black&apos;);
 
 -   };
 
 -   
 
--   svg.on(\'mousedown\', () =\> {
+-   svg.on(&apos;mousedown&apos;, () =&gt; {
 
 -   drawing = true;
 
@@ -6064,7 +6072,7 @@ to index.html.
 
 -   
 
--   svg.on(\'mouseup\', () =\> {
+-   svg.on(&apos;mouseup&apos;, () =&gt; {
 
 -   drawing = false;
 
@@ -6072,7 +6080,7 @@ to index.html.
 
 -   
 
--   svg.on(\'mousemove\', draw_point);
+-   svg.on(&apos;mousemove&apos;, draw_point);
 
     -   Now, a boolean variable drawing controls whether or not a point
         should be drawn.
@@ -6088,63 +6096,63 @@ to index.html.
 -   First off, a nicer UI would include a list of options to let the
     user choose pen color, thickness, and also to erase the canvas.
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<div class=\"container\"\>
+-   &lt;div class=&quot;container&quot;&gt;
 
--   \<div id=\"options\" class=\"row\"\>
+-   &lt;div id=&quot;options&quot; class=&quot;row&quot;&gt;
 
--   \<select id=\"color-picker\"\>
+-   &lt;select id=&quot;color-picker&quot;&gt;
 
--   \<option value=\"black\"\>Black\</option\>
+-   &lt;option value=&quot;black&quot;&gt;Black&lt;/option&gt;
 
--   \<option value=\"red\"\>Red\</option\>
+-   &lt;option value=&quot;red&quot;&gt;Red&lt;/option&gt;
 
--   \<option value=\"blue\"\>Blue\</option\>
+-   &lt;option value=&quot;blue&quot;&gt;Blue&lt;/option&gt;
 
--   \<option value=\"green\"\>Green\</option\>
+-   &lt;option value=&quot;green&quot;&gt;Green&lt;/option&gt;
 
--   \</select\>
+-   &lt;/select&gt;
 
--   \<select id=\"thickness-picker\"\>
+-   &lt;select id=&quot;thickness-picker&quot;&gt;
 
--   \<option value=1\>1\</option\>
+-   &lt;option value=1&gt;1&lt;/option&gt;
 
--   \<option value=2\>2\</option\>
+-   &lt;option value=2&gt;2&lt;/option&gt;
 
--   \<option value=3 selected\>3\</option\>
+-   &lt;option value=3 selected&gt;3&lt;/option&gt;
 
--   \<option value=4\>4\</option\>
+-   &lt;option value=4&gt;4&lt;/option&gt;
 
--   \<option value=5\>5\</option\>
+-   &lt;option value=5&gt;5&lt;/option&gt;
 
--   \<option value=6\>6\</option\>
+-   &lt;option value=6&gt;6&lt;/option&gt;
 
--   \<option value=7\>7\</option\>
+-   &lt;option value=7&gt;7&lt;/option&gt;
 
--   \<option value=8\>8\</option\>
+-   &lt;option value=8&gt;8&lt;/option&gt;
 
--   \<option value=9\>9\</option\>
+-   &lt;option value=9&gt;9&lt;/option&gt;
 
--   \<option value=10\>10\</option\>
+-   &lt;option value=10&gt;10&lt;/option&gt;
 
--   \</select\>
+-   &lt;/select&gt;
 
--   \<button id=\"erase\"\>Erase\</button\>
+-   &lt;button id=&quot;erase&quot;&gt;Erase&lt;/button&gt;
 
--   \</div\>
+-   &lt;/div&gt;
 
--   \</div\>
+-   &lt;/div&gt;
 
--   \<svg id=\"draw\"\>
+-   &lt;svg id=&quot;draw&quot;&gt;
 
--   \</svg\>
+-   &lt;/svg&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
 > The more complex JavaScript now takes into account these features.
 
--   document.addEventListener(\'DOMContentLoaded\', () =\> {
+-   document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 
 -   
 
@@ -6156,9 +6164,9 @@ to index.html.
 
 -   // elements
 
--   let points = \[\];
+-   let points = &lbrack;&rbrack;;
 
--   let lines = \[\];
+-   let lines = &lbrack;&rbrack;;
 
 -   let svg = null;
 
@@ -6170,27 +6178,27 @@ to index.html.
 
 -   // create the selection area
 
--   svg = d3.select(\'#draw\')
+-   svg = d3.select(&apos;#draw&apos;)
 
--   .attr(\'height\', window.innerHeight)
+-   .attr(&apos;height&apos;, window.innerHeight)
 
--   .attr(\'width\', window.innerWidth);
+-   .attr(&apos;width&apos;, window.innerWidth);
 
 -   
 
--   svg.on(\'mousedown\', function() {
+-   svg.on(&apos;mousedown&apos;, function() {
 
 -   draw = true;
 
 -   const coords = d3.mouse(this);
 
--   draw_point(coords\[0\], coords\[1\], false);
+-   draw_point(coords&lbrack;0&rbrack;, coords&lbrack;1&rbrack;, false);
 
 -   });
 
 -   
 
--   svg.on(\'mouseup\', () =\>{
+-   svg.on(&apos;mouseup&apos;, () =&gt;{
 
 -   draw = false;
 
@@ -6198,7 +6206,7 @@ to index.html.
 
 -   
 
--   svg.on(\'mousemove\', function() {
+-   svg.on(&apos;mousemove&apos;, function() {
 
 -   if (!draw)
 
@@ -6206,25 +6214,25 @@ to index.html.
 
 -   const coords = d3.mouse(this);
 
--   draw_point(coords\[0\], coords\[1\], true);
+-   draw_point(coords&lbrack;0&rbrack;, coords&lbrack;1&rbrack;, true);
 
 -   });
 
 -   
 
--   document.querySelector(\'#erase\').onclick = () =\> {
+-   document.querySelector(&apos;#erase&apos;).onclick = () =&gt; {
 
--   for (let i = 0; i \< points.length; i++)
+-   for (let i = 0; i &lt; points.length; i++)
 
--   points\[i\].remove();
+-   points&lbrack;i&rbrack;.remove();
 
--   for (let i = 0; i \< lines.length; i++)
+-   for (let i = 0; i &lt; lines.length; i++)
 
--   lines\[i\].remove();
+-   lines&lbrack;i&rbrack;.remove();
 
--   points = \[\];
+-   points = &lbrack;&rbrack;;
 
--   lines = \[\];
+-   lines = &lbrack;&rbrack;;
 
 -   }
 
@@ -6238,30 +6246,30 @@ to index.html.
 
 -   
 
--   const color = document.querySelector(\'#color-picker\').value;
+-   const color = document.querySelector(&apos;#color-picker&apos;).value;
 
 -   const thickness =
-    document.querySelector(\'#thickness-picker\').value;
+    document.querySelector(&apos;#thickness-picker&apos;).value;
 
 -   
 
 -   if (connect) {
 
--   const last_point = points\[points.length - 1\];
+-   const last_point = points&lbrack;points.length - 1&rbrack;;
 
--   const line = svg.append(\'line\')
+-   const line = svg.append(&apos;line&apos;)
 
--   .attr(\'x1\', last_point.attr(\'cx\'))
+-   .attr(&apos;x1&apos;, last_point.attr(&apos;cx&apos;))
 
--   .attr(\'y1\', last_point.attr(\'cy\'))
+-   .attr(&apos;y1&apos;, last_point.attr(&apos;cy&apos;))
 
--   .attr(\'x2\', x)
+-   .attr(&apos;x2&apos;, x)
 
--   .attr(\'y2\', y)
+-   .attr(&apos;y2&apos;, y)
 
--   .attr(\'stroke-width\', thickness \* 2)
+-   .attr(&apos;stroke-width&apos;, thickness &ast; 2)
 
--   .style(\'stroke\', color);
+-   .style(&apos;stroke&apos;, color);
 
 -   lines.push(line);
 
@@ -6269,15 +6277,15 @@ to index.html.
 
 -   
 
--   const point = svg.append(\'circle\')
+-   const point = svg.append(&apos;circle&apos;)
 
--   .attr(\'cx\', x)
+-   .attr(&apos;cx&apos;, x)
 
--   .attr(\'cy\', y)
+-   .attr(&apos;cy&apos;, y)
 
--   .attr(\'r\', thickness)
+-   .attr(&apos;r&apos;, thickness)
 
--   .style(\'fill\', color);
+-   .style(&apos;fill&apos;, color);
 
 -   points.push(point);
 
@@ -6310,8 +6318,16 @@ to index.html.
 
 > **Notes - Lecture 7: Django**
 >
-> ![https://duckduckgo.com/i/9dd83376.png](./images/image022.png){width="1.7333333333333334in"
-> height="0.5997681539807524in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 22.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image022.png"
+  class="lazyload"
+  style="width:1.7in;"
+  title="256 x 256 image, circle, triangle and square"
+  alt="256 x 256 image, circle, triangle and square." />
+</p>
+<!-- ![https://duckduckgo.com/i/9dd83376.png](./images/image022.png){width="1.7333333333333334in" height="0.5997681539807524in"} -->
 >
 > **Django**
 >
@@ -6335,16 +6351,32 @@ to index.html.
     startproject projectname.
 
 ### Project Components
-
-### ![](./images/image023.png){width="4.941219378827647in" height="3.2984809711286087in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 23.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image023.png"
+  class="lazyload"
+  style="width:4.9in;"
+  title=""
+  alt="." />
+</p>
+<!-- (./images/image023.png){width="4.941219378827647in" height="3.2984809711286087in"} -->
 
 ### 
-
-### ![](./images/image024.png){width="4.974652230971128in" height="3.632562335958005in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 24.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image024.png"
+  class="lazyload"
+  style="width:4.9in;"
+  title=""
+  alt="." />
+</p>
+<!-- ./images/image024.png){width="4.974652230971128in" height="3.632562335958005in"} -->
 
 -   Django creates a number of files with a new project:
 
-    -   \_\_init\_\_.py : defines the directory projectname as a Python
+    -   &lowbar;&lowbar;init&lowbar;&lowbar;.py : defines the directory projectname as a Python
         'package', a collection of multiple Python files
 
         -   Django is built on the idea of packages. A web application
@@ -6384,7 +6416,7 @@ to index.html.
 
 -   
 
--   \# Create your views here.
+-   &pound; Create your views here.
 
 -   All view functions should take the request object as an argument.
     Like in Flask, this object will contain information about what sort
@@ -6397,11 +6429,11 @@ to index.html.
 
 -   
 
--   \# Create your views here.
+-   &pound; Create your views here.
 
 -   def index(request):
 
--   return HttpResponse(\"Hello, world!\")
+-   return HttpResponse(&quot;Hello, world!&quot;)
 
 -   That basic view, however, does not specify what route it is at. To
     do so, a new urls.py must be created inside the appname directory
@@ -6419,18 +6451,18 @@ to index.html.
 
 -   
 
--   urlpatterns = \[
+-   urlpatterns = &lbrack;
 
--   path(\"\", views.index),
+-   path(&quot;&quot;, views.index),
 
--   \]
+-   &rbrack;
 
 -   from . import views imports views.py from the appname directory, so
     that URLs can be linked to views.
 
 -   urlpatterns is a list of all the URLs supported by this application.
 
--   \"\" indicates the empty route.
+-   &quot;&quot; indicates the empty route.
 
 -   When the Django project starts up, it will only check the urls.py at
     the project level. So, the final step before this basic application
@@ -6443,21 +6475,21 @@ to index.html.
 
 -   
 
--   urlpatterns = \[
+-   urlpatterns = &lbrack;
 
--   path(\"admin/\", admin.site.urls)
+-   path(&quot;admin/&quot;, admin.site.urls)
 
--   \]
+-   &rbrack;
 
 -   To link the new path, simply add the path to urlpatterns:
 
--   urlpatterns = \[
+-   urlpatterns = &lbrack;
 
--   path(\"\", include(\"appname.urls\")),
+-   path(&quot;&quot;, include(&quot;appname.urls&quot;)),
 
--   path(\"admin/\", admin.site.urls)
+-   path(&quot;admin/&quot;, admin.site.urls)
 
--   \]
+-   &rbrack;
 
     -   The reason for this apparent complexity is to allow for routing
         amongst multiple different applications. This urls.py serves as
@@ -6482,11 +6514,11 @@ to index.html.
 
 -   
 
--   urlpatterns = \[
+-   urlpatterns = &lbrack;
 
--   path(\"\", views.index),
+-   path(&quot;&quot;, views.index),
 
--   \]
+-   &rbrack;
 
     -   These urls should be linked to djangoair/urls.py in the same way
         as the previous example.
@@ -6499,11 +6531,11 @@ to index.html.
 
 -   
 
--   \# Create your views here
+-   &pound; Create your views here
 
 -   def index(request):
 
--   return HttpResponse(\"Flights\")
+-   return HttpResponse(&quot;Flights&quot;)
 
 -   This application is now at the same point as the previous example.
     The next step is to add the database. Django was designed for
@@ -6514,7 +6546,7 @@ to index.html.
 
 -   
 
--   \# Create your models here
+-   &pound; Create your models here
 
     -   This the file to define the classes which will define the types
         of data being stored in the database. The information to be
@@ -6543,23 +6575,23 @@ to index.html.
     To add the flights app, flights.app.FlightsConfig should be added to
     that list.
 
--   INSTALLED_APPS = \[
+-   INSTALLED_APPS = &lbrack;
 
--   \'flights.apps.FlightsConfig\',
+-   &apos;flights.apps.FlightsConfig&apos;,
 
--   \'django.contrib.admin\',
+-   &apos;django.contrib.admin&apos;,
 
--   \'django.contrib.auth\',
+-   &apos;django.contrib.auth&apos;,
 
--   \'django.contrib.contenttypes\',
+-   &apos;django.contrib.contenttypes&apos;,
 
--   \'django.contrib.sessions\',
+-   &apos;django.contrib.sessions&apos;,
 
--   \'django.contrib.messages\',
+-   &apos;django.contrib.messages&apos;,
 
--   \'django.contrib.staticfiles\',
+-   &apos;django.contrib.staticfiles&apos;,
 
--   \]
+-   &rbrack;
 
 -   FlightsConfig is the class the defines the settings for
     the flights application.
@@ -6582,7 +6614,7 @@ to index.html.
     the necessary changes for the database. Running this command will
     create a file migrations/0001_initial.py:
 
--   \# Generated by Django 2.0 on 2018-07-19 22:14
+-   &pound; Generated by Django 2.0 on 2018-07-19 22:14
 
 -   
 
@@ -6598,34 +6630,34 @@ to index.html.
 
 -   
 
--   dependencies = \[
+-   dependencies = &lbrack;
 
--   \]
+-   &rbrack;
 
 -   
 
--   operations = \[
+-   operations = &lbrack;
 
 -   migrations.CreateModel(
 
--   name=\'Flight\',
+-   name=&apos;Flight&apos;,
 
--   fields=\[
+-   fields=&lbrack;
 
--   (\'id\', models.AutoField(auto_created=True, primary_key=True,
-    serialize=False, verbose_name=\'ID\')),
+-   (&apos;id&apos;, models.AutoField(auto_created=True, primary_key=True,
+    serialize=False, verbose_name=&apos;ID&apos;)),
 
--   (\'origin\', models.CharField(max_length=64)),
+-   (&apos;origin&apos;, models.CharField(max_length=64)),
 
--   (\'destination\', models.CharField(max_length=64)),
+-   (&apos;destination&apos;, models.CharField(max_length=64)),
 
--   (\'duration\', models.IntegerField()),
+-   (&apos;duration&apos;, models.IntegerField()),
 
--   \],
+-   &rbrack;,
 
 -   ),
 
--   \]
+-   &rbrack;
 
 -   -   Inside the class Migration is a list operations, which contains
         everything that should happen to the database. In this case, the
@@ -6665,7 +6697,7 @@ to index.html.
 
 -   
 
--   f = Flight(origin=\"New York\", destination=\"London\",
+-   f = Flight(origin=&quot;New York&quot;, destination=&quot;London&quot;,
     duration=415)
 
 -   f.save()
@@ -6674,7 +6706,7 @@ to index.html.
 
 -   Flight.objects.all()
 
--   \# Returns \<QuerySet \[\<Flight: Flight object(1)\>\]\>
+-   &pound; Returns &lt;QuerySet &lbrack;&lt;Flight: Flight object(1)&gt;&rbrack;&gt;
 
     -   f.save() is analogous to SQL's COMMIT.
 
@@ -6682,14 +6714,14 @@ to index.html.
 
 -   The representation of the QuerySet that the shell returns isn't
     really readable or helpful. To produce a more useful, string
-    representation of a flight, a \_\_str\_\_ function can be added
+    representation of a flight, a &lowbar;&lowbar;str&lowbar;&lowbar; function can be added
     to Flight class in flights/models.py.
 
--   def \_\_str\_\_(self):
+-   def &lowbar;&lowbar;str&lowbar;&lowbar;(self):
 
--   return f\"{self.id} - {self.origin} to {self.destination}\"
+-   return f&quot;{self.id} - {self.origin} to {self.destination}&quot;
 
-    -   For any class, not just in Django, a \_\_str\_\_ function
+    -   For any class, not just in Django, a &lowbar;&lowbar;str&lowbar;&lowbar; function
         defines what an object should like look when printed, whether to
         a terminal, an HTML page, etc.
 
@@ -6697,7 +6729,7 @@ to index.html.
 
 -   Flight.objects.all()
 
--   \# Returns \<QuerySet \[\<Flight: 1 - New York to London\>\]\>
+-   &pound; Returns &lt;QuerySet &lbrack;&lt;Flight: 1 - New York to London&gt;&rbrack;&gt;
 
 -   
 
@@ -6707,25 +6739,25 @@ to index.html.
 
 -   f
 
--   \# Returns \<Flight: 1 - New York to London\>
+-   &pound; Returns &lt;Flight: 1 - New York to London&gt;
 
 -   
 
 -   f.origin()
 
--   \# Returns \'New York\'
+-   &pound; Returns &apos;New York&apos;
 
 -   
 
 -   f.id
 
--   \# Returns 1
+-   &pound; Returns 1
 
 -   
 
 -   f.delete()
 
--   \# Deletes the flight as expected
+-   &pound; Deletes the flight as expected
 
 ### Better Models
 
@@ -6742,9 +6774,9 @@ to index.html.
 
 -   
 
--   def \_\_str\_\_(self):
+-   def &lowbar;&lowbar;str&lowbar;&lowbar;(self):
 
--   return f\"{self.city} ({self.code})\"
+-   return f&quot;{self.city} ({self.code})&quot;
 
 -   Then, the Flight model can be modified appropriately, with origin
     and destination being ForeignKeys.
@@ -6752,10 +6784,10 @@ to index.html.
 -   class Flight(models.Model):
 
 -   origin = models.ForeignKey(Airport, on_delete=models.CASCADE,
-    related_name=\"departures\")
+    related_name=&quot;departures&quot;)
 
 -   destination = models.ForeignKey(Airport, on_delete=models.CASCADE,
-    related_name=\"arrivals\")
+    related_name=&quot;arrivals&quot;)
 
     -   Django models allow for specific behavior when an airport, for
         instance, is deleted. on_delete=models.CASCADE means that if an
@@ -6780,9 +6812,9 @@ to index.html.
 
 -   
 
--   jfk = Airport(code=\"JFK\", city=\"New York City\")
+-   jfk = Airport(code=&quot;JFK&quot;, city=&quot;New York City&quot;)
 
--   lhr = Airport(code=\"LHR\", city=\"London\")
+-   lhr = Airport(code=&quot;LHR&quot;, city=&quot;London&quot;)
 
 -   jfk.save()
 
@@ -6798,20 +6830,20 @@ to index.html.
 
 -   f.origin
 
--   \# Returns \<Airport: New York City (JFK)\>
+-   &pound; Returns &lt;Airport: New York City (JFK)&gt;
 
 -   
 
 -   f.origin.code
 
--   \# Returns \'JFK\'
+-   &pound; Returns &apos;JFK&apos;
 
 -   
 
 -   jfk.departures.all()
 
--   \# Returns \<QuerySet \[\<Flight: 1 - New York City (JFK) to London
-    (LHR)\>\]\>
+-   &pound; Returns &lt;QuerySet &lbrack;&lt;Flight: 1 - New York City (JFK) to London
+    (LHR)&gt;&rbrack;&gt;
 
 ### Rendering Templates
 
@@ -6821,7 +6853,7 @@ to index.html.
 
 -   def index(request)
 
--   return render(request, \"flights/index.html\")
+-   return render(request, &quot;flights/index.html&quot;)
 
     -   The second argument to render is simply the path to the template
         to be rendered.
@@ -6835,21 +6867,21 @@ to index.html.
 
 -   index.html can be simple for now.
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<title\>Flights\</title\>
+-   &lt;title&gt;Flights&lt;/title&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1\>Flights\</h1\>
+-   &lt;h1&gt;Flights&lt;/h1&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
 -   To display information about flights, Django's templating system,
     which is very similar to Jinja, can be used. Django passes
@@ -6863,35 +6895,35 @@ to index.html.
 
 -   context = {
 
--   \"flights\": Flights.objects.all()
+-   &quot;flights&quot;: Flights.objects.all()
 
 -   }
 
--   return render(request, \"flights/index.html\", context)
+-   return render(request, &quot;flights/index.html&quot;, context)
 
--   \<body\>
+-   &lt;body&gt;
 
--   \<h1\>Flights\</h1\>
+-   &lt;h1&gt;Flights&lt;/h1&gt;
 
--   \<ul\>
+-   &lt;ul&gt;
 
 -   
 
 -   {% for flight in flights %}
 
--   \<li\>
+-   &lt;li&gt;
 
 -   {{ flight }}
 
--   \</li\>
+-   &lt;/li&gt;
 
 -   {% endfor %}
 
 -   
 
--   \</ul\>
+-   &lt;/ul&gt;
 
--   \</body\>
+-   &lt;/body&gt;
 
 ### Admin
 
@@ -6907,7 +6939,7 @@ to index.html.
 
 -   
 
--   \# Register your models here.
+-   &pound; Register your models here.
 
 -   Adding the Airport and Flight models is simple.
 
@@ -6919,7 +6951,7 @@ to index.html.
 
 -   
 
--   \# Register your models here.
+-   &pound; Register your models here.
 
 -   admin.site.register(Airport)
 
@@ -6951,13 +6983,13 @@ to index.html.
     corresponding view in flights/views.py and template
     in templates/flights.
 
--   urlpatterns = \[
+-   urlpatterns = &lbrack;
 
--   path(\"\", views.index),
+-   path(&quot;&quot;, views.index),
 
--   path(\"\<int:flight_id\>\", views.flight),
+-   path(&quot;&lt;int:flight_id&gt;&quot;, views.flight),
 
--   \]
+-   &rbrack;
 
     -   The syntax for creating routes that accept arguments is very
         similar to Flask's.
@@ -6970,15 +7002,15 @@ to index.html.
 
     -   except Flight.DoesNotExist:
 
-    -   raise Http404(\"Flight does not exist\")
+    -   raise Http404(&quot;Flight does not exist&quot;)
 
     -   context = {
 
-    -   \"flight\": flight,
+    -   &quot;flight&quot;: flight,
 
     -   }
 
-    -   return render(request, \"flights/flight.html\", context)
+    -   return render(request, &quot;flights/flight.html&quot;, context)
 
     -   Because flight_id was parameter in the URL, flight_id gets
         passed to the flight view.
@@ -6988,7 +7020,7 @@ to index.html.
     -   DoesNotExist is a special exception built into Django models.
 
     -   Http404 is another built-in Django feature (imported
-        from django.http) that simply raises a 404 error. \`\`\` html
+        from django.http) that simply raises a 404 error. &apos;&apos;&apos; html
 
 # Flight {{ flight.id }}
 
@@ -6996,7 +7028,7 @@ to index.html.
 
 -   Destination: {{ flight.destination }}
 
-> \`\`\`
+> &apos;&apos;&apos;
 
 -   head contents can be the same as index.html for now. Note the
     current redundancy in HTML templates.
@@ -7009,23 +7041,23 @@ to index.html.
 
 -   
 
--   \<html\>
+-   &lt;html&gt;
 
--   \<head\>
+-   &lt;head&gt;
 
--   \<title\>{% block title %}{% endblock %}\</title\>
+-   &lt;title&gt;{% block title %}{% endblock %}&lt;/title&gt;
 
--   \</head\>
+-   &lt;/head&gt;
 
--   \<body\>
+-   &lt;body&gt;
 
 -   {% block body %}
 
 -   {% endblock %}
 
--   \</body\>
+-   &lt;/body&gt;
 
--   \</html\>
+-   &lt;/html&gt;
 
 -   
 
@@ -7033,7 +7065,7 @@ to index.html.
 
 -   
 
--   {% extends \"flight/base.html\" %}
+-   {% extends &quot;flight/base.html&quot; %}
 
 -   
 
@@ -7047,25 +7079,25 @@ to index.html.
 
 -   {% body block %}
 
--   \<h1\>Flights\</h1\>
+-   &lt;h1&gt;Flights&lt;/h1&gt;
 
--   \<uL\>
+-   &lt;uL&gt;
 
--   {% for flight in flights \$}
+-   {% for flight in flights &dollar;}
 
--   \<li\>
+-   &lt;li&gt;
 
--   \<a href=\"{% for flight in flights \$}
+-   &lt;a href=&quot;{% for flight in flights &dollar;}
 
--   \<li\>
+-   &lt;li&gt;
 
--   \<a href=\"{% url \'flight\' flight.id %}\"\>{{ flight }}\</a\>
+-   &lt;a href=&quot;{% url &apos;flight&apos; flight.id %}&quot;&gt;{{ flight }}&lt;/a&gt;
 
--   \</li\>
+-   &lt;/li&gt;
 
 -   {% endfor %}
 
--   \</ul\>
+-   &lt;/ul&gt;
 
 -   {% endblock %}
 
@@ -7073,7 +7105,7 @@ to index.html.
 
 > and
 >
-> {% extends \"flight/base.html\" %}
+> {% extends &quot;flight/base.html&quot; %}
 >
 > {% block title %}
 >
@@ -7081,17 +7113,17 @@ to index.html.
 >
 > {% endblock %}
 >
-> \<h1\>Flight {{ flight.id }}\</h1\>
+> &lt;h1&gt;Flight {{ flight.id }}&lt;/h1&gt;
 >
-> \<ul\>
+> &lt;ul&gt;
 >
-> \<li\>Origin: {{ flight.origin }}\</li\>
+> &lt;li&gt;Origin: {{ flight.origin }}&lt;/li&gt;
 >
-> \<li\>Destination: {{ flight.destination }}\</li\>
+> &lt;li&gt;Destination: {{ flight.destination }}&lt;/li&gt;
 >
-> \</ul\>
+> &lt;/ul&gt;
 >
-> \<a href=\"{% url \'index\' %}\"\>Back to full listing\</a\>
+> &lt;a href=&quot;{% url &apos;index&apos; %}&quot;&gt;Back to full listing&lt;/a&gt;
 >
 > {% block body %}
 >
@@ -7121,13 +7153,13 @@ to index.html.
 -   last = models.CharField(max_length=64)
 
 -   flights = models.ManyToManyField(Flight, blank=True,
-    related_name=\"passengers\")
+    related_name=&quot;passengers&quot;)
 
 -   
 
--   def \_\_str\_\_(self):
+-   def &lowbar;&lowbar;str&lowbar;&lowbar;(self):
 
--   return f\"{self.first} {self.last}\"
+-   return f&quot;{self.first} {self.last}&quot;
 
     -   Before, when associating two tables, models.ForeignKey was
         used. models.ManyToManyField allows for the desired behavior of
@@ -7157,11 +7189,11 @@ to index.html.
 
 -   f
 
--   \# Returns \<Flight: 1 - New York City (JFK) to London (LHR)\>
+-   &pound; Returns &lt;Flight: 1 - New York City (JFK) to London (LHR)&gt;
 
 -   
 
--   p = Passenger(first=\"Alice\", last=\"Adams\")
+-   p = Passenger(first=&quot;Alice&quot;, last=&quot;Adams&quot;)
 
 -   p.save()
 
@@ -7171,14 +7203,14 @@ to index.html.
 
 -   p.flights.all()
 
--   \# Returns \<QuerySet \[\<Flight: 1 - New York City (JFK) to London
-    (LHR)\>\]\>
+-   &pound; Returns &lt;QuerySet &lbrack;&lt;Flight: 1 - New York City (JFK) to London
+    (LHR)&gt;&rbrack;&gt;
 
 -   
 
 -   f.passengers.all()
 
--   \# Returns \<QuerySet \[\<Passenger: Alice Adams\>\]\>
+-   &pound; Returns &lt;QuerySet &lbrack;&lt;Passenger: Alice Adams&gt;&rbrack;&gt;
 
 -   The flight view and its corresponding HTML can be updated to now
     display passenger info.
@@ -7191,35 +7223,35 @@ to index.html.
 
 -   except Flight.DoesNotExist:
 
--   raise Http404(\"Flight does not exist\")
+-   raise Http404(&quot;Flight does not exist&quot;)
 
 -   context = {
 
--   \"flight\": flight,
+-   &quot;flight&quot;: flight,
 
--   \"passengers\": flight.passengers.all(),
+-   &quot;passengers&quot;: flight.passengers.all(),
 
 -   }
 
--   return render(request, \"flights/flight.html\", context)
+-   return render(request, &quot;flights/flight.html&quot;, context)
 
 > and
 >
-> \<h2\>Passengers\</h2\>
+> &lt;h2&gt;Passengers&lt;/h2&gt;
 >
-> \<ul\>
+> &lt;ul&gt;
 >
 > {% for passenger in passengers %}
 >
-> \<li\>{{ passenger }}\</li\>
+> &lt;li&gt;{{ passenger }}&lt;/li&gt;
 >
 > {% empty %}
 >
-> \<li\>No passengers\</li\>
+> &lt;li&gt;No passengers&lt;/li&gt;
 >
 > {% endfor %}
 >
-> \</ul\>
+> &lt;/ul&gt;
 
 -   {% empty %} executes if passengers is empty.
 
@@ -7235,21 +7267,21 @@ to index.html.
     might creating a new route, along with a corresponding view and HTML
     template.
 
--   urlpatterns = \[
+-   urlpatterns = &lbrack;
 
--   path(\"\", views.index, name=\"index\"),
+-   path(&quot;&quot;, views.index, name=&quot;index&quot;),
 
--   path(\"\<int:flight_id\>\", views.flight, name=\"flight\"),
+-   path(&quot;&lt;int:flight_id&gt;&quot;, views.flight, name=&quot;flight&quot;),
 
--   path(\"\<int:flight_id\>/book\", views.book, name=\"book\")
+-   path(&quot;&lt;int:flight_id&gt;/book&quot;, views.book, name=&quot;book&quot;)
 
--   \]
+-   &rbrack;
 
 -   def book(request, flight_id):
 
 -   try:
 
--   passenger_id = int(request.POST\[\"passenger\"\])
+-   passenger_id = int(request.POST&lbrack;&quot;passenger&quot;&rbrack;)
 
 -   flight = Flight.objects.get(pk=flight_id)
 
@@ -7257,22 +7289,22 @@ to index.html.
 
 -   except KeyError:
 
--   return render(request, \"flights/error.html\", {\"message\": \"No
-    selection.\"})
+-   return render(request, &quot;flights/error.html&quot;, {&quot;message&quot;: &quot;No
+    selection.&quot;})
 
 -   except Flight.DoesNotExist:
 
--   return render(request, \"flights/error.html\", {\"message\": \"No
-    flight.\"})
+-   return render(request, &quot;flights/error.html&quot;, {&quot;message&quot;: &quot;No
+    flight.&quot;})
 
 -   except Passenger.DoesNotExist:
 
--   return render(request, \"flights/error.html\", {\"message\": \"No
-    passenger.\"})
+-   return render(request, &quot;flights/error.html&quot;, {&quot;message&quot;: &quot;No
+    passenger.&quot;})
 
 -   passenger.flights.add(flight)
 
--   return HttpResponseRedirect(reverse(\"flight\", args=(flight_id,)))
+-   return HttpResponseRedirect(reverse(&quot;flight&quot;, args=(flight_id,)))
 
     -   This code is written on the assumption that the user will submit
         a web form via a POST request with one argument being
@@ -7305,19 +7337,19 @@ to index.html.
 
 -   except Flight.DoesNotExist:
 
--   raise Http404(\"Flight does not exist\")
+-   raise Http404(&quot;Flight does not exist&quot;)
 
 -   context = {
 
--   \"flight\": flight,
+-   &quot;flight&quot;: flight,
 
--   \"passengers\": flight.passengers.all(),
+-   &quot;passengers&quot;: flight.passengers.all(),
 
--   \"non_passengers\": Passenger.objects.exclude(flights=flight).all()
+-   &quot;non_passengers&quot;: Passenger.objects.exclude(flights=flight).all()
 
 -   }
 
--   return render(request, \"flights/flight.html\", context)
+-   return render(request, &quot;flights/flight.html&quot;, context)
 
     -   Passenger.objects returns all passenger objects, which can then
         be filtered in a variety of ways. exclude removes objects with a
@@ -7326,27 +7358,27 @@ to index.html.
 
 > {% if non_passengers %}
 >
-> \<h2\>Add a Passenger\</h2\>
+> &lt;h2&gt;Add a Passenger&lt;/h2&gt;
 >
-> \<form action=\"{% url \'book\' flight.id %}\" method=\"post\"\>
+> &lt;form action=&quot;{% url &apos;book&apos; flight.id %}&quot; method=&quot;post&quot;&gt;
 >
-> \<select name=\"passenger\"\>
+> &lt;select name=&quot;passenger&quot;&gt;
 >
 > {% for passenger in non_passengers %}
 >
-> \<option value=\"{{ passenger.id }}\"\>{{ passenger }}\</option\>
+> &lt;option value=&quot;{{ passenger.id }}&quot;&gt;{{ passenger }}&lt;/option&gt;
 >
 > {% endfor %}
 >
-> \</select\>
+> &lt;/select&gt;
 >
-> \<input type=\"submit\" value=\"Book Flight\" /\>
+> &lt;input type=&quot;submit&quot; value=&quot;Book Flight&quot; /&gt;
 >
-> \</form\>
+> &lt;/form&gt;
 >
 > {% else %}
 >
-> \<div\>No passengers to add.\</div\>
+> &lt;div&gt;No passengers to add.&lt;/div&gt;
 >
 > {% endif %}
 
@@ -7369,23 +7401,23 @@ to index.html.
     this nonetheless, a little bit of extra syntax must be added
     whenever dealing with a form in Django.
 
-> \<form action=\"{% url \'book\' flight.id %}\" method=\"post\"\>
+> &lt;form action=&quot;{% url &apos;book&apos; flight.id %}&quot; method=&quot;post&quot;&gt;
 >
 > {% csrf_token %}
 >
-> \<select name=\"passenger\"\>
+> &lt;select name=&quot;passenger&quot;&gt;
 >
 > {% for passenger in non_passengers %}
 >
-> \<option value=\"{{ passenger.id }}\"\>{{ passenger }}\</option\>
+> &lt;option value=&quot;{{ passenger.id }}&quot;&gt;{{ passenger }}&lt;/option&gt;
 >
 > {% endfor %}
 >
-> \</select\>
+> &lt;/select&gt;
 >
-> \<input type=\"submit\" value=\"Book Flight\" /\>
+> &lt;input type=&quot;submit&quot; value=&quot;Book Flight&quot; /&gt;
 >
-> \</form\>
+> &lt;/form&gt;
 
 -   When the form is submitted, a CSRF token is submitted with it to
     allow Django to verify that is indeed the same web application is
@@ -7405,7 +7437,7 @@ to index.html.
 
 -   
 
--   \# Register your models here.
+-   &pound; Register your models here.
 
 -   
 
@@ -7419,13 +7451,13 @@ to index.html.
 
 -   class FlightAdmin(admin.ModelAdmin):
 
--   inlines = \[PassengerInline\]
+-   inlines = &lbrack;PassengerInline&rbrack;
 
 -   
 
 -   class PassengerAdmin(admin.ModelAdmin):
 
--   filter_horizontal = (\"flights\",)
+-   filter_horizontal = (&quot;flights&quot;,)
 
 -   
 
@@ -7473,37 +7505,37 @@ to index.html.
 
 > {% load static %}
 >
-> \<!DOCTYPE html\>
+> &lt;!DOCTYPE html&gt;
 >
-> \<html\>
+> &lt;html&gt;
 >
-> \<head\>
+> &lt;head&gt;
 >
-> \<title\>{% block title %}{% endblock %}\</title\>
+> &lt;title&gt;{% block title %}{% endblock %}&lt;/title&gt;
 >
-> \<link rel=\"stylesheet\" href=\"{% static \'flights/styles.css\'
-> %}\"/\>
+> &lt;link rel=&quot;stylesheet&quot; href=&quot;{% static &apos;flights/styles.css&apos;
+> %}&quot;/&gt;
 >
-> \</head\>
+> &lt;/head&gt;
 >
-> \<body\>
+> &lt;body&gt;
 >
 > {% block body %}
 >
 > {% endblock %}
 >
-> \</body\>
+> &lt;/body&gt;
 >
-> \</html\>
+> &lt;/html&gt;
 >
-> \- \`{% load static %}\` allows for the use of static files.
+> &minus; &apos;{% load static %}&apos; allows for the use of static files.
 >
-> \- Any static file must have its \`href\` formattaed as \`\"{% static
-> \'path/static.css\' %}\"\`. - Inside of the application directory
-> (e.g. \`flights\`), there should be a \`static\` directory containing
+> &minus; Any static file must have its &apos;href&apos; formattaed as &apos;&quot;{% static
+> &apos;path/static.css&apos; %}&quot;&apos;. - Inside of the application directory
+> (e.g. &apos;flights&apos;), there should be a &apos;static&apos; directory containing
 > a directory for the application which in turn contains any static
 > files. So, the entire hierarchy would look like
-> \`flights/static/flights/styles.css\`. This is exactly analogous to
+> &apos;flights/static/flights/styles.css&apos;. This is exactly analogous to
 > how templates are stored.
 
 ## Login and Authentication
@@ -7521,13 +7553,13 @@ to index.html.
 
 -   
 
--   urlpatterns = \[
+-   urlpatterns = &lbrack;
 
--   path(\"\", views.index, name=\"index\"),
+-   path(&quot;&quot;, views.index, name=&quot;index&quot;),
 
--   path(\"login\", views.login_view, name=\"login\"),
+-   path(&quot;login&quot;, views.login_view, name=&quot;login&quot;),
 
--   path(\"logout\", views.logout_view, name=\"logout\")
+-   path(&quot;logout&quot;, views.logout_view, name=&quot;logout&quot;)
 
 -   users/views.py:
 
@@ -7541,7 +7573,7 @@ to index.html.
 
 -   
 
--   \# Create your views here.
+-   &pound; Create your views here.
 
 -   
 
@@ -7549,23 +7581,23 @@ to index.html.
 
 -   if not request.user.is_authenticated:
 
--   return render(request, \"users/login.html\", {\"message\": None})
+-   return render(request, &quot;users/login.html&quot;, {&quot;message&quot;: None})
 
 -   context = {
 
--   \"user\": request.user
+-   &quot;user&quot;: request.user
 
 -   }
 
--   return render(request, \"users/user.html\", context)
+-   return render(request, &quot;users/user.html&quot;, context)
 
 -   
 
 -   def login_view(request):
 
--   username = request.POST\[\"username\"\]
+-   username = request.POST&lbrack;&quot;username&quot;&rbrack;
 
--   password = request.POST\[\"password\"\]
+-   password = request.POST&lbrack;&quot;password&quot;&rbrack;
 
 -   user = authenticate(request, username=username, password=password)
 
@@ -7573,12 +7605,12 @@ to index.html.
 
 -   login(request, user)
 
--   return HttpResponseRedirect(reverse(\"index\"))
+-   return HttpResponseRedirect(reverse(&quot;index&quot;))
 
 -   else:
 
--   return render(request, \"users/login.html\", {\"message\": \"Invalid
-    credentials.\"})
+-   return render(request, &quot;users/login.html&quot;, {&quot;message&quot;: &quot;Invalid
+    credentials.&quot;})
 
 -   
 
@@ -7586,8 +7618,8 @@ to index.html.
 
 -   logout(request)
 
--   return render(request, \"users/login.html\", {\"message\": \"Logged
-    out.\"})
+-   return render(request, &quot;users/login.html&quot;, {&quot;message&quot;: &quot;Logged
+    out.&quot;})
 
     -   django.contrib.auth is Django's authentication package, which
         contains the User model, along with the
@@ -7609,29 +7641,29 @@ to index.html.
 
 > {% block body %}
 >
-> \<h1\>Login\</h1\>
+> &lt;h1&gt;Login&lt;/h1&gt;
 >
 > {% if message %}
 >
-> \<div\>
+> &lt;div&gt;
 >
 > {{ message }}
 >
-> \</div\>
+> &lt;/div&gt;
 >
 > {% endif %}
 >
-> \<form action=\"{% url \'login\' %}\" method=\"post\"\>
+> &lt;form action=&quot;{% url &apos;login&apos; %}&quot; method=&quot;post&quot;&gt;
 >
 > {% csrf_token %}
 >
-> \<input name=\"username\" type=\"text\"/\>
+> &lt;input name=&quot;username&quot; type=&quot;text&quot;/&gt;
 >
-> \<input name=\"password\" type=\"password\"/\>
+> &lt;input name=&quot;password&quot; type=&quot;password&quot;/&gt;
 >
-> \<input type=\"submit\" value=\"Login\"/\>
+> &lt;input type=&quot;submit&quot; value=&quot;Login&quot;/&gt;
 >
-> \</form\>
+> &lt;/form&gt;
 >
 > {% endblock %}
 
@@ -7639,15 +7671,15 @@ to index.html.
 
 > {% block body %}
 >
-> \<h1\>Hello, {{ user.first_name }}\</h1\>
+> &lt;h1&gt;Hello, {{ user.first_name }}&lt;/h1&gt;
 >
-> \<ul\>
+> &lt;ul&gt;
 >
-> \<li\>Currently logged in as: {{ user.username }}\</li\>
+> &lt;li&gt;Currently logged in as: {{ user.username }}&lt;/li&gt;
 >
-> \<li\>\<a href=\"{% url \'logout\' %}\"\>Logout\</a\>\</li\>
+> &lt;li&gt;&lt;a href=&quot;{% url &apos;logout&apos; %}&quot;&gt;Logout&lt;/a&gt;&lt;/li&gt;
 >
-> \</ul\>
+> &lt;/ul&gt;
 >
 > {% endblock %}
 
@@ -7662,12 +7694,12 @@ to index.html.
 
 -   
 
--   user = User.objects.create_user(\"alice\", \"alice@something.com\",
-    \"alice12345\")
+-   user = User.objects.create_user(&quot;alice&quot;, &quot;alice@something.com&quot;,
+    &quot;alice12345&quot;)
 
 -   
 
--   user.first_name = \"Alice\"
+-   user.first_name = &quot;Alice&quot;
 
 -   
 
@@ -7702,9 +7734,9 @@ height="2.277338145231846in"}
 >
 > def is_prime(n):
 >
-> \"\"\"Determines if a non-negative integer is prime.\"\"\"
+> &quot;&quot;&quot;Determines if a non-negative integer is prime.&quot;&quot;&quot;
 >
-> if n \< 2:
+> if n &lt; 2:
 >
 > return False
 >
@@ -7731,7 +7763,7 @@ height="2.277338145231846in"}
 >
 > if is_prime(n) != expected:
 >
-> print(f\"ERROR on is_prime({n}), expected {expected}\")
+> print(f&quot;ERROR on is_prime({n}), expected {expected}&quot;)
 
 -   A simple way to use this test function is to write a short Python
     program that runs this test for a series of inputs. That might look
@@ -7743,9 +7775,9 @@ height="2.277338145231846in"}
 >
 > if is_prime(n) != expected:
 >
-> print(f\"ERROR on is_prime({n}), expected {expected}\")
+> print(f&quot;ERROR on is_prime({n}), expected {expected}&quot;)
 >
-> if \_\_name\_\_ == \"\_\_main\_\_\":
+> if &lowbar;&lowbar;name&lowbar;&lowbar; == &quot;&lowbar;&lowbar;main&lowbar;&lowbar;&quot;:
 >
 > test_prime(-4, False)
 >
@@ -7797,7 +7829,7 @@ height="2.277338145231846in"}
 >
 > def is_prime(n):
 >
-> return n \> 1 and all(n % i for i in range(2, int(math.sqrt(n)) + 1))
+> return n &gt; 1 and all(n % i for i in range(2, int(math.sqrt(n)) + 1))
 
 -   Breaking this down, there are two conditions being checked:
 
@@ -7820,7 +7852,7 @@ height="2.277338145231846in"}
 -   All programs, on exit, return an exit code. Generally speaking, an
     exit code of 0 indicates that everything went well, and any other
     code indicates an error. To examine an exit code in bash after
-    running a Python script, use echo \$?.
+    running a Python script, use echo &dollar;?.
 
 ## **unittest**
 
@@ -7838,41 +7870,41 @@ height="1.8875382764654418in"}
 >
 > def test_1(self):
 >
-> \"\"\"Check that 1 is not prime.\"\"\"
+> &quot;&quot;&quot;Check that 1 is not prime.&quot;&quot;&quot;
 >
 > self.assertFalse(is_prime(1))
 >
 > def test_2(self):
 >
-> \"\"\"Check that 2 is prime.\"\"\"
+> &quot;&quot;&quot;Check that 2 is prime.&quot;&quot;&quot;
 >
 > self.assertTrue(is_prime(2))
 >
 > def test_8(self):
 >
-> \"\"\"Check that 8 is not prime.\"\"\"
+> &quot;&quot;&quot;Check that 8 is not prime.&quot;&quot;&quot;
 >
 > self.assertFalse(is_prime(8))
 >
 > def test_11(self):
 >
-> \"\"\"Check that 11 is prime.\"\"\"
+> &quot;&quot;&quot;Check that 11 is prime.&quot;&quot;&quot;
 >
 > self.assertTrue(is_prime(11))
 >
 > def test_25(self):
 >
-> \"\"\"Check that 25 is not prime.\"\"\"
+> &quot;&quot;&quot;Check that 25 is not prime.&quot;&quot;&quot;
 >
 > self.assertFalse(is_prime(25))
 >
 > def test_28(self):
 >
-> \"\"\"Check that 28 is not prime.\"\"\"
+> &quot;&quot;&quot;Check that 28 is not prime.&quot;&quot;&quot;
 >
 > self.assertFalse(is_prime(28))
 >
-> if \_\_name\_\_ == \"\_\_main\_\_\":
+> if &lowbar;&lowbar;name&lowbar;&lowbar; == &quot;&lowbar;&lowbar;main&lowbar;&lowbar;&quot;:
 >
 > unittest.main()
 
@@ -7925,7 +7957,7 @@ height="1.8875382764654418in"}
 
 > def is_valid_flight(self):
 >
-> return (self.origin != self.destination) and (self.duration \>= 0)
+> return (self.origin != self.destination) and (self.duration &gt;= 0)
 
 -   This returns True if the origin and the destination aren't the same
     and its duration is positive.
@@ -7939,19 +7971,19 @@ height="1.8875382764654418in"}
 >
 > from .models import Airport, Flight
 >
-> \# Create your tests here.
+> &pound; Create your tests here.
 >
 > class ModelsTestCase(TestCase):
 >
 > def setUp(self):
 >
-> \# Create airports.
+> &pound; Create airports.
 >
-> a1 = Airport.objects.create(code=\"AAA\", city=\"City A\")
+> a1 = Airport.objects.create(code=&quot;AAA&quot;, city=&quot;City A&quot;)
 >
-> a2 = Airport.objects.create(code=\"BBB\", city=\"City B\")
+> a2 = Airport.objects.create(code=&quot;BBB&quot;, city=&quot;City B&quot;)
 >
-> \# Create flights.
+> &pound; Create flights.
 >
 > Flight.objects.create(origin=a1, destination=a2, duration=100)
 >
@@ -7961,21 +7993,21 @@ height="1.8875382764654418in"}
 >
 > def test_departures_count(self):
 >
-> a = Airport.objects.get(code=\"AAA\")
+> a = Airport.objects.get(code=&quot;AAA&quot;)
 >
 > self.assertEqual(a.departures.count(), 3)
 >
 > def test_arrivals_count(self):
 >
-> a = Airport.objects.get(code=\"AAA\")
+> a = Airport.objects.get(code=&quot;AAA&quot;)
 >
 > self.assertEqual(a.arrivals.count(), 1)
 >
 > def test_valid_flight(self):
 >
-> a1 = Airport.objects.get(code=\"AAA\")
+> a1 = Airport.objects.get(code=&quot;AAA&quot;)
 >
-> a2 = Airport.objects.get(code=\"BBB\")
+> a2 = Airport.objects.get(code=&quot;BBB&quot;)
 >
 > f = Flight.objects.get(origin=a1, destination=a2, duration=100)
 >
@@ -7983,7 +8015,7 @@ height="1.8875382764654418in"}
 >
 > def test_invalid_flight_destination(self):
 >
-> a1 = Airport.objects.get(code=\"AAA\")
+> a1 = Airport.objects.get(code=&quot;AAA&quot;)
 >
 > f = Flight.objects.get(origin=a1, destination=a1)
 >
@@ -7991,9 +8023,9 @@ height="1.8875382764654418in"}
 >
 > def test_invalid_flight_duration(self):
 >
-> a1 = Airport.objects.get(code=\"AAA\")
+> a1 = Airport.objects.get(code=&quot;AAA&quot;)
 >
-> a2 = Airport.objects.get(code=\"BBB\")
+> a2 = Airport.objects.get(code=&quot;BBB&quot;)
 >
 > f = Flight.objects.get(origin=a1, destination=a2, duration=-100)
 >
@@ -8036,30 +8068,30 @@ height="1.8875382764654418in"}
 
 -   In airline1/models.py:
 
-> \# Add a method that raises \"Validation errors\" if the data is
+> &pound; Add a method that raises &quot;Validation errors&quot; if the data is
 > illogical.
 >
 > def clean(self):
 >
 > if self.origin == self.destination:
 >
-> raise ValidationError(\"Origin and destination must be different.\")
+> raise ValidationError(&quot;Origin and destination must be different.&quot;)
 >
-> elif self.duration \< 1:
+> elif self.duration &lt; 1:
 >
-> raise ValidationError(\"Duration must be positive.\")
+> raise ValidationError(&quot;Duration must be positive.&quot;)
 >
-> \# Call this method before trying to add data, overriding the default
-> behavior of built-in \`save\`.
+> &pound; Call this method before trying to add data, overriding the default
+> behavior of built-in &apos;save&apos;.
 >
-> def save(self, \*args, \*\*kwargs):
+> def save(self, &ast;args, &ast;&ast;kwargs):
 >
 > self.clean()
 >
-> \# This syntax now calls Django\'s own \"save\" function, adding this
-> data to the DB (if \`clean\` was ok).
+> &pound; This syntax now calls Django&apos;s own &quot;save&quot; function, adding this
+> data to the DB (if &apos;clean&apos; was ok).
 >
-> super().save(\*args, \*\*kwargs)
+> super().save(&ast;args, &ast;&ast;kwargs)
 
 #### **The Front End**
 
@@ -8072,41 +8104,41 @@ height="1.8875382764654418in"}
 >
 > from .models import Airport, Flight, Passenger
 >
-> \# Create your tests here.
+> &pound; Create your tests here.
 >
 > class FlightsTestCase(TestCase):
 >
-> \# \...same setUp and model testing as before\...
+> &pound; &hellip;same setUp and model testing as before&hellip;
 >
 > def test_index(self):
 >
 > c = Client()
 >
-> response = c.get(\"/\")
+> response = c.get(&quot;/&quot;)
 >
 > self.assertEqual(response.status_code, 200)
 >
-> self.assertEqual(response.context\[\"flights\"\].count(), 2)
+> self.assertEqual(response.context&lbrack;&quot;flights&quot;&rbrack;.count(), 2)
 >
 > def test_valid_flight_page(self):
 >
-> a1 = Airport.objects.get(code=\"AAA\")
+> a1 = Airport.objects.get(code=&quot;AAA&quot;)
 >
 > f = Flight.objects.get(origin=a1, destination=a1)
 >
 > c = Client()
 >
-> response = c.get(f\"/{f.id}\")
+> response = c.get(f&quot;/{f.id}&quot;)
 >
 > self.assertEqual(response.status_code, 200)
 >
 > def test_invalid_flight_page(self):
 >
-> max_id = Flight.objects.all().aggregate(Max(\"id\"))\[\"id\_\_max\"\]
+> max_id = Flight.objects.all().aggregate(Max(&quot;id&quot;))&lbrack;&quot;id&lowbar;&lowbar;max&quot;&rbrack;
 >
 > c = Client()
 >
-> response = c.get(f\"/{max_id + 1}\")
+> response = c.get(f&quot;/{max_id + 1}&quot;)
 >
 > self.assertEqual(response.status_code, 404)
 >
@@ -8114,38 +8146,38 @@ height="1.8875382764654418in"}
 >
 > f = Flight.objects.get(pk=1)
 >
-> p = Passenger.objects.create(first=\"Alice\", last=\"Adams\")
+> p = Passenger.objects.create(first=&quot;Alice&quot;, last=&quot;Adams&quot;)
 >
 > f.passengers.add(p)
 >
 > c = Client()
 >
-> response = c.get(f\"/{f.id}\")
+> response = c.get(f&quot;/{f.id}&quot;)
 >
 > self.assertEqual(response.status_code, 200)
 >
-> self.assertEqual(response.context\[\"passengers\"\].count(), 1)
+> self.assertEqual(response.context&lbrack;&quot;passengers&quot;&rbrack;.count(), 1)
 >
 > def test_flight_page_non_passengers(self):
 >
 > f = Flight.objects.get(pk=1)
 >
-> p = Passenger.objects.create(first=\"Alice\", last=\"Adams\")
+> p = Passenger.objects.create(first=&quot;Alice&quot;, last=&quot;Adams&quot;)
 >
 > c = Client()
 >
-> response = c.get(f\"/{f.id}\")
+> response = c.get(f&quot;/{f.id}&quot;)
 
 self.assertEqual(response.status_code, 200)
 
-> self.assertEqual(response.context\[\"non_passengers\"\].count(), 1)
+> self.assertEqual(response.context&lbrack;&quot;non_passengers&quot;&rbrack;.count(), 1)
 
 -   Client simulates a web client that, for testing purposes, can make
     requests to and get responses from a web server. Using Client,
     requests to different pages can be simulated to ensure that the
     expected information is being returned.
 
--   c.get(\"/\") simply uses a Client object to make a GET request to a
+-   c.get(&quot;/&quot;) simply uses a Client object to make a GET request to a
     route and returns the response (stored as response). This response
     can be checked by verifying response.status_code and the contents
     of response.contexts.
@@ -8153,7 +8185,7 @@ self.assertEqual(response.status_code, 200)
 -   An argument can be passed to a URL using the same curly brace/dot
     notation syntax as before.
 
--   Flight.objects.all().aggregate(Max(\"id\"))\[\"id\_\_max\"\] returns
+-   Flight.objects.all().aggregate(Max(&quot;id&quot;))&lbrack;&quot;id&lowbar;&lowbar;max&quot;&rbrack; returns
     the maximum ID value of any flight. This is for test the response to
     an invalid flight ID in a URL.
 
@@ -8166,51 +8198,51 @@ self.assertEqual(response.status_code, 200)
     to test that has a counter that can be incremented or decremented
     with two buttons:
 
-> \<html\>
+> &lt;html&gt;
 >
-> \<head\>
+> &lt;head&gt;
 >
-> \<title\>Counter\</title\>
+> &lt;title&gt;Counter&lt;/title&gt;
 >
-> \<script\>
+> &lt;script&gt;
 >
-> document.addEventListener(\'DOMContentLoaded\', () =\> {
+> document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
 >
 > let counter = 0;
 >
-> document.querySelector(\'#increase\').onclick = () =\> {
+> document.querySelector(&apos;#increase&apos;).onclick = () =&gt; {
 >
 > counter++;
 >
-> document.querySelector(\'h1\').innerHTML = counter;
+> document.querySelector(&apos;h1&apos;).innerHTML = counter;
 >
 > };
 >
-> document.querySelector(\'#decrease\').onclick = () =\> {
+> document.querySelector(&apos;#decrease&apos;).onclick = () =&gt; {
 >
-> counter\--;
+> counter&minus;-;
 >
-> document.querySelector(\'h1\').innerHTML = counter;
+> document.querySelector(&apos;h1&apos;).innerHTML = counter;
 >
 > };
 >
 > });
 >
-> \</script\>
+> &lt;/script&gt;
 >
-> \</head\>
+> &lt;/head&gt;
 >
-> \<body\>
+> &lt;body&gt;
 >
-> \<h1\>0\</h1\>
+> &lt;h1&gt;0&lt;/h1&gt;
 >
-> \<button id=\"increase\"\>+\</button\>
+> &lt;button id=&quot;increase&quot;&gt;+&lt;/button&gt;
 >
-> \<button id=\"decrease\"\>-\</button\>
+> &lt;button id=&quot;decrease&quot;&gt;-&lt;/button&gt;
 >
-> \</body\>
+> &lt;/body&gt;
 >
-> \</html\>
+> &lt;/html&gt;
 
 -   Here's the Selenium Python code to test the page:
 
@@ -8225,7 +8257,7 @@ self.assertEqual(response.status_code, 200)
 >
 > from selenium import webdriver
 >
-> \# A convenience function to turn a filename into a full path, as
+> &pound; A convenience function to turn a filename into a full path, as
 > needed for a browser
 >
 > def file_uri(filename):
@@ -8238,43 +8270,43 @@ self.assertEqual(response.status_code, 200)
 >
 > def test_title(self):
 >
-> driver.get(file_uri(\"counter.html\"))
+> driver.get(file_uri(&quot;counter.html&quot;))
 >
-> self.assertEqual(driver.title, \"Counter\")
+> self.assertEqual(driver.title, &quot;Counter&quot;)
 >
 > def test_increase(self):
 >
-> driver.get(file_uri(\"counter.html\"))
+> driver.get(file_uri(&quot;counter.html&quot;))
 >
-> increase = driver.find_element_by_id(\"increase\")
+> increase = driver.find_element_by_id(&quot;increase&quot;)
 >
 > increase.click()
 >
-> self.assertEqual(driver.find_element_by_tag_name(\"h1\").text, \"1\")
+> self.assertEqual(driver.find_element_by_tag_name(&quot;h1&quot;).text, &quot;1&quot;)
 >
 > def test_decrease(self):
 >
-> driver.get(file_uri(\"counter.html\"))
+> driver.get(file_uri(&quot;counter.html&quot;))
 >
-> decrease = driver.find_element_by_id(\"decrease\")
+> decrease = driver.find_element_by_id(&quot;decrease&quot;)
 >
 > decrease.click()
 >
-> self.assertEqual(driver.find_element_by_tag_name(\"h1\").text, \"-1\")
+> self.assertEqual(driver.find_element_by_tag_name(&quot;h1&quot;).text, &quot;-1&quot;)
 >
 > def test_multiple_increase(self):
 >
-> driver.get(file_uri(\"counter.html\"))
+> driver.get(file_uri(&quot;counter.html&quot;))
 >
-> increase = driver.find_element_by_id(\"increase\")
+> increase = driver.find_element_by_id(&quot;increase&quot;)
 >
 > for i in range(3):
 >
 > increase.click()
 >
-> self.assertEqual(driver.find_element_by_tag_name(\"h1\").text, \"3\")
+> self.assertEqual(driver.find_element_by_tag_name(&quot;h1&quot;).text, &quot;3&quot;)
 >
-> if \_\_name\_\_ == \"\_\_main\_\_\":
+> if &lowbar;&lowbar;name&lowbar;&lowbar; == &quot;&lowbar;&lowbar;main&lowbar;&lowbar;&quot;:
 >
 > unittest.main()
 
@@ -8290,8 +8322,6 @@ self.assertEqual(response.status_code, 200)
     each button element by ID and calling the click function to simulate
     a user clicking on it. Then, whatever the text display is can get
     verified to match the expected value.
-
-## 
 
 ## **Continuous Integration and Continuous Delivery**
 
@@ -8323,11 +8353,11 @@ height="1.7083486439195101in"}
 >
 > key3:
 >
-> \- item1
+> &minus; item1
 >
-> \- item2
+> &minus; item2
 >
-> \- item3
+> &minus; item3
 >
 > key4:
 >
@@ -8335,9 +8365,9 @@ height="1.7083486439195101in"}
 >
 > nested_key2:
 >
-> \- item4
+> &minus; item4
 >
-> \- item5
+> &minus; item5
 
 -   In particular, a very simple Travis YAML file will look something
     like this:
@@ -8392,7 +8422,7 @@ height="1.7083486439195101in"}
 
     -   Head to your app's resources dashboard which should have a URL
         of the
-        form https://dashboard.heroku.com/apps/\<APP-NAME\>/resources where
+        form https://dashboard.heroku.com/apps/&lt;APP-NAME&gt;/resources where
         APP NAME is the actual name of your app. In our example, it
         was https://dashboard.heroku.com/apps/kzidane-airline/resources for
         example.
@@ -8412,7 +8442,7 @@ height="1.7083486439195101in"}
 -   Setting environment variables *for the Heroku app*:
 
     -   In your app settings which should be
-        at https://dashboard.heroku.com/apps/\<APP NAME\>/settings,
+        at https://dashboard.heroku.com/apps/&lt;APP NAME&gt;/settings,
         click **Reveal Config Vars**.
 
     -   Add the following variables (recall these are accessed in
@@ -8436,7 +8466,7 @@ height="1.7083486439195101in"}
 -   Viewing the logs (to see project behavior)
 
     -   In your app dashboard which should be
-        at https://dashboard.heroku.com/apps/\<APP NAME\> click on More
+        at https://dashboard.heroku.com/apps/&lt;APP NAME&gt; click on More
         on the top-right then click View logs.
 
 ### Required files for Heroku
@@ -8448,7 +8478,7 @@ height="1.7083486439195101in"}
 -   You also must have a file called Procfile, which looks like the
     below:
 
-> web: gunicorn \<PROJECT NAME\>.wsgi
+> web: gunicorn &lt;PROJECT NAME&gt;.wsgi
 
 -   where PROJECT NAME is the actual project name (for example, web:
     gunicorn airline.wsgi) to let Heroku know how to serve your project.
@@ -8497,7 +8527,7 @@ height="1.7083486439195101in"}
 >
 > provider: heroku
 >
-> api_key: \$HEROKU_API_KEY
+> api_key: &dollar;HEROKU_API_KEY
 >
 > app: **APP**
 >
@@ -8613,7 +8643,7 @@ Deploy to check.io -- travis-ci/travis-build under github
 
 > Git status
 >
-> Git add \<filename changed\>
+> Git add &lt;filename changed&gt;
 >
 > Git commit --m "explanation of changes made to code"
 >
@@ -8983,17 +9013,17 @@ Deploy to check.io -- travis-ci/travis-build under github
     is a potential vulnerability if user input is being passed directly
     into a command like so:
 
-> username = request.form.get(\"username\")
+> username = request.form.get(&quot;username&quot;)
 >
-> password = request.form.get(\"password\")
+> password = request.form.get(&quot;password&quot;)
 >
-> user = db.execute(\"SELECT \* FROM users WHERE (username = \'\" +
+> user = db.execute(&quot;SELECT &ast; FROM users WHERE (username = &apos;&quot; +
 > username
 >
-> \+ \"\') AND (password = \'\" + password + \"\')\").first()
+> &plus; &quot;&apos;) AND (password = &apos;&quot; + password + &quot;&apos;)&quot;).first()
 
 -   To avoid this, any input that is passed, in one way or another, into
-    a command should be have potentially dangerous characters, like \',
+    a command should be have potentially dangerous characters, like &apos;,
     'escaped'. Often times, this input 'sanitation' is done
     automatically when using libraries such as SQLAlchemy.
 
@@ -9026,19 +9056,19 @@ Deploy to check.io -- travis-ci/travis-build under github
 
 > from flask import Flask, request
 >
-> app = Flask(\_\_name\_\_)
+> app = Flask(&lowbar;&lowbar;name&lowbar;&lowbar;)
 >
-> \@app.route(\"/\")
+> &commat;app.route(&quot;/&quot;)
 >
 > def index():
 >
-> return \"Hello, world!\"
+> return &quot;Hello, world!&quot;
 >
-> \@app.errorhandler(404)
+> &commat;app.errorhandler(404)
 >
 > def page_not_found(e)
 >
-> return \"Not Found: \" + request.path
+> return &quot;Not Found: &quot; + request.path
 
 -   page_not_found will be run whenever the server returns a '404 Not
     Found' response code, thanks to Flask's built in error handler.
@@ -9047,7 +9077,7 @@ Deploy to check.io -- travis-ci/travis-build under github
     found by the server.
 
 -   If, instead an incorrect path, the user entered some JavaScript code
-    in the URL (for example, /\<script\>alert(\'hi\')\</script\>), then
+    in the URL (for example, /&lt;script&gt;alert(&apos;hi&apos;)&lt;/script&gt;), then
     that code will be rendered in the HTML and run.
 
 -   Lots of modern browsers such as Chrome have cross-site scripting
@@ -9060,8 +9090,8 @@ Deploy to check.io -- travis-ci/travis-build under github
     passwords, credit card information, etc. Take the following script,
     for example:
 
-> /\<script\>document.write(\'\<img
-> src=\"hacker_url?cookie=\"+document.cookie+\"\>\")\</script\>
+> /&lt;script&gt;document.write(&apos;&lt;img
+> src=&quot;hacker_url?cookie=&quot;+document.cookie+&quot;&gt;&quot;)&lt;/script&gt;
 
 -   document.write adds new content to the HTML source.
 
@@ -9082,20 +9112,20 @@ Deploy to check.io -- travis-ci/travis-build under github
 -   Cross-site scripting does not require JavaScript to passed through
     the URL. Here's an example that abuses a database:
 
-> \@app.route(\"/\", methods=\[\"GET\", \"POST\"\])
+> &commat;app.route(&quot;/&quot;, methods=&lbrack;&quot;GET&quot;, &quot;POST&quot;&rbrack;)
 >
 > def index():
 >
-> if request.method == \"POST\":
+> if request.method == &quot;POST&quot;:
 >
-> contents = request.form.get(\"contents\")
+> contents = request.form.get(&quot;contents&quot;)
 >
-> db.execute(\"INSERT INTO messages (contents) VALUES (:contents)\",
-> {\"contents\": contents})
+> db.execute(&quot;INSERT INTO messages (contents) VALUES (:contents)&quot;,
+> {&quot;contents&quot;: contents})
 >
-> messages = db.execute(\"SELECT \* FROM messages\").fetchall()
+> messages = db.execute(&quot;SELECT &ast; FROM messages&quot;).fetchall()
 >
-> return render_template(\"index.html\", messages=messages)
+> return render_template(&quot;index.html&quot;, messages=messages)
 
 -   This is a simple notes/message board app in which users can type in
     messages to be stored in a database. Anytime the page is refreshed,
@@ -9113,24 +9143,24 @@ Deploy to check.io -- travis-ci/travis-build under github
 
 -   Other examples of malicious uses for cross-site scripting include
     rendering a completely different page with document.body.innerHTML =
-    \"insert contents here\", redirecting to different site
-    with window.location = \"hacker_URL\", etc.
+    &quot;insert contents here&quot;, redirecting to different site
+    with window.location = &quot;hacker_URL&quot;, etc.
 
 -   Note that for the previous example, the HTML had to purposefully
     written in order to get around Flask's built-in character escaping
     behavior:
 
-> \<ul\>
+> &lt;ul&gt;
 >
 > {% for message in messages %}
 >
-> \<li\>{{ message.contents \| safe }}\</li\>
+> &lt;li&gt;{{ message.contents &vert; safe }}&lt;/li&gt;
 >
 > {% endfor %}
 >
-> \</ul\>
+> &lt;/ul&gt;
 
--   message.contents \| safe indicates that nothing should be escaped.
+-   message.contents &vert; safe indicates that nothing should be escaped.
 
 -   Note that whenever template contents are generated manually, such as
     via string concatentation in the first example, that these sorts of
@@ -9146,15 +9176,15 @@ Deploy to check.io -- travis-ci/travis-build under github
     passing in the recipient and an amount. Here's some HTML that can
     exploit that:
 
-> \<body\>
+> &lt;body&gt;
 >
-> \<a href=\"http://yourbank.com/transfer?to=brian&amt=2800\"?\>
+> &lt;a href=&quot;http://yourbank.com/transfer?to=brian&amt=2800&quot;?&gt;
 >
 > Click Here!
 >
-> \</a\>
+> &lt;/a&gt;
 >
-> \</body\>
+> &lt;/body&gt;
 
 -   If the user is already logged in to the bank, then simply following
     that link will initiate the transfer.
@@ -9169,40 +9199,40 @@ Deploy to check.io -- travis-ci/travis-build under github
     doesn't even need to do anything other than load the page to trigger
     the transfer.
 
-> \<body\>
+> &lt;body&gt;
 >
-> \<img src=\"http://yourbank.com/transfer?to=brian&amt=2800\"\>
+> &lt;img src=&quot;http://yourbank.com/transfer?to=brian&amt=2800&quot;&gt;
 >
-> \</body\>
+> &lt;/body&gt;
 
 -   Even if the bank was wise enough to require a POST request to
     initiate a transfer, there is still the potential for abuse.
 
-> \<body\>
+> &lt;body&gt;
 >
-> \<form action=\"https://yourbank.com/transfer\" method=\"post\"\>
+> &lt;form action=&quot;https://yourbank.com/transfer&quot; method=&quot;post&quot;&gt;
 >
-> \<input type=\"hidden\" name=\"to\" value=\"brian\"\>
+> &lt;input type=&quot;hidden&quot; name=&quot;to&quot; value=&quot;brian&quot;&gt;
 >
-> \<input type=\"hidden\" name=\"amt\" value=\"2800\"\>
+> &lt;input type=&quot;hidden&quot; name=&quot;amt&quot; value=&quot;2800&quot;&gt;
 >
-> \<input type=\"submit\" value=\"Click Here!\"\>
+> &lt;input type=&quot;submit&quot; value=&quot;Click Here!&quot;&gt;
 >
-> \</form\>
+> &lt;/form&gt;
 >
-> \<body\>
+> &lt;body&gt;
 
 -   These inputs, pre-filled with the desired values, will not be shown
-    to the user because of the type=\"hidden\" attribute. All the user
+    to the user because of the type=&quot;hidden&quot; attribute. All the user
     sees is a button.
 
 -   By changing the first body tag of the previous example, the form can
     be made to submit automatically, without the user having to do
     anything at all.
 
-\<body onload=\"document.forms\[0\].submit()\"\>
+&lt;body onload=&quot;document.forms&lbrack;0&rbrack;.submit()&quot;&gt;
 
--   document.forms\[0\] returns the first form in the document, which is
+-   document.forms&lbrack;0&rbrack; returns the first form in the document, which is
     already pre-filled with the bank transfer information. As soon as
     the page is loaded, the POST request will be made.
 
@@ -9217,17 +9247,17 @@ Deploy to check.io -- travis-ci/travis-build under github
 -   Django and many other web frameworks have support for this CSRF
     token functionality. With Django, adding a CSRF token is simple:
 
-> \<form action=\"https://yourbank.com/transfer\" method=\"post\"\>
+> &lt;form action=&quot;https://yourbank.com/transfer&quot; method=&quot;post&quot;&gt;
 >
 > {% csrf_token %}
 >
-> \<input type=\"hidden\" name=\"to\" value=\"brian\"\>
+> &lt;input type=&quot;hidden&quot; name=&quot;to&quot; value=&quot;brian&quot;&gt;
 >
-> \<input type=\"hidden\" name=\"amt\" value=\"2800\"\>
+> &lt;input type=&quot;hidden&quot; name=&quot;amt&quot; value=&quot;2800&quot;&gt;
 >
-> \<input type=\"submit\" value=\"Click Here!\"\>
+> &lt;input type=&quot;submit&quot; value=&quot;Click Here!&quot;&gt;
 >
-> \</form\>
+> &lt;/form&gt;
 
 ## 
 
@@ -9368,7 +9398,7 @@ Deploy to check.io -- travis-ci/travis-build under github
 6.  Run flask run to start up your Flask application.
 
 7.  If you navigate to the URL provided by flask, you should see the
-    text \"Project 1: TODO\"!
+    text &quot;Project 1: TODO&quot;!
 
 ### Goodreads API
 
@@ -9394,8 +9424,8 @@ Deploy to check.io -- travis-ci/travis-build under github
 > **import** requests
 >
 > res **=**
-> requests**.**get(\"https://www.goodreads.com/book/review_counts.json\",
-> params**=**{\"key\": \"KEY\", \"isbns\": \"9781632168146\"})
+> requests**.**get(&quot;https://www.goodreads.com/book/review_counts.json&quot;,
+> params**=**{&quot;key&quot;: &quot;KEY&quot;, &quot;isbns&quot;: &quot;9781632168146&quot;})
 >
 > **print**(res**.**json())
 >
@@ -9403,29 +9433,29 @@ Deploy to check.io -- travis-ci/travis-build under github
 > for the book with the provided ISBN number. In particular, you might
 > see something like this dictionary:
 >
-> {\'books\': \[{
+> {&apos;books&apos;: &lbrack;{
 >
-> \'id\': 29207858,
+> &apos;id&apos;: 29207858,
 >
-> \'isbn\': \'1632168146\',
+> &apos;isbn&apos;: &apos;1632168146&apos;,
 >
-> \'isbn13\': \'9781632168146\',
+> &apos;isbn13&apos;: &apos;9781632168146&apos;,
 >
-> \'ratings_count\': 0,
+> &apos;ratings_count&apos;: 0,
 >
-> \'reviews_count\': 1,
+> &apos;reviews_count&apos;: 1,
 >
-> \'text_reviews_count\': 0,
+> &apos;text_reviews_count&apos;: 0,
 >
-> \'work_ratings_count\': 26,
+> &apos;work_ratings_count&apos;: 26,
 >
-> \'work_reviews_count\': 113,
+> &apos;work_reviews_count&apos;: 113,
 >
-> \'work_text_reviews_count\': 10,
+> &apos;work_text_reviews_count&apos;: 10,
 >
-> \'average_rating\': \'4.04\'
+> &apos;average_rating&apos;: &apos;4.04&apos;
 >
-> }\]
+> }&rbrack;
 >
 > }
 >
@@ -9481,24 +9511,24 @@ Deploy to check.io -- travis-ci/travis-build under github
     work has received from Goodreads.
 
 -   **API Access**: If users make a GET request to your
-    website's /api/\<isbn\> route, where \<isbn\> is an ISBN number,
+    website's /api/&lt;isbn&gt; route, where &lt;isbn&gt; is an ISBN number,
     your website should return a JSON response containing the book's
     title, author, publication date, ISBN number, review count, and
     average score. The resulting JSON should follow the format:
 
 > {
 >
-> \"title\": \"Memory\",
+> &quot;title&quot;: &quot;Memory&quot;,
 >
-> \"author\": \"Doug Lloyd\",
+> &quot;author&quot;: &quot;Doug Lloyd&quot;,
 >
-> \"year\": 2015,
+> &quot;year&quot;: 2015,
 >
-> \"isbn\": \"1632168146\",
+> &quot;isbn&quot;: &quot;1632168146&quot;,
 >
-> \"review_count\": 28,
+> &quot;review_count&quot;: 28,
 >
-> \"average_score\": 5.0
+> &quot;average_score&quot;: 5.0
 >
 > }
 >
@@ -9533,7 +9563,7 @@ Deploy to check.io -- travis-ci/travis-build under github
 -   In terms of how to "log a user in," recall that you can store
     information inside of the session, which can store different values
     for different users. In particular, if each user has an id, then you
-    could store that id in the session (e.g., in session\[\"user_id\"\])
+    could store that id in the session (e.g., in session&lbrack;&quot;user_id&quot;&rbrack;)
     to keep track of which user is currently logged in.
 
 ## FAQs
@@ -9542,7 +9572,7 @@ Deploy to check.io -- travis-ci/travis-build under github
 
 > Any order is fine!
 
-### AttributeError: \'NoneType\' object has no attribute \'\_instantiate_plugins\'
+### AttributeError: &apos;NoneType&apos; object has no attribute &apos;&lowbar;instantiate_plugins&apos;
 
 > Make sure that you've set your DATABASE_URL environment variable
 > before running flask run!
