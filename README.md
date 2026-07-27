@@ -746,60 +746,47 @@ Name of a version of the repository that resides somewhere else.
 -   Some common CSS selectors:
 
 -   Select h1 and h2
-
--   h1, h2 {
-
--   color: red;
-
--   }
-
+```
+h1, h2 {
+  color: red;
+}
+```
 -   Select all li that are descendants of ol (not necessarily immediate
     descendants
-
--   ol li {
-
--   color: red;
-
--   }
-
+```
+ol li {
+  color: red;
+}
+```
 -   Select all li that are immediate children of ol
-
--   ol &gt; li {
-
--   color: red;
-
--   }
-
+```
+ol &gt; li {
+  color: red;
+}
+```
 -   Select all input fields with the attribute type=text
-
--   input&lbrack;type=text&rbrack; {
-
--   background-color: red;
-
--   }
-
+```
+input&lbrack;type=text&rbrack; {
+  background-color: red;
+}
+```
 -   Select all buttons with the pseudoclass hover
-
--   button:hover {
-
--   background-color: orange;
-
--   }
-
+```
+button:hover {
+  background-color: orange;
+}
+```
     -   A ˜pseudoclass" is a special state of an HTML element. In this
         example, the state is whether or not the cursor is hovering over
         a button.
 
 -   Select all before pseudoelements of the element a
-
--   a::before {
-
--   content: &quot;\\21d2 Click here: &quot;;
-
--   font-weight: bold;
-
--   }
-
+```
+a::before {
+  content: &quot;\\21d2 Click here: &quot;;
+  font-weight: bold;
+}
+```
     -   A "pseudoelement" is a way to affect certain parts of an HTML
         element. In this example, the before selector
         applies content with its included styling before the contents of
@@ -809,15 +796,12 @@ Name of a version of the repository that resides somewhere else.
         represent symbols like emoji.
 
 -   Select all selection pseudoelements of the element p
-
--   p::selection {
-
--   color: red;
-
--   background-color: yellow;
-
--   }
-
+```
+p::selection {
+  color: red;
+  background-color: yellow;
+}
+```
 ## **Responsive Design**
 
 -   Responsive design is the idea that a website should look good
@@ -836,21 +820,23 @@ Name of a version of the repository that resides somewhere else.
 <body&gt;
 <p class="screen-only">This will not appear when printed</p>
 </body>
-   &commat;media is a media query, which means the following CSS will be
-        applied only in certain situations, namely, when the webpage is
-        being printed. .screen-only is a class selector which identifies
-        what content we want to be print only
-   &commat;media (min-width: 500px) {
-   body {
-   background-color: red;
-   }
-   }
-   &commat;media (max-width: 499px) {
-   body {
-   background-color: yellow;
-   }
-   }
-
+```
+&commat;media is a media query, which means the following CSS will be
+  applied only in certain situations, namely, when the webpage is
+  being printed. .screen-only is a class selector which identifies
+  what content we want to be print only
+```
+&commat;media (min-width: 500px) {
+  body {
+    background-color: red;
+  }
+}
+&commat;media (max-width: 499px) {
+  body {
+    background-color: yellow;
+  }
+}
+```
     -   When the width of the screen is at least 500px, the background
         color of body will be red, while if it is less than 499px, the
         background color of body will be yellow.
@@ -865,33 +851,25 @@ Name of a version of the repository that resides somewhere else.
 
 -   Another tool is **˜flexbox". Flexbox** allows for the reorganization
     of content based on the size of the viewport.
-
--   .container {
-
--   display: flex;
-
--   flex-wrap: wrap;
-
--   }
-
+```
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+```
     -   By setting display: flex and flex-wrap: wrap, content will wrap
         vertically if necessary, so no content is lost when the width of
         the screen is shrunk.
 
 -   A grid of content can be achieved in a similar fashion.
-
--   .grid {
-
--   display: grid;
-
--   grid-column-gap: 20px;
-
--   grid-row-gap: 10px;
-
--   grid-template-columns: 200px 200px auto;
-
--   }
-
+```
+.grid {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: 200px 200px auto;
+}
+```
     -   By setting display: grid, all the different characteristics of a
         grid layout can be used to format content. In particular, when
         defining grid-template-colummns, the final column can be set
@@ -963,25 +941,17 @@ Name of a version of the repository that resides somewhere else.
 
 -   Another feature is nesting, which is a more concise way to style
     elements which are related to other elements in a certain way.
-
--   div {
-
--   font-size: 18px;
-
--   p {
-
--   color: blue;
-
--   }
-
--   ul {
-
--   color: green;
-
--   }
-
--   }
-
+```
+div {
+  font-size: 18px;
+  p {
+    color: blue;
+  }
+  ul {
+   color: green;
+  }
+}
+```
     -   In this example, all ps inside divs will be have color: blue,
         but also font-size: 18px, while uls inside divs will have color:
         green instead, but still also font-size: 18px.
@@ -989,27 +959,18 @@ Name of a version of the repository that resides somewhere else.
 -   One more useful feature is inheritance, which is similar to the
     object-oriented concept. Sass's inheritance allows for slight
     tweaking of a general style for different components.
+```
+%message {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
 
--   %message {
-
--   font-family: sans-serif;
-
--   font-size: 18px;
-
--   font-weight: bold;
-
--   }
-
--   
-
--   .specificMessage {
-
--   &commat;extend %message;
-
--   background-color: green;
-
--   }
-
+.specificMessage {
+  &commat;extend %message;
+  background-color: green;
+}
+```
     -   %message defines a general pattern that can be inherited in
         other style definitions using the @extend %message syntax. In
         addition, other style properties can be added.
