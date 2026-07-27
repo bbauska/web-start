@@ -31,8 +31,8 @@ output:
 
 > **Notes -- Lecture 0/1: Git**
 >
-> ![https://duckduckgo.com/i/d11b358b.png](./images/image001.png){width="1.6881080489938758in"
-> height="0.7055555555555556in"}
+> ![https://duckduckgo.com/i/d11b358b.png](./images/image001.png)
+<!-- {width="1.6881080489938758in" > height="0.7055555555555556in"} -->
 >
 
 <h4 id="Git">Git</h4>
@@ -213,8 +213,8 @@ output:
 > project, you may want to set up a simple web-based visualizer. Git
 > comes with a CGI script called GitWeb that is sometimes used for this.
 >
-> ![](./images/image003.png){width="4.222304243219598in"
-> height="2.756497156605424in"}
+> ![](./images/image003.png)
+<!-- {width="4.222304243219598in" > height="2.756497156605424in"} -->
 
 1.  [HTML,
     CSS](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/3b4d945d89eb40bcad81746770a81c3b/5611bbf00f2e4ed9a319fb38d1b584ce/)
@@ -297,7 +297,8 @@ Tables;
 
 <h4>Document Object Model</h4>
 
-![](./images/image004.png){width="2.5625in" height="2.71875in"}
+![](./images/image004.png)
+<!-- {width="2.5625in" height="2.71875in"} -->
 
 <h4>CSS -- Cascade Style Sheet</h4>
 
@@ -460,37 +461,36 @@ usage: git &lbrack;--version] [--help] [-C <path>] [-c
 
 **These are common Git commands used in various situations:**
 
-start a working area (see also: git help tutorial)
+<b>start</b> a working area (see also: git help tutorial)
 
-clone Clone a repository into a new directory
+<b>clone</b> Clone a repository into a new directory
 
-init Create an empty Git repository or reinitialize an existing one
-
+<b>init</b> Create an empty Git repository or reinitialize an existing one
 work on the current change (see also: git help everyday)
 
-add Add file contents to the index
+<b>add</b> Add file contents to the index
 
-mv Move or rename a file, a directory, or a symlink
+<b>mv</b> Move or rename a file, a directory, or a symlink
 
-reset Reset current HEAD to the specified state
+<b>reset</b> Reset current HEAD to the specified state
 
-rm Remove files from the working tree and from the index
+<b>rm</b> Remove files from the working tree and from the index
 
 **examine the history and state (see also: git help revisions)**
 
-bisect Use binary search to find the commit that introduced a bug
+<b>bisect</b> Use binary search to find the commit that introduced a bug
 
-grep Print lines matching a pattern
+<b>grep</b> Print lines matching a pattern
 
-log Show commit logs
+<b>log</b> Show commit logs
 
-show Show various types of objects
+<b>show</b> Show various types of objects
 
-status Show the working tree status
+<b>status</b> Show the working tree status
 
 **grow, mark and tweak your common history**
 
-branch List, create, or delete branches
+<b>branch List, create, or delete branches</b>
 
 checkout Switch branches or restore working tree files commit Record changes to the repository
 diff Show changes between commits, commit and working tree, etc merge 
@@ -524,8 +524,8 @@ $ git merge feature // merges feature branch with master (2 html's the same now)
 Name of a version of the repository that resides somewhere else.
 >
 > Each remote has its' own
-> branches.![](./images/image005.png){width="3.9117629046369204in"
-> height="2.227340332458443in"}
+> branches.![](./images/image005.png)
+<!-- {width="3.9117629046369204in" > height="2.227340332458443in"} -->
 >
 > git Forks
 >
@@ -581,8 +581,8 @@ Name of a version of the repository that resides somewhere else.
 >
 > <li><a href="#">one link</a></li>
 >
-> ![](./images/image006.png){width="4.697916666666667in"
-> height="2.1041666666666665in"}
+> ![](./images/image006.png)
+<!-- {width="4.697916666666667in" > height="2.1041666666666665in"} -->
 >
 > **Responsive Design -- laptop, desktop, phone, etc**
 
@@ -644,19 +644,19 @@ Name of a version of the repository that resides somewhere else.
 
 7.  Restart your terminal.
 
-> ![](./images/image007.png){width="3.983069772528434in"
-> height="1.5464566929133858in"}
+> ![](./images/image007.png)
+<!-- {width="3.983069772528434in" > height="1.5464566929133858in"} -->
 >
 > ![](./images/image008.png){width="3.8371555118110234in"
 > height="2.9944870953630796in"}
 >
 > **[PIP Install -- too many steps;]**
 >
-> ![](./images/image009.png){width="7.125in"
-> height="3.7423611111111112in"}
+> ![](./images/image009.png)
+<!-- {width="7.125in" > height="3.7423611111111112in"} -->
 >
-> ![](./images/image010.png){width="3.7652537182852144in"
-> height="2.904834864391951in"}
+> ![](./images/image010.png)
+<!-- {width="3.7652537182852144in" > height="2.904834864391951in"} -->
 >
 > **Notes -- Lecture 2: HTML & CSS**
 
